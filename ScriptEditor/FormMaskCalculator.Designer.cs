@@ -39,42 +39,52 @@
             // lblPhaseMaskTooltip
             // 
             this.lblPhaseMaskTooltip.AutoSize = true;
-            this.lblPhaseMaskTooltip.Location = new System.Drawing.Point(12, 14);
+            this.lblPhaseMaskTooltip.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPhaseMaskTooltip.Location = new System.Drawing.Point(8, 69);
+            this.lblPhaseMaskTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPhaseMaskTooltip.Name = "lblPhaseMaskTooltip";
-            this.lblPhaseMaskTooltip.Size = new System.Drawing.Size(232, 13);
+            this.lblPhaseMaskTooltip.Size = new System.Drawing.Size(307, 18);
             this.lblPhaseMaskTooltip.TabIndex = 0;
             this.lblPhaseMaskTooltip.Text = "List of phases in which the event will not trigger:";
             // 
             // txtPhasesList
             // 
-            this.txtPhasesList.Location = new System.Drawing.Point(12, 30);
+            this.txtPhasesList.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPhasesList.Location = new System.Drawing.Point(11, 87);
+            this.txtPhasesList.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtPhasesList.Multiline = true;
             this.txtPhasesList.Name = "txtPhasesList";
             this.txtPhasesList.ReadOnly = true;
-            this.txtPhasesList.Size = new System.Drawing.Size(247, 129);
+            this.txtPhasesList.Size = new System.Drawing.Size(402, 148);
             this.txtPhasesList.TabIndex = 1;
             // 
             // txtPhase
             // 
-            this.txtPhase.Location = new System.Drawing.Point(54, 171);
+            this.txtPhase.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPhase.Location = new System.Drawing.Point(67, 243);
+            this.txtPhase.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtPhase.Name = "txtPhase";
-            this.txtPhase.Size = new System.Drawing.Size(73, 20);
+            this.txtPhase.Size = new System.Drawing.Size(96, 26);
             this.txtPhase.TabIndex = 2;
             // 
             // lblPhase
             // 
             this.lblPhase.AutoSize = true;
-            this.lblPhase.Location = new System.Drawing.Point(12, 174);
+            this.lblPhase.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPhase.Location = new System.Drawing.Point(8, 253);
+            this.lblPhase.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPhase.Name = "lblPhase";
-            this.lblPhase.Size = new System.Drawing.Size(40, 13);
+            this.lblPhase.Size = new System.Drawing.Size(49, 18);
             this.lblPhase.TabIndex = 3;
             this.lblPhase.Text = "Phase:";
             // 
             // btnPhaseAdd
             // 
-            this.btnPhaseAdd.Location = new System.Drawing.Point(137, 169);
+            this.btnPhaseAdd.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPhaseAdd.Location = new System.Drawing.Point(178, 241);
+            this.btnPhaseAdd.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnPhaseAdd.Name = "btnPhaseAdd";
-            this.btnPhaseAdd.Size = new System.Drawing.Size(58, 23);
+            this.btnPhaseAdd.Size = new System.Drawing.Size(77, 27);
             this.btnPhaseAdd.TabIndex = 4;
             this.btnPhaseAdd.Text = "Add";
             this.btnPhaseAdd.UseVisualStyleBackColor = true;
@@ -82,9 +92,11 @@
             // 
             // btnPhaseRemove
             // 
-            this.btnPhaseRemove.Location = new System.Drawing.Point(201, 169);
+            this.btnPhaseRemove.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPhaseRemove.Location = new System.Drawing.Point(263, 241);
+            this.btnPhaseRemove.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnPhaseRemove.Name = "btnPhaseRemove";
-            this.btnPhaseRemove.Size = new System.Drawing.Size(58, 23);
+            this.btnPhaseRemove.Size = new System.Drawing.Size(77, 27);
             this.btnPhaseRemove.TabIndex = 5;
             this.btnPhaseRemove.Text = "Remove";
             this.btnPhaseRemove.UseVisualStyleBackColor = true;
@@ -92,9 +104,8 @@
             // 
             // FormMaskCalculator
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(272, 198);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(442, 283);
             this.Controls.Add(this.btnPhaseRemove);
             this.Controls.Add(this.btnPhaseAdd);
             this.Controls.Add(this.lblPhase);
@@ -102,7 +113,9 @@
             this.Controls.Add(this.txtPhasesList);
             this.Controls.Add(this.lblPhaseMaskTooltip);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "FormMaskCalculator";
+            this.Padding = new System.Windows.Forms.Padding(4, 74, 4, 3);
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

@@ -45,17 +45,21 @@
             // lblTooltip
             // 
             this.lblTooltip.AutoSize = true;
-            this.lblTooltip.Location = new System.Drawing.Point(12, 9);
+            this.lblTooltip.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTooltip.Location = new System.Drawing.Point(16, 10);
+            this.lblTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTooltip.Name = "lblTooltip";
-            this.lblTooltip.Size = new System.Drawing.Size(272, 13);
+            this.lblTooltip.Size = new System.Drawing.Size(353, 18);
             this.lblTooltip.TabIndex = 10;
             this.lblTooltip.Text = "Select the classes you would like to include in the mask.";
             // 
             // btnOk
             // 
-            this.btnOk.Location = new System.Drawing.Point(68, 169);
+            this.btnOk.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOk.Location = new System.Drawing.Point(91, 195);
+            this.btnOk.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(75, 23);
+            this.btnOk.Size = new System.Drawing.Size(100, 27);
             this.btnOk.TabIndex = 11;
             this.btnOk.Text = "OK";
             this.btnOk.UseVisualStyleBackColor = true;
@@ -63,9 +67,11 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(149, 169);
+            this.btnCancel.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.Location = new System.Drawing.Point(199, 195);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.Size = new System.Drawing.Size(100, 27);
             this.btnCancel.TabIndex = 12;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -74,9 +80,11 @@
             // chkClass1
             // 
             this.chkClass1.AutoSize = true;
-            this.chkClass1.Location = new System.Drawing.Point(15, 38);
+            this.chkClass1.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkClass1.Location = new System.Drawing.Point(20, 44);
+            this.chkClass1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkClass1.Name = "chkClass1";
-            this.chkClass1.Size = new System.Drawing.Size(60, 17);
+            this.chkClass1.Size = new System.Drawing.Size(76, 22);
             this.chkClass1.TabIndex = 13;
             this.chkClass1.Text = "Warrior";
             this.chkClass1.UseVisualStyleBackColor = true;
@@ -85,9 +93,11 @@
             // chkClass2
             // 
             this.chkClass2.AutoSize = true;
-            this.chkClass2.Location = new System.Drawing.Point(81, 38);
+            this.chkClass2.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkClass2.Location = new System.Drawing.Point(108, 44);
+            this.chkClass2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkClass2.Name = "chkClass2";
-            this.chkClass2.Size = new System.Drawing.Size(61, 17);
+            this.chkClass2.Size = new System.Drawing.Size(76, 22);
             this.chkClass2.TabIndex = 14;
             this.chkClass2.Text = "Paladin";
             this.chkClass2.UseVisualStyleBackColor = true;
@@ -96,9 +106,11 @@
             // chkClass4
             // 
             this.chkClass4.AutoSize = true;
-            this.chkClass4.Location = new System.Drawing.Point(147, 38);
+            this.chkClass4.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkClass4.Location = new System.Drawing.Point(196, 44);
+            this.chkClass4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkClass4.Name = "chkClass4";
-            this.chkClass4.Size = new System.Drawing.Size(58, 17);
+            this.chkClass4.Size = new System.Drawing.Size(73, 22);
             this.chkClass4.TabIndex = 15;
             this.chkClass4.Text = "Hunter";
             this.chkClass4.UseVisualStyleBackColor = true;
@@ -107,9 +119,11 @@
             // chkClass8
             // 
             this.chkClass8.AutoSize = true;
-            this.chkClass8.Location = new System.Drawing.Point(213, 38);
+            this.chkClass8.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkClass8.Location = new System.Drawing.Point(284, 44);
+            this.chkClass8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkClass8.Name = "chkClass8";
-            this.chkClass8.Size = new System.Drawing.Size(58, 17);
+            this.chkClass8.Size = new System.Drawing.Size(69, 22);
             this.chkClass8.TabIndex = 16;
             this.chkClass8.Text = "Rogue";
             this.chkClass8.UseVisualStyleBackColor = true;
@@ -118,9 +132,11 @@
             // chkClass256
             // 
             this.chkClass256.AutoSize = true;
-            this.chkClass256.Location = new System.Drawing.Point(213, 73);
+            this.chkClass256.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkClass256.Location = new System.Drawing.Point(284, 84);
+            this.chkClass256.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkClass256.Name = "chkClass256";
-            this.chkClass256.Size = new System.Drawing.Size(66, 17);
+            this.chkClass256.Size = new System.Drawing.Size(79, 22);
             this.chkClass256.TabIndex = 20;
             this.chkClass256.Text = "Warlock";
             this.chkClass256.UseVisualStyleBackColor = true;
@@ -129,9 +145,11 @@
             // chkClass128
             // 
             this.chkClass128.AutoSize = true;
-            this.chkClass128.Location = new System.Drawing.Point(147, 73);
+            this.chkClass128.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkClass128.Location = new System.Drawing.Point(196, 84);
+            this.chkClass128.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkClass128.Name = "chkClass128";
-            this.chkClass128.Size = new System.Drawing.Size(53, 17);
+            this.chkClass128.Size = new System.Drawing.Size(64, 22);
             this.chkClass128.TabIndex = 19;
             this.chkClass128.Text = "Mage";
             this.chkClass128.UseVisualStyleBackColor = true;
@@ -140,9 +158,11 @@
             // chkClass64
             // 
             this.chkClass64.AutoSize = true;
-            this.chkClass64.Location = new System.Drawing.Point(81, 73);
+            this.chkClass64.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkClass64.Location = new System.Drawing.Point(108, 84);
+            this.chkClass64.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkClass64.Name = "chkClass64";
-            this.chkClass64.Size = new System.Drawing.Size(65, 17);
+            this.chkClass64.Size = new System.Drawing.Size(79, 22);
             this.chkClass64.TabIndex = 18;
             this.chkClass64.Text = "Shaman";
             this.chkClass64.UseVisualStyleBackColor = true;
@@ -151,9 +171,11 @@
             // chkClass16
             // 
             this.chkClass16.AutoSize = true;
-            this.chkClass16.Location = new System.Drawing.Point(15, 73);
+            this.chkClass16.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkClass16.Location = new System.Drawing.Point(20, 84);
+            this.chkClass16.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkClass16.Name = "chkClass16";
-            this.chkClass16.Size = new System.Drawing.Size(52, 17);
+            this.chkClass16.Size = new System.Drawing.Size(66, 22);
             this.chkClass16.TabIndex = 17;
             this.chkClass16.Text = "Priest";
             this.chkClass16.UseVisualStyleBackColor = true;
@@ -162,9 +184,11 @@
             // chkClass1024
             // 
             this.chkClass1024.AutoSize = true;
-            this.chkClass1024.Location = new System.Drawing.Point(117, 108);
+            this.chkClass1024.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkClass1024.Location = new System.Drawing.Point(156, 125);
+            this.chkClass1024.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkClass1024.Name = "chkClass1024";
-            this.chkClass1024.Size = new System.Drawing.Size(51, 17);
+            this.chkClass1024.Size = new System.Drawing.Size(64, 22);
             this.chkClass1024.TabIndex = 21;
             this.chkClass1024.Text = "Druid";
             this.chkClass1024.UseVisualStyleBackColor = true;
@@ -172,9 +196,8 @@
             // 
             // FormClassMask
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(292, 198);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(401, 268);
             this.ControlBox = false;
             this.Controls.Add(this.chkClass1024);
             this.Controls.Add(this.chkClass256);
@@ -189,9 +212,11 @@
             this.Controls.Add(this.btnOk);
             this.Controls.Add(this.lblTooltip);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormClassMask";
+            this.Padding = new System.Windows.Forms.Padding(4, 74, 4, 3);
             this.Text = "Class Mask Editor";
             this.ResumeLayout(false);
             this.PerformLayout();

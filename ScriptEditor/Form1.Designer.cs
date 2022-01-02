@@ -46,9 +46,10 @@
             this.picScriptEditor.BackColor = System.Drawing.Color.Transparent;
             this.picScriptEditor.BackgroundImage = global::ScriptEditor.Properties.Resources.script_editor_button_black;
             this.picScriptEditor.InitialImage = null;
-            this.picScriptEditor.Location = new System.Drawing.Point(17, 126);
+            this.picScriptEditor.Location = new System.Drawing.Point(56, 145);
+            this.picScriptEditor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.picScriptEditor.Name = "picScriptEditor";
-            this.picScriptEditor.Size = new System.Drawing.Size(138, 97);
+            this.picScriptEditor.Size = new System.Drawing.Size(132, 95);
             this.picScriptEditor.TabIndex = 0;
             this.picScriptEditor.TabStop = false;
             this.picScriptEditor.Click += new System.EventHandler(this.picScriptEditor_Click);
@@ -60,9 +61,10 @@
             this.picEventEditor.BackColor = System.Drawing.Color.Transparent;
             this.picEventEditor.BackgroundImage = global::ScriptEditor.Properties.Resources.event_editor_button_black;
             this.picEventEditor.InitialImage = null;
-            this.picEventEditor.Location = new System.Drawing.Point(175, 126);
+            this.picEventEditor.Location = new System.Drawing.Point(258, 145);
+            this.picEventEditor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.picEventEditor.Name = "picEventEditor";
-            this.picEventEditor.Size = new System.Drawing.Size(138, 97);
+            this.picEventEditor.Size = new System.Drawing.Size(140, 95);
             this.picEventEditor.TabIndex = 1;
             this.picEventEditor.TabStop = false;
             this.picEventEditor.Click += new System.EventHandler(this.picEventEditor_Click);
@@ -73,9 +75,10 @@
             // 
             this.picGitLink.BackColor = System.Drawing.Color.Transparent;
             this.picGitLink.BackgroundImage = global::ScriptEditor.Properties.Resources.gitlink1;
-            this.picGitLink.Location = new System.Drawing.Point(8, 15);
+            this.picGitLink.Location = new System.Drawing.Point(81, 85);
+            this.picGitLink.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.picGitLink.Name = "picGitLink";
-            this.picGitLink.Size = new System.Drawing.Size(314, 47);
+            this.picGitLink.Size = new System.Drawing.Size(302, 54);
             this.picGitLink.TabIndex = 2;
             this.picGitLink.TabStop = false;
             this.picGitLink.Click += new System.EventHandler(this.picGitLink_Click);
@@ -87,9 +90,10 @@
             this.picCastsEditor.BackColor = System.Drawing.Color.Transparent;
             this.picCastsEditor.BackgroundImage = global::ScriptEditor.Properties.Resources.cast_editor_button_black;
             this.picCastsEditor.InitialImage = null;
-            this.picCastsEditor.Location = new System.Drawing.Point(17, 233);
+            this.picCastsEditor.Location = new System.Drawing.Point(55, 285);
+            this.picCastsEditor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.picCastsEditor.Name = "picCastsEditor";
-            this.picCastsEditor.Size = new System.Drawing.Size(138, 97);
+            this.picCastsEditor.Size = new System.Drawing.Size(133, 96);
             this.picCastsEditor.TabIndex = 3;
             this.picCastsEditor.TabStop = false;
             this.picCastsEditor.Click += new System.EventHandler(this.picCastsEditor_Click);
@@ -101,9 +105,10 @@
             this.picConditionEditor.BackColor = System.Drawing.Color.Transparent;
             this.picConditionEditor.BackgroundImage = global::ScriptEditor.Properties.Resources.condition_editor_button_black;
             this.picConditionEditor.InitialImage = null;
-            this.picConditionEditor.Location = new System.Drawing.Point(175, 233);
+            this.picConditionEditor.Location = new System.Drawing.Point(258, 287);
+            this.picConditionEditor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.picConditionEditor.Name = "picConditionEditor";
-            this.picConditionEditor.Size = new System.Drawing.Size(138, 97);
+            this.picConditionEditor.Size = new System.Drawing.Size(125, 94);
             this.picConditionEditor.TabIndex = 4;
             this.picConditionEditor.TabStop = false;
             this.picConditionEditor.Click += new System.EventHandler(this.picConditionEditor_Click);
@@ -112,21 +117,21 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackgroundImage = global::ScriptEditor.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(330, 371);
+            this.ClientSize = new System.Drawing.Size(455, 471);
             this.Controls.Add(this.picConditionEditor);
             this.Controls.Add(this.picCastsEditor);
             this.Controls.Add(this.picGitLink);
             this.Controls.Add(this.picEventEditor);
             this.Controls.Add(this.picScriptEditor);
-            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.Name = "Form1";
+            this.Padding = new System.Windows.Forms.Padding(4, 74, 4, 3);
             this.Text = "VMaNGOS Developer Tools";
             ((System.ComponentModel.ISupportInitialize)(this.picScriptEditor)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEventEditor)).EndInit();

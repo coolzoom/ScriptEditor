@@ -62,9 +62,12 @@
             this.grpFlags.Controls.Add(this.chkCastFlag4);
             this.grpFlags.Controls.Add(this.chkCastFlag2);
             this.grpFlags.Controls.Add(this.chkCastFlag1);
-            this.grpFlags.Location = new System.Drawing.Point(12, 10);
+            this.grpFlags.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grpFlags.Location = new System.Drawing.Point(19, 64);
+            this.grpFlags.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.grpFlags.Name = "grpFlags";
-            this.grpFlags.Size = new System.Drawing.Size(268, 146);
+            this.grpFlags.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.grpFlags.Size = new System.Drawing.Size(357, 168);
             this.grpFlags.TabIndex = 0;
             this.grpFlags.TabStop = false;
             this.grpFlags.Text = "Cast Flags";
@@ -72,9 +75,11 @@
             // chkCastFlag256
             // 
             this.chkCastFlag256.AutoSize = true;
-            this.chkCastFlag256.Location = new System.Drawing.Point(6, 120);
+            this.chkCastFlag256.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkCastFlag256.Location = new System.Drawing.Point(8, 138);
+            this.chkCastFlag256.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkCastFlag256.Name = "chkCastFlag256";
-            this.chkCastFlag256.Size = new System.Drawing.Size(95, 17);
+            this.chkCastFlag256.Size = new System.Drawing.Size(115, 22);
             this.chkCastFlag256.TabIndex = 8;
             this.chkCastFlag256.Text = "Target Casting";
             this.chkCastFlag256.UseVisualStyleBackColor = true;
@@ -82,9 +87,11 @@
             // chkCastFlag128
             // 
             this.chkCastFlag128.AutoSize = true;
-            this.chkCastFlag128.Location = new System.Drawing.Point(154, 97);
+            this.chkCastFlag128.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkCastFlag128.Location = new System.Drawing.Point(205, 112);
+            this.chkCastFlag128.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkCastFlag128.Name = "chkCastFlag128";
-            this.chkCastFlag128.Size = new System.Drawing.Size(87, 17);
+            this.chkCastFlag128.Size = new System.Drawing.Size(111, 22);
             this.chkCastFlag128.TabIndex = 7;
             this.chkCastFlag128.Text = "Not In Melee";
             this.chkCastFlag128.UseVisualStyleBackColor = true;
@@ -92,9 +99,11 @@
             // chkCastFlag64
             // 
             this.chkCastFlag64.AutoSize = true;
-            this.chkCastFlag64.Location = new System.Drawing.Point(6, 97);
+            this.chkCastFlag64.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkCastFlag64.Location = new System.Drawing.Point(8, 112);
+            this.chkCastFlag64.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkCastFlag64.Name = "chkCastFlag64";
-            this.chkCastFlag64.Size = new System.Drawing.Size(91, 17);
+            this.chkCastFlag64.Size = new System.Drawing.Size(117, 22);
             this.chkCastFlag64.TabIndex = 6;
             this.chkCastFlag64.Text = "Only In Melee";
             this.chkCastFlag64.UseVisualStyleBackColor = true;
@@ -102,9 +111,11 @@
             // chkCastFlag32
             // 
             this.chkCastFlag32.AutoSize = true;
-            this.chkCastFlag32.Location = new System.Drawing.Point(154, 74);
+            this.chkCastFlag32.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkCastFlag32.Location = new System.Drawing.Point(205, 85);
+            this.chkCastFlag32.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkCastFlag32.Name = "chkCastFlag32";
-            this.chkCastFlag32.Size = new System.Drawing.Size(107, 17);
+            this.chkCastFlag32.Size = new System.Drawing.Size(136, 22);
             this.chkCastFlag32.TabIndex = 5;
             this.chkCastFlag32.Text = "Aura Not Present";
             this.chkCastFlag32.UseVisualStyleBackColor = true;
@@ -112,9 +123,11 @@
             // chkCastFlag16
             // 
             this.chkCastFlag16.AutoSize = true;
-            this.chkCastFlag16.Location = new System.Drawing.Point(6, 74);
+            this.chkCastFlag16.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkCastFlag16.Location = new System.Drawing.Point(8, 85);
+            this.chkCastFlag16.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkCastFlag16.Name = "chkCastFlag16";
-            this.chkCastFlag16.Size = new System.Drawing.Size(121, 17);
+            this.chkCastFlag16.Size = new System.Drawing.Size(149, 22);
             this.chkCastFlag16.TabIndex = 4;
             this.chkCastFlag16.Text = "Target Unreachable";
             this.chkCastFlag16.UseVisualStyleBackColor = true;
@@ -122,9 +135,11 @@
             // chkCastFlag8
             // 
             this.chkCastFlag8.AutoSize = true;
-            this.chkCastFlag8.Location = new System.Drawing.Point(6, 51);
+            this.chkCastFlag8.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkCastFlag8.Location = new System.Drawing.Point(8, 59);
+            this.chkCastFlag8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkCastFlag8.Name = "chkCastFlag8";
-            this.chkCastFlag8.Size = new System.Drawing.Size(116, 17);
+            this.chkCastFlag8.Size = new System.Drawing.Size(144, 22);
             this.chkCastFlag8.TabIndex = 3;
             this.chkCastFlag8.Text = "Main Ranged Spell";
             this.chkCastFlag8.UseVisualStyleBackColor = true;
@@ -132,9 +147,11 @@
             // chkCastFlag4
             // 
             this.chkCastFlag4.AutoSize = true;
-            this.chkCastFlag4.Location = new System.Drawing.Point(154, 51);
+            this.chkCastFlag4.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkCastFlag4.Location = new System.Drawing.Point(205, 59);
+            this.chkCastFlag4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkCastFlag4.Name = "chkCastFlag4";
-            this.chkCastFlag4.Size = new System.Drawing.Size(77, 17);
+            this.chkCastFlag4.Size = new System.Drawing.Size(93, 22);
             this.chkCastFlag4.TabIndex = 2;
             this.chkCastFlag4.Text = "Force Cast";
             this.chkCastFlag4.UseVisualStyleBackColor = true;
@@ -142,9 +159,11 @@
             // chkCastFlag2
             // 
             this.chkCastFlag2.AutoSize = true;
-            this.chkCastFlag2.Location = new System.Drawing.Point(154, 28);
+            this.chkCastFlag2.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkCastFlag2.Location = new System.Drawing.Point(205, 32);
+            this.chkCastFlag2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkCastFlag2.Name = "chkCastFlag2";
-            this.chkCastFlag2.Size = new System.Drawing.Size(71, 17);
+            this.chkCastFlag2.Size = new System.Drawing.Size(88, 22);
             this.chkCastFlag2.TabIndex = 1;
             this.chkCastFlag2.Text = "Triggered";
             this.chkCastFlag2.UseVisualStyleBackColor = true;
@@ -152,26 +171,32 @@
             // chkCastFlag1
             // 
             this.chkCastFlag1.AutoSize = true;
-            this.chkCastFlag1.Location = new System.Drawing.Point(6, 28);
+            this.chkCastFlag1.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkCastFlag1.Location = new System.Drawing.Point(8, 32);
+            this.chkCastFlag1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkCastFlag1.Name = "chkCastFlag1";
-            this.chkCastFlag1.Size = new System.Drawing.Size(109, 17);
+            this.chkCastFlag1.Size = new System.Drawing.Size(143, 22);
             this.chkCastFlag1.TabIndex = 0;
             this.chkCastFlag1.Text = "Interrupt Previous";
             this.chkCastFlag1.UseVisualStyleBackColor = true;
             // 
             // txtScriptId
             // 
-            this.txtScriptId.Location = new System.Drawing.Point(70, 232);
+            this.txtScriptId.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtScriptId.Location = new System.Drawing.Point(96, 320);
+            this.txtScriptId.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtScriptId.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtScriptId.Name = "txtScriptId";
-            this.txtScriptId.Size = new System.Drawing.Size(136, 20);
+            this.txtScriptId.Size = new System.Drawing.Size(180, 26);
             this.txtScriptId.TabIndex = 1;
             // 
             // btnEditScript
             // 
-            this.btnEditScript.Location = new System.Drawing.Point(212, 232);
+            this.btnEditScript.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditScript.Location = new System.Drawing.Point(286, 320);
+            this.btnEditScript.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnEditScript.Name = "btnEditScript";
-            this.btnEditScript.Size = new System.Drawing.Size(68, 23);
+            this.btnEditScript.Size = new System.Drawing.Size(91, 27);
             this.btnEditScript.TabIndex = 2;
             this.btnEditScript.Text = "Edit";
             this.btnEditScript.UseVisualStyleBackColor = true;
@@ -180,43 +205,53 @@
             // lblScriptId
             // 
             this.lblScriptId.AutoSize = true;
-            this.lblScriptId.Location = new System.Drawing.Point(17, 236);
+            this.lblScriptId.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScriptId.Location = new System.Drawing.Point(26, 324);
+            this.lblScriptId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblScriptId.Name = "lblScriptId";
-            this.lblScriptId.Size = new System.Drawing.Size(49, 13);
+            this.lblScriptId.Size = new System.Drawing.Size(62, 18);
             this.lblScriptId.TabIndex = 3;
             this.lblScriptId.Text = "Script Id:";
             // 
             // txtTargetParam1
             // 
             this.txtTargetParam1.Enabled = false;
-            this.txtTargetParam1.Location = new System.Drawing.Point(16, 31);
+            this.txtTargetParam1.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTargetParam1.Location = new System.Drawing.Point(21, 36);
+            this.txtTargetParam1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtTargetParam1.Name = "txtTargetParam1";
-            this.txtTargetParam1.Size = new System.Drawing.Size(110, 20);
+            this.txtTargetParam1.Size = new System.Drawing.Size(145, 26);
             this.txtTargetParam1.TabIndex = 4;
             // 
             // txtTargetParam2
             // 
             this.txtTargetParam2.Enabled = false;
-            this.txtTargetParam2.Location = new System.Drawing.Point(143, 31);
+            this.txtTargetParam2.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTargetParam2.Location = new System.Drawing.Point(191, 36);
+            this.txtTargetParam2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtTargetParam2.Name = "txtTargetParam2";
-            this.txtTargetParam2.Size = new System.Drawing.Size(110, 20);
+            this.txtTargetParam2.Size = new System.Drawing.Size(145, 26);
             this.txtTargetParam2.TabIndex = 5;
             // 
             // lblTargetParam1
             // 
             this.lblTargetParam1.AutoSize = true;
-            this.lblTargetParam1.Location = new System.Drawing.Point(13, 14);
+            this.lblTargetParam1.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTargetParam1.Location = new System.Drawing.Point(17, 16);
+            this.lblTargetParam1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTargetParam1.Name = "lblTargetParam1";
-            this.lblTargetParam1.Size = new System.Drawing.Size(30, 13);
+            this.lblTargetParam1.Size = new System.Drawing.Size(36, 18);
             this.lblTargetParam1.TabIndex = 6;
             this.lblTargetParam1.Text = "N/A:";
             // 
             // lblTargetParam2
             // 
             this.lblTargetParam2.AutoSize = true;
-            this.lblTargetParam2.Location = new System.Drawing.Point(140, 15);
+            this.lblTargetParam2.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTargetParam2.Location = new System.Drawing.Point(187, 17);
+            this.lblTargetParam2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTargetParam2.Name = "lblTargetParam2";
-            this.lblTargetParam2.Size = new System.Drawing.Size(30, 13);
+            this.lblTargetParam2.Size = new System.Drawing.Size(36, 18);
             this.lblTargetParam2.TabIndex = 7;
             this.lblTargetParam2.Text = "N/A:";
             // 
@@ -228,17 +263,22 @@
             this.grpTargetParams.Controls.Add(this.lblTargetParam1);
             this.grpTargetParams.Controls.Add(this.txtTargetParam2);
             this.grpTargetParams.Enabled = false;
-            this.grpTargetParams.Location = new System.Drawing.Point(12, 162);
+            this.grpTargetParams.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grpTargetParams.Location = new System.Drawing.Point(19, 239);
+            this.grpTargetParams.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.grpTargetParams.Name = "grpTargetParams";
-            this.grpTargetParams.Size = new System.Drawing.Size(268, 60);
+            this.grpTargetParams.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.grpTargetParams.Size = new System.Drawing.Size(357, 69);
             this.grpTargetParams.TabIndex = 8;
             this.grpTargetParams.TabStop = false;
             // 
             // btnTargetParam1
             // 
-            this.btnTargetParam1.Location = new System.Drawing.Point(16, 31);
+            this.btnTargetParam1.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTargetParam1.Location = new System.Drawing.Point(21, 36);
+            this.btnTargetParam1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnTargetParam1.Name = "btnTargetParam1";
-            this.btnTargetParam1.Size = new System.Drawing.Size(110, 20);
+            this.btnTargetParam1.Size = new System.Drawing.Size(147, 23);
             this.btnTargetParam1.TabIndex = 8;
             this.btnTargetParam1.Text = "-NONE-";
             this.btnTargetParam1.UseVisualStyleBackColor = true;
@@ -247,17 +287,18 @@
             // 
             // FormCastFlags
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(292, 264);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(400, 370);
             this.Controls.Add(this.grpTargetParams);
             this.Controls.Add(this.lblScriptId);
             this.Controls.Add(this.btnEditScript);
             this.Controls.Add(this.txtScriptId);
             this.Controls.Add(this.grpFlags);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.Name = "FormCastFlags";
+            this.Padding = new System.Windows.Forms.Padding(4, 74, 4, 3);
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
