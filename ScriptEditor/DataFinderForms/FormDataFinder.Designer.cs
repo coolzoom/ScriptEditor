@@ -43,12 +43,14 @@
             // 
             this.lstData.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnID});
+            this.lstData.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstData.FullRowSelect = true;
             this.lstData.GridLines = true;
             this.lstData.HideSelection = false;
-            this.lstData.Location = new System.Drawing.Point(12, 56);
+            this.lstData.Location = new System.Drawing.Point(16, 65);
+            this.lstData.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.lstData.Name = "lstData";
-            this.lstData.Size = new System.Drawing.Size(650, 305);
+            this.lstData.Size = new System.Drawing.Size(865, 351);
             this.lstData.TabIndex = 0;
             this.lstData.UseCompatibleStateImageBehavior = false;
             this.lstData.View = System.Windows.Forms.View.Details;
@@ -62,17 +64,21 @@
             // 
             // txtSearch
             // 
-            this.txtSearch.Location = new System.Drawing.Point(12, 30);
+            this.txtSearch.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearch.Location = new System.Drawing.Point(16, 35);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(560, 20);
+            this.txtSearch.Size = new System.Drawing.Size(745, 26);
             this.txtSearch.TabIndex = 1;
             this.txtSearch.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSearch_KeyPress);
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(579, 28);
+            this.btnSearch.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch.Location = new System.Drawing.Point(772, 32);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(83, 23);
+            this.btnSearch.Size = new System.Drawing.Size(111, 27);
             this.btnSearch.TabIndex = 2;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
@@ -80,9 +86,11 @@
             // 
             // btnSelectNone
             // 
-            this.btnSelectNone.Location = new System.Drawing.Point(412, 367);
+            this.btnSelectNone.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSelectNone.Location = new System.Drawing.Point(549, 423);
+            this.btnSelectNone.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSelectNone.Name = "btnSelectNone";
-            this.btnSelectNone.Size = new System.Drawing.Size(88, 23);
+            this.btnSelectNone.Size = new System.Drawing.Size(117, 27);
             this.btnSelectNone.TabIndex = 3;
             this.btnSelectNone.Text = "Select -NONE-";
             this.btnSelectNone.UseVisualStyleBackColor = true;
@@ -90,9 +98,11 @@
             // 
             // btnSelect
             // 
-            this.btnSelect.Location = new System.Drawing.Point(506, 367);
+            this.btnSelect.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSelect.Location = new System.Drawing.Point(675, 423);
+            this.btnSelect.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSelect.Name = "btnSelect";
-            this.btnSelect.Size = new System.Drawing.Size(75, 23);
+            this.btnSelect.Size = new System.Drawing.Size(100, 27);
             this.btnSelect.TabIndex = 4;
             this.btnSelect.Text = "Select";
             this.btnSelect.UseVisualStyleBackColor = true;
@@ -101,17 +111,21 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 9);
+            this.label1.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 10);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(141, 13);
+            this.label1.Size = new System.Drawing.Size(184, 18);
             this.label1.TabIndex = 5;
             this.label1.Text = "Enter text or Id to search for:";
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(587, 367);
+            this.btnCancel.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.Location = new System.Drawing.Point(783, 423);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.Size = new System.Drawing.Size(100, 27);
             this.btnCancel.TabIndex = 6;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -119,9 +133,11 @@
             // 
             // btnSelectUnchanged
             // 
-            this.btnSelectUnchanged.Location = new System.Drawing.Point(306, 367);
+            this.btnSelectUnchanged.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSelectUnchanged.Location = new System.Drawing.Point(408, 423);
+            this.btnSelectUnchanged.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSelectUnchanged.Name = "btnSelectUnchanged";
-            this.btnSelectUnchanged.Size = new System.Drawing.Size(100, 23);
+            this.btnSelectUnchanged.Size = new System.Drawing.Size(133, 27);
             this.btnSelectUnchanged.TabIndex = 8;
             this.btnSelectUnchanged.Text = "Select -IGNORE-";
             this.btnSelectUnchanged.UseVisualStyleBackColor = true;
@@ -130,9 +146,8 @@
             // 
             // FormDataFinder
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(672, 393);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(896, 453);
             this.ControlBox = false;
             this.Controls.Add(this.btnSelectUnchanged);
             this.Controls.Add(this.btnCancel);
@@ -142,6 +157,7 @@
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.lstData);
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormDataFinder";

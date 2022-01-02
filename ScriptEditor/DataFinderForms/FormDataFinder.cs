@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace ScriptEditor
 {
-    public partial class FormDataFinder : Form
+    public partial class FormDataFinder : MaterialSkin.Controls.MaterialForm
     {
         public int ReturnValue { get; set; } // we return the chosen id in this
         protected bool editMode = false;

@@ -41,6 +41,36 @@
             this.columnFlags,
             this.columnName,
             this.columnDescription});
+            this.lstData.Location = new System.Drawing.Point(7, 119);
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.Location = new System.Drawing.Point(7, 89);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Location = new System.Drawing.Point(763, 86);
+            // 
+            // btnSelect
+            // 
+            this.btnSelect.Location = new System.Drawing.Point(666, 477);
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(3, 64);
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.Location = new System.Drawing.Point(774, 477);
+            // 
+            // btnSelectNone
+            // 
+            this.btnSelectNone.Location = new System.Drawing.Point(540, 477);
+            // 
+            // btnSelectUnchanged
+            // 
+            this.btnSelectUnchanged.Location = new System.Drawing.Point(399, 477);
             // 
             // columnFlags
             // 
@@ -64,8 +94,10 @@
             // 
             // FormFactionTemplateFinder
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(672, 393);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(1213, 570);
+            this.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.MinimumSize = new System.Drawing.Size(1213, 570);
             this.Name = "FormFactionTemplateFinder";
             this.Text = "Faction Template Finder";
             this.ResizeEnd += new System.EventHandler(this.FormFactionTemplateFinder_ResizeEnd);

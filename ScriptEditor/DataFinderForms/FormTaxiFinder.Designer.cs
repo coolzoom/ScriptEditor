@@ -37,6 +37,36 @@
             this.lstData.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnSource,
             this.columnDestination});
+            this.lstData.Location = new System.Drawing.Point(7, 128);
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.Location = new System.Drawing.Point(7, 98);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Location = new System.Drawing.Point(763, 95);
+            // 
+            // btnSelect
+            // 
+            this.btnSelect.Location = new System.Drawing.Point(666, 486);
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(3, 73);
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.Location = new System.Drawing.Point(774, 486);
+            // 
+            // btnSelectNone
+            // 
+            this.btnSelectNone.Location = new System.Drawing.Point(540, 486);
+            // 
+            // btnSelectUnchanged
+            // 
+            this.btnSelectUnchanged.Location = new System.Drawing.Point(399, 486);
             // 
             // columnSource
             // 
@@ -50,8 +80,10 @@
             // 
             // FormTaxiFinder
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(672, 393);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(1213, 570);
+            this.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.MinimumSize = new System.Drawing.Size(1213, 570);
             this.Name = "FormTaxiFinder";
             this.Text = "Taxi Finder";
             this.ResizeEnd += new System.EventHandler(this.FormTaxiFinder_ResizeEnd);

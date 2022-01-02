@@ -35,6 +35,36 @@
             // 
             this.lstData.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnName});
+            this.lstData.Location = new System.Drawing.Point(11, 107);
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.Location = new System.Drawing.Point(11, 77);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Location = new System.Drawing.Point(767, 74);
+            // 
+            // btnSelect
+            // 
+            this.btnSelect.Location = new System.Drawing.Point(670, 465);
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(7, 52);
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.Location = new System.Drawing.Point(778, 465);
+            // 
+            // btnSelectNone
+            // 
+            this.btnSelectNone.Location = new System.Drawing.Point(544, 465);
+            // 
+            // btnSelectUnchanged
+            // 
+            this.btnSelectUnchanged.Location = new System.Drawing.Point(403, 465);
             // 
             // columnName
             // 
@@ -43,8 +73,10 @@
             // 
             // FormSoundFinder
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(672, 393);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(1213, 570);
+            this.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.MinimumSize = new System.Drawing.Size(1213, 570);
             this.Name = "FormSoundFinder";
             this.Text = "Sound Finder";
             this.ResizeEnd += new System.EventHandler(this.FormSoundFinder_ResizeEnd);

@@ -39,6 +39,36 @@
             this.columnMap,
             this.columnZone,
             this.columnName});
+            this.lstData.Location = new System.Drawing.Point(7, 129);
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.Location = new System.Drawing.Point(7, 99);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Location = new System.Drawing.Point(763, 96);
+            // 
+            // btnSelect
+            // 
+            this.btnSelect.Location = new System.Drawing.Point(666, 487);
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(3, 74);
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.Location = new System.Drawing.Point(774, 487);
+            // 
+            // btnSelectNone
+            // 
+            this.btnSelectNone.Location = new System.Drawing.Point(540, 487);
+            // 
+            // btnSelectUnchanged
+            // 
+            this.btnSelectUnchanged.Location = new System.Drawing.Point(399, 487);
             // 
             // columnMap
             // 
@@ -57,8 +87,10 @@
             // 
             // FormAreaFinder
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(672, 393);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(1213, 570);
+            this.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.MinimumSize = new System.Drawing.Size(1213, 570);
             this.Name = "FormAreaFinder";
             this.Text = "Area Finder";
             this.ResizeEnd += new System.EventHandler(this.FormAreaFinder_ResizeEnd);

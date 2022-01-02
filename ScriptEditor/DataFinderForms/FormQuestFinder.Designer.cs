@@ -39,6 +39,36 @@
             this.columnMinLevel,
             this.columnQuestLevel,
             this.columnTitle});
+            this.lstData.Location = new System.Drawing.Point(7, 111);
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.Location = new System.Drawing.Point(7, 81);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Location = new System.Drawing.Point(763, 78);
+            // 
+            // btnSelect
+            // 
+            this.btnSelect.Location = new System.Drawing.Point(666, 469);
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(3, 56);
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.Location = new System.Drawing.Point(774, 469);
+            // 
+            // btnSelectNone
+            // 
+            this.btnSelectNone.Location = new System.Drawing.Point(540, 469);
+            // 
+            // btnSelectUnchanged
+            // 
+            this.btnSelectUnchanged.Location = new System.Drawing.Point(399, 469);
             // 
             // columnMinLevel
             // 
@@ -57,8 +87,10 @@
             // 
             // FormQuestFinder
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(672, 393);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(1213, 570);
+            this.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.MinimumSize = new System.Drawing.Size(1213, 570);
             this.Name = "FormQuestFinder";
             this.Text = "Quest Finder";
             this.ResizeEnd += new System.EventHandler(this.FormQuestFinder_ResizeEnd);

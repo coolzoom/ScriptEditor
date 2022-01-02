@@ -120,28 +120,34 @@
             // 
             // txtFilter
             // 
-            this.txtFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFilter.Location = new System.Drawing.Point(12, 8);
+            this.txtFilter.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFilter.Location = new System.Drawing.Point(19, 77);
+            this.txtFilter.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtFilter.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtFilter.Name = "txtFilter";
-            this.txtFilter.Size = new System.Drawing.Size(206, 21);
+            this.txtFilter.Size = new System.Drawing.Size(273, 26);
             this.txtFilter.TabIndex = 0;
             this.txtFilter.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtFilter_KeyPress);
             // 
             // lstSpellLists
             // 
+            this.lstSpellLists.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstSpellLists.FormattingEnabled = true;
-            this.lstSpellLists.Location = new System.Drawing.Point(12, 37);
+            this.lstSpellLists.ItemHeight = 18;
+            this.lstSpellLists.Location = new System.Drawing.Point(19, 111);
+            this.lstSpellLists.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.lstSpellLists.Name = "lstSpellLists";
-            this.lstSpellLists.Size = new System.Drawing.Size(270, 381);
+            this.lstSpellLists.Size = new System.Drawing.Size(359, 436);
             this.lstSpellLists.TabIndex = 1;
             this.lstSpellLists.SelectedIndexChanged += new System.EventHandler(this.lstSpellLists_SelectedIndexChanged);
             // 
             // btnFilter
             // 
-            this.btnFilter.Location = new System.Drawing.Point(224, 8);
+            this.btnFilter.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFilter.Location = new System.Drawing.Point(302, 77);
+            this.btnFilter.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnFilter.Name = "btnFilter";
-            this.btnFilter.Size = new System.Drawing.Size(58, 23);
+            this.btnFilter.Size = new System.Drawing.Size(77, 27);
             this.btnFilter.TabIndex = 2;
             this.btnFilter.Text = "Filter";
             this.btnFilter.UseVisualStyleBackColor = true;
@@ -150,28 +156,34 @@
             // txtName
             // 
             this.txtName.Enabled = false;
-            this.txtName.Location = new System.Drawing.Point(348, 21);
+            this.txtName.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtName.Location = new System.Drawing.Point(467, 92);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtName.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(270, 20);
+            this.txtName.Size = new System.Drawing.Size(359, 26);
             this.txtName.TabIndex = 3;
             this.txtName.Leave += new System.EventHandler(this.txtName_Leave);
             // 
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(306, 24);
+            this.lblName.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.Location = new System.Drawing.Point(411, 96);
+            this.lblName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(38, 13);
+            this.lblName.Size = new System.Drawing.Size(49, 18);
             this.lblName.TabIndex = 4;
             this.lblName.Text = "Name:";
             // 
             // lblUsedBy
             // 
             this.lblUsedBy.AutoSize = true;
-            this.lblUsedBy.Location = new System.Drawing.Point(297, 53);
+            this.lblUsedBy.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsedBy.Location = new System.Drawing.Point(399, 129);
+            this.lblUsedBy.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblUsedBy.Name = "lblUsedBy";
-            this.lblUsedBy.Size = new System.Drawing.Size(47, 13);
+            this.lblUsedBy.Size = new System.Drawing.Size(59, 18);
             this.lblUsedBy.TabIndex = 6;
             this.lblUsedBy.Text = "Used (2)";
             // 
@@ -179,17 +191,21 @@
             // 
             this.cmbUsedBy.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbUsedBy.Enabled = false;
+            this.cmbUsedBy.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbUsedBy.FormattingEnabled = true;
-            this.cmbUsedBy.Location = new System.Drawing.Point(348, 50);
+            this.cmbUsedBy.Location = new System.Drawing.Point(467, 126);
+            this.cmbUsedBy.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbUsedBy.Name = "cmbUsedBy";
-            this.cmbUsedBy.Size = new System.Drawing.Size(270, 21);
+            this.cmbUsedBy.Size = new System.Drawing.Size(359, 26);
             this.cmbUsedBy.TabIndex = 7;
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(12, 424);
+            this.btnAdd.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.Location = new System.Drawing.Point(19, 557);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd.Size = new System.Drawing.Size(100, 27);
             this.btnAdd.TabIndex = 8;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -197,9 +213,11 @@
             // 
             // btnCopy
             // 
-            this.btnCopy.Location = new System.Drawing.Point(93, 424);
+            this.btnCopy.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCopy.Location = new System.Drawing.Point(127, 557);
+            this.btnCopy.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnCopy.Name = "btnCopy";
-            this.btnCopy.Size = new System.Drawing.Size(75, 23);
+            this.btnCopy.Size = new System.Drawing.Size(100, 27);
             this.btnCopy.TabIndex = 9;
             this.btnCopy.Text = "Copy";
             this.btnCopy.UseVisualStyleBackColor = true;
@@ -207,9 +225,11 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(174, 424);
+            this.btnDelete.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.Location = new System.Drawing.Point(235, 557);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete.Size = new System.Drawing.Size(100, 27);
             this.btnDelete.TabIndex = 10;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -217,27 +237,33 @@
             // 
             // txtSpell1Probability
             // 
-            this.txtSpell1Probability.Location = new System.Drawing.Point(2, 6);
+            this.txtSpell1Probability.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell1Probability.Location = new System.Drawing.Point(3, 7);
+            this.txtSpell1Probability.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell1Probability.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell1Probability.Name = "txtSpell1Probability";
-            this.txtSpell1Probability.Size = new System.Drawing.Size(58, 20);
+            this.txtSpell1Probability.Size = new System.Drawing.Size(76, 26);
             this.txtSpell1Probability.TabIndex = 11;
             this.txtSpell1Probability.Leave += new System.EventHandler(this.txtSpell1Probability_Leave);
             // 
             // lblProbability
             // 
             this.lblProbability.AutoSize = true;
-            this.lblProbability.Location = new System.Drawing.Point(300, 96);
+            this.lblProbability.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblProbability.Location = new System.Drawing.Point(403, 179);
+            this.lblProbability.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblProbability.Name = "lblProbability";
-            this.lblProbability.Size = new System.Drawing.Size(55, 13);
+            this.lblProbability.Size = new System.Drawing.Size(76, 18);
             this.lblProbability.TabIndex = 12;
             this.lblProbability.Text = "Probability";
             // 
             // btnSpell1Id
             // 
-            this.btnSpell1Id.Location = new System.Drawing.Point(66, 6);
+            this.btnSpell1Id.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpell1Id.Location = new System.Drawing.Point(88, 7);
+            this.btnSpell1Id.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSpell1Id.Name = "btnSpell1Id";
-            this.btnSpell1Id.Size = new System.Drawing.Size(300, 23);
+            this.btnSpell1Id.Size = new System.Drawing.Size(400, 27);
             this.btnSpell1Id.TabIndex = 13;
             this.btnSpell1Id.Text = "Creature - Dragon Tail Sweep (Onyxia) (Tail Sweep)";
             this.btnSpell1Id.UseVisualStyleBackColor = true;
@@ -245,9 +271,11 @@
             // 
             // btnSpell1Edit
             // 
-            this.btnSpell1Edit.Location = new System.Drawing.Point(367, 6);
+            this.btnSpell1Edit.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpell1Edit.Location = new System.Drawing.Point(489, 7);
+            this.btnSpell1Edit.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSpell1Edit.Name = "btnSpell1Edit";
-            this.btnSpell1Edit.Size = new System.Drawing.Size(38, 23);
+            this.btnSpell1Edit.Size = new System.Drawing.Size(51, 27);
             this.btnSpell1Edit.TabIndex = 14;
             this.btnSpell1Edit.Text = "Edit";
             this.btnSpell1Edit.UseVisualStyleBackColor = true;
@@ -255,157 +283,189 @@
             // 
             // txtSpell1DelayInitialMin
             // 
-            this.txtSpell1DelayInitialMin.Location = new System.Drawing.Point(538, 6);
+            this.txtSpell1DelayInitialMin.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell1DelayInitialMin.Location = new System.Drawing.Point(717, 7);
+            this.txtSpell1DelayInitialMin.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell1DelayInitialMin.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell1DelayInitialMin.Name = "txtSpell1DelayInitialMin";
-            this.txtSpell1DelayInitialMin.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell1DelayInitialMin.Size = new System.Drawing.Size(56, 26);
             this.txtSpell1DelayInitialMin.TabIndex = 15;
             this.txtSpell1DelayInitialMin.Leave += new System.EventHandler(this.txtSpell1DelayInitialMin_Leave);
             // 
             // lblSpell
             // 
             this.lblSpell.AutoSize = true;
-            this.lblSpell.Location = new System.Drawing.Point(360, 96);
+            this.lblSpell.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSpell.Location = new System.Drawing.Point(483, 179);
+            this.lblSpell.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSpell.Name = "lblSpell";
-            this.lblSpell.Size = new System.Drawing.Size(30, 13);
+            this.lblSpell.Size = new System.Drawing.Size(39, 18);
             this.lblSpell.TabIndex = 16;
             this.lblSpell.Text = "Spell";
             // 
             // lblInitialMin
             // 
             this.lblInitialMin.AutoSize = true;
-            this.lblInitialMin.Location = new System.Drawing.Point(829, 86);
+            this.lblInitialMin.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInitialMin.Location = new System.Drawing.Point(1108, 167);
+            this.lblInitialMin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInitialMin.Name = "lblInitialMin";
-            this.lblInitialMin.Size = new System.Drawing.Size(31, 26);
+            this.lblInitialMin.Size = new System.Drawing.Size(43, 36);
             this.lblInitialMin.TabIndex = 17;
             this.lblInitialMin.Text = "Initial\r\nMin";
             // 
             // lblInitialMax
             // 
             this.lblInitialMax.AutoSize = true;
-            this.lblInitialMax.Location = new System.Drawing.Point(878, 86);
+            this.lblInitialMax.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInitialMax.Location = new System.Drawing.Point(1174, 167);
+            this.lblInitialMax.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInitialMax.Name = "lblInitialMax";
-            this.lblInitialMax.Size = new System.Drawing.Size(31, 26);
+            this.lblInitialMax.Size = new System.Drawing.Size(43, 36);
             this.lblInitialMax.TabIndex = 19;
             this.lblInitialMax.Text = "Initial\r\nMax";
             // 
             // txtSpell1DelayInitialMax
             // 
-            this.txtSpell1DelayInitialMax.Location = new System.Drawing.Point(587, 6);
+            this.txtSpell1DelayInitialMax.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell1DelayInitialMax.Location = new System.Drawing.Point(783, 7);
+            this.txtSpell1DelayInitialMax.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell1DelayInitialMax.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell1DelayInitialMax.Name = "txtSpell1DelayInitialMax";
-            this.txtSpell1DelayInitialMax.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell1DelayInitialMax.Size = new System.Drawing.Size(56, 26);
             this.txtSpell1DelayInitialMax.TabIndex = 18;
             this.txtSpell1DelayInitialMax.Leave += new System.EventHandler(this.txtSpell1DelayInitialMax_Leave);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(927, 86);
+            this.label2.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(1239, 167);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 26);
+            this.label2.Size = new System.Drawing.Size(52, 36);
             this.label2.TabIndex = 21;
             this.label2.Text = "Repeat\r\nMin";
             // 
             // txtSpell1DelayRepeatMin
             // 
-            this.txtSpell1DelayRepeatMin.Location = new System.Drawing.Point(636, 6);
+            this.txtSpell1DelayRepeatMin.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell1DelayRepeatMin.Location = new System.Drawing.Point(848, 7);
+            this.txtSpell1DelayRepeatMin.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell1DelayRepeatMin.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell1DelayRepeatMin.Name = "txtSpell1DelayRepeatMin";
-            this.txtSpell1DelayRepeatMin.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell1DelayRepeatMin.Size = new System.Drawing.Size(56, 26);
             this.txtSpell1DelayRepeatMin.TabIndex = 20;
             this.txtSpell1DelayRepeatMin.Leave += new System.EventHandler(this.txtSpell1DelayRepeatMin_Leave);
             // 
             // lblRepeatMax
             // 
             this.lblRepeatMax.AutoSize = true;
-            this.lblRepeatMax.Location = new System.Drawing.Point(976, 86);
+            this.lblRepeatMax.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRepeatMax.Location = new System.Drawing.Point(1304, 167);
+            this.lblRepeatMax.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRepeatMax.Name = "lblRepeatMax";
-            this.lblRepeatMax.Size = new System.Drawing.Size(42, 26);
+            this.lblRepeatMax.Size = new System.Drawing.Size(52, 36);
             this.lblRepeatMax.TabIndex = 23;
             this.lblRepeatMax.Text = "Repeat\r\nMax";
             // 
             // txtSpell1DelayRepeatMax
             // 
-            this.txtSpell1DelayRepeatMax.Location = new System.Drawing.Point(685, 6);
+            this.txtSpell1DelayRepeatMax.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell1DelayRepeatMax.Location = new System.Drawing.Point(913, 7);
+            this.txtSpell1DelayRepeatMax.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell1DelayRepeatMax.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell1DelayRepeatMax.Name = "txtSpell1DelayRepeatMax";
-            this.txtSpell1DelayRepeatMax.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell1DelayRepeatMax.Size = new System.Drawing.Size(56, 26);
             this.txtSpell1DelayRepeatMax.TabIndex = 22;
             this.txtSpell1DelayRepeatMax.Leave += new System.EventHandler(this.txtSpell1DelayRepeatMax_Leave);
             // 
             // cmbSpell1Target
             // 
             this.cmbSpell1Target.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbSpell1Target.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbSpell1Target.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbSpell1Target.FormattingEnabled = true;
-            this.cmbSpell1Target.Location = new System.Drawing.Point(411, 6);
+            this.cmbSpell1Target.Location = new System.Drawing.Point(548, 7);
+            this.cmbSpell1Target.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbSpell1Target.Name = "cmbSpell1Target";
-            this.cmbSpell1Target.Size = new System.Drawing.Size(121, 23);
+            this.cmbSpell1Target.Size = new System.Drawing.Size(160, 26);
             this.cmbSpell1Target.TabIndex = 24;
             this.cmbSpell1Target.SelectedIndexChanged += new System.EventHandler(this.cmbSpell1Target_SelectedIndexChanged);
             // 
             // lblTarget
             // 
             this.lblTarget.AutoSize = true;
-            this.lblTarget.Location = new System.Drawing.Point(702, 96);
+            this.lblTarget.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTarget.Location = new System.Drawing.Point(939, 179);
+            this.lblTarget.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTarget.Name = "lblTarget";
-            this.lblTarget.Size = new System.Drawing.Size(38, 13);
+            this.lblTarget.Size = new System.Drawing.Size(46, 18);
             this.lblTarget.TabIndex = 25;
             this.lblTarget.Text = "Target";
             // 
             // cmbSpell2Target
             // 
             this.cmbSpell2Target.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbSpell2Target.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbSpell2Target.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbSpell2Target.FormattingEnabled = true;
-            this.cmbSpell2Target.Location = new System.Drawing.Point(411, 42);
+            this.cmbSpell2Target.Location = new System.Drawing.Point(548, 48);
+            this.cmbSpell2Target.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbSpell2Target.Name = "cmbSpell2Target";
-            this.cmbSpell2Target.Size = new System.Drawing.Size(121, 23);
+            this.cmbSpell2Target.Size = new System.Drawing.Size(160, 26);
             this.cmbSpell2Target.TabIndex = 33;
             this.cmbSpell2Target.SelectedIndexChanged += new System.EventHandler(this.cmbSpell2Target_SelectedIndexChanged);
             // 
             // txtSpell2DelayRepeatMax
             // 
-            this.txtSpell2DelayRepeatMax.Location = new System.Drawing.Point(685, 42);
+            this.txtSpell2DelayRepeatMax.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell2DelayRepeatMax.Location = new System.Drawing.Point(913, 48);
+            this.txtSpell2DelayRepeatMax.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell2DelayRepeatMax.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell2DelayRepeatMax.Name = "txtSpell2DelayRepeatMax";
-            this.txtSpell2DelayRepeatMax.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell2DelayRepeatMax.Size = new System.Drawing.Size(56, 26);
             this.txtSpell2DelayRepeatMax.TabIndex = 32;
             this.txtSpell2DelayRepeatMax.Leave += new System.EventHandler(this.txtSpell2DelayRepeatMax_Leave);
             // 
             // txtSpell2DelayRepeatMin
             // 
-            this.txtSpell2DelayRepeatMin.Location = new System.Drawing.Point(636, 42);
+            this.txtSpell2DelayRepeatMin.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell2DelayRepeatMin.Location = new System.Drawing.Point(848, 48);
+            this.txtSpell2DelayRepeatMin.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell2DelayRepeatMin.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell2DelayRepeatMin.Name = "txtSpell2DelayRepeatMin";
-            this.txtSpell2DelayRepeatMin.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell2DelayRepeatMin.Size = new System.Drawing.Size(56, 26);
             this.txtSpell2DelayRepeatMin.TabIndex = 31;
             this.txtSpell2DelayRepeatMin.Leave += new System.EventHandler(this.txtSpell2DelayRepeatMin_Leave);
             // 
             // txtSpell2DelayInitialMax
             // 
-            this.txtSpell2DelayInitialMax.Location = new System.Drawing.Point(587, 42);
+            this.txtSpell2DelayInitialMax.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell2DelayInitialMax.Location = new System.Drawing.Point(783, 48);
+            this.txtSpell2DelayInitialMax.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell2DelayInitialMax.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell2DelayInitialMax.Name = "txtSpell2DelayInitialMax";
-            this.txtSpell2DelayInitialMax.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell2DelayInitialMax.Size = new System.Drawing.Size(56, 26);
             this.txtSpell2DelayInitialMax.TabIndex = 30;
             this.txtSpell2DelayInitialMax.Leave += new System.EventHandler(this.txtSpell2DelayInitialMax_Leave);
             // 
             // txtSpell2DelayInitialMin
             // 
-            this.txtSpell2DelayInitialMin.Location = new System.Drawing.Point(538, 42);
+            this.txtSpell2DelayInitialMin.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell2DelayInitialMin.Location = new System.Drawing.Point(717, 48);
+            this.txtSpell2DelayInitialMin.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell2DelayInitialMin.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell2DelayInitialMin.Name = "txtSpell2DelayInitialMin";
-            this.txtSpell2DelayInitialMin.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell2DelayInitialMin.Size = new System.Drawing.Size(56, 26);
             this.txtSpell2DelayInitialMin.TabIndex = 29;
             this.txtSpell2DelayInitialMin.Leave += new System.EventHandler(this.txtSpell2DelayInitialMin_Leave);
             // 
             // btnSpell2Edit
             // 
-            this.btnSpell2Edit.Location = new System.Drawing.Point(367, 42);
+            this.btnSpell2Edit.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpell2Edit.Location = new System.Drawing.Point(489, 48);
+            this.btnSpell2Edit.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSpell2Edit.Name = "btnSpell2Edit";
-            this.btnSpell2Edit.Size = new System.Drawing.Size(38, 23);
+            this.btnSpell2Edit.Size = new System.Drawing.Size(51, 27);
             this.btnSpell2Edit.TabIndex = 28;
             this.btnSpell2Edit.Text = "Edit";
             this.btnSpell2Edit.UseVisualStyleBackColor = true;
@@ -413,9 +473,11 @@
             // 
             // btnSpell2Id
             // 
-            this.btnSpell2Id.Location = new System.Drawing.Point(66, 42);
+            this.btnSpell2Id.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpell2Id.Location = new System.Drawing.Point(88, 48);
+            this.btnSpell2Id.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSpell2Id.Name = "btnSpell2Id";
-            this.btnSpell2Id.Size = new System.Drawing.Size(300, 23);
+            this.btnSpell2Id.Size = new System.Drawing.Size(400, 27);
             this.btnSpell2Id.TabIndex = 27;
             this.btnSpell2Id.Text = "Creature - Dragon Tail Sweep (Onyxia) (Tail Sweep)";
             this.btnSpell2Id.UseVisualStyleBackColor = true;
@@ -423,65 +485,78 @@
             // 
             // txtSpell2Probability
             // 
-            this.txtSpell2Probability.Location = new System.Drawing.Point(2, 42);
+            this.txtSpell2Probability.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell2Probability.Location = new System.Drawing.Point(3, 48);
+            this.txtSpell2Probability.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell2Probability.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell2Probability.Name = "txtSpell2Probability";
-            this.txtSpell2Probability.Size = new System.Drawing.Size(58, 20);
+            this.txtSpell2Probability.Size = new System.Drawing.Size(76, 26);
             this.txtSpell2Probability.TabIndex = 26;
             this.txtSpell2Probability.Leave += new System.EventHandler(this.txtSpell2Probability_Leave);
             // 
             // cmbSpell3Target
             // 
             this.cmbSpell3Target.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbSpell3Target.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbSpell3Target.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbSpell3Target.FormattingEnabled = true;
-            this.cmbSpell3Target.Location = new System.Drawing.Point(411, 78);
+            this.cmbSpell3Target.Location = new System.Drawing.Point(548, 90);
+            this.cmbSpell3Target.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbSpell3Target.Name = "cmbSpell3Target";
-            this.cmbSpell3Target.Size = new System.Drawing.Size(121, 23);
+            this.cmbSpell3Target.Size = new System.Drawing.Size(160, 26);
             this.cmbSpell3Target.TabIndex = 41;
             this.cmbSpell3Target.SelectedIndexChanged += new System.EventHandler(this.cmbSpell3Target_SelectedIndexChanged);
             // 
             // txtSpell3DelayRepeatMax
             // 
-            this.txtSpell3DelayRepeatMax.Location = new System.Drawing.Point(685, 78);
+            this.txtSpell3DelayRepeatMax.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell3DelayRepeatMax.Location = new System.Drawing.Point(913, 90);
+            this.txtSpell3DelayRepeatMax.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell3DelayRepeatMax.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell3DelayRepeatMax.Name = "txtSpell3DelayRepeatMax";
-            this.txtSpell3DelayRepeatMax.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell3DelayRepeatMax.Size = new System.Drawing.Size(56, 26);
             this.txtSpell3DelayRepeatMax.TabIndex = 40;
             this.txtSpell3DelayRepeatMax.Leave += new System.EventHandler(this.txtSpell3DelayRepeatMax_Leave);
             // 
             // txtSpell3DelayRepeatMin
             // 
-            this.txtSpell3DelayRepeatMin.Location = new System.Drawing.Point(636, 78);
+            this.txtSpell3DelayRepeatMin.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell3DelayRepeatMin.Location = new System.Drawing.Point(848, 90);
+            this.txtSpell3DelayRepeatMin.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell3DelayRepeatMin.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell3DelayRepeatMin.Name = "txtSpell3DelayRepeatMin";
-            this.txtSpell3DelayRepeatMin.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell3DelayRepeatMin.Size = new System.Drawing.Size(56, 26);
             this.txtSpell3DelayRepeatMin.TabIndex = 39;
             this.txtSpell3DelayRepeatMin.Leave += new System.EventHandler(this.txtSpell3DelayRepeatMin_Leave);
             // 
             // txtSpell3DelayInitialMax
             // 
-            this.txtSpell3DelayInitialMax.Location = new System.Drawing.Point(587, 78);
+            this.txtSpell3DelayInitialMax.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell3DelayInitialMax.Location = new System.Drawing.Point(783, 90);
+            this.txtSpell3DelayInitialMax.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell3DelayInitialMax.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell3DelayInitialMax.Name = "txtSpell3DelayInitialMax";
-            this.txtSpell3DelayInitialMax.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell3DelayInitialMax.Size = new System.Drawing.Size(56, 26);
             this.txtSpell3DelayInitialMax.TabIndex = 38;
             this.txtSpell3DelayInitialMax.Leave += new System.EventHandler(this.txtSpell3DelayInitialMax_Leave);
             // 
             // txtSpell3DelayInitialMin
             // 
-            this.txtSpell3DelayInitialMin.Location = new System.Drawing.Point(538, 78);
+            this.txtSpell3DelayInitialMin.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell3DelayInitialMin.Location = new System.Drawing.Point(717, 90);
+            this.txtSpell3DelayInitialMin.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell3DelayInitialMin.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell3DelayInitialMin.Name = "txtSpell3DelayInitialMin";
-            this.txtSpell3DelayInitialMin.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell3DelayInitialMin.Size = new System.Drawing.Size(56, 26);
             this.txtSpell3DelayInitialMin.TabIndex = 37;
             this.txtSpell3DelayInitialMin.Leave += new System.EventHandler(this.txtSpell3DelayInitialMin_Leave);
             // 
             // btnSpell3Edit
             // 
-            this.btnSpell3Edit.Location = new System.Drawing.Point(367, 78);
+            this.btnSpell3Edit.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpell3Edit.Location = new System.Drawing.Point(489, 90);
+            this.btnSpell3Edit.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSpell3Edit.Name = "btnSpell3Edit";
-            this.btnSpell3Edit.Size = new System.Drawing.Size(38, 23);
+            this.btnSpell3Edit.Size = new System.Drawing.Size(51, 27);
             this.btnSpell3Edit.TabIndex = 36;
             this.btnSpell3Edit.Text = "Edit";
             this.btnSpell3Edit.UseVisualStyleBackColor = true;
@@ -489,9 +564,11 @@
             // 
             // btnSpell3Id
             // 
-            this.btnSpell3Id.Location = new System.Drawing.Point(66, 78);
+            this.btnSpell3Id.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpell3Id.Location = new System.Drawing.Point(88, 90);
+            this.btnSpell3Id.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSpell3Id.Name = "btnSpell3Id";
-            this.btnSpell3Id.Size = new System.Drawing.Size(300, 23);
+            this.btnSpell3Id.Size = new System.Drawing.Size(400, 27);
             this.btnSpell3Id.TabIndex = 35;
             this.btnSpell3Id.Text = "Creature - Dragon Tail Sweep (Onyxia) (Tail Sweep)";
             this.btnSpell3Id.UseVisualStyleBackColor = true;
@@ -499,65 +576,78 @@
             // 
             // txtSpell3Probability
             // 
-            this.txtSpell3Probability.Location = new System.Drawing.Point(2, 78);
+            this.txtSpell3Probability.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell3Probability.Location = new System.Drawing.Point(3, 90);
+            this.txtSpell3Probability.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell3Probability.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell3Probability.Name = "txtSpell3Probability";
-            this.txtSpell3Probability.Size = new System.Drawing.Size(58, 20);
+            this.txtSpell3Probability.Size = new System.Drawing.Size(76, 26);
             this.txtSpell3Probability.TabIndex = 34;
             this.txtSpell3Probability.Leave += new System.EventHandler(this.txtSpell3Probability_Leave);
             // 
             // cmbSpell4Target
             // 
             this.cmbSpell4Target.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbSpell4Target.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbSpell4Target.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbSpell4Target.FormattingEnabled = true;
-            this.cmbSpell4Target.Location = new System.Drawing.Point(411, 114);
+            this.cmbSpell4Target.Location = new System.Drawing.Point(548, 132);
+            this.cmbSpell4Target.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbSpell4Target.Name = "cmbSpell4Target";
-            this.cmbSpell4Target.Size = new System.Drawing.Size(121, 23);
+            this.cmbSpell4Target.Size = new System.Drawing.Size(160, 26);
             this.cmbSpell4Target.TabIndex = 49;
             this.cmbSpell4Target.SelectedIndexChanged += new System.EventHandler(this.cmbSpell4Target_SelectedIndexChanged);
             // 
             // txtSpell4DelayRepeatMax
             // 
-            this.txtSpell4DelayRepeatMax.Location = new System.Drawing.Point(685, 114);
+            this.txtSpell4DelayRepeatMax.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell4DelayRepeatMax.Location = new System.Drawing.Point(913, 132);
+            this.txtSpell4DelayRepeatMax.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell4DelayRepeatMax.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell4DelayRepeatMax.Name = "txtSpell4DelayRepeatMax";
-            this.txtSpell4DelayRepeatMax.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell4DelayRepeatMax.Size = new System.Drawing.Size(56, 26);
             this.txtSpell4DelayRepeatMax.TabIndex = 48;
             this.txtSpell4DelayRepeatMax.Leave += new System.EventHandler(this.txtSpell4DelayRepeatMax_Leave);
             // 
             // txtSpell4DelayRepeatMin
             // 
-            this.txtSpell4DelayRepeatMin.Location = new System.Drawing.Point(636, 114);
+            this.txtSpell4DelayRepeatMin.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell4DelayRepeatMin.Location = new System.Drawing.Point(848, 132);
+            this.txtSpell4DelayRepeatMin.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell4DelayRepeatMin.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell4DelayRepeatMin.Name = "txtSpell4DelayRepeatMin";
-            this.txtSpell4DelayRepeatMin.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell4DelayRepeatMin.Size = new System.Drawing.Size(56, 26);
             this.txtSpell4DelayRepeatMin.TabIndex = 47;
             this.txtSpell4DelayRepeatMin.Leave += new System.EventHandler(this.txtSpell4DelayRepeatMin_Leave);
             // 
             // txtSpell4DelayInitialMax
             // 
-            this.txtSpell4DelayInitialMax.Location = new System.Drawing.Point(587, 114);
+            this.txtSpell4DelayInitialMax.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell4DelayInitialMax.Location = new System.Drawing.Point(783, 132);
+            this.txtSpell4DelayInitialMax.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell4DelayInitialMax.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell4DelayInitialMax.Name = "txtSpell4DelayInitialMax";
-            this.txtSpell4DelayInitialMax.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell4DelayInitialMax.Size = new System.Drawing.Size(56, 26);
             this.txtSpell4DelayInitialMax.TabIndex = 46;
             this.txtSpell4DelayInitialMax.Leave += new System.EventHandler(this.txtSpell4DelayInitialMax_Leave);
             // 
             // txtSpell4DelayInitialMin
             // 
-            this.txtSpell4DelayInitialMin.Location = new System.Drawing.Point(538, 114);
+            this.txtSpell4DelayInitialMin.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell4DelayInitialMin.Location = new System.Drawing.Point(717, 132);
+            this.txtSpell4DelayInitialMin.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell4DelayInitialMin.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell4DelayInitialMin.Name = "txtSpell4DelayInitialMin";
-            this.txtSpell4DelayInitialMin.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell4DelayInitialMin.Size = new System.Drawing.Size(56, 26);
             this.txtSpell4DelayInitialMin.TabIndex = 45;
             this.txtSpell4DelayInitialMin.Leave += new System.EventHandler(this.txtSpell4DelayInitialMin_Leave);
             // 
             // btnSpell4Edit
             // 
-            this.btnSpell4Edit.Location = new System.Drawing.Point(367, 114);
+            this.btnSpell4Edit.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpell4Edit.Location = new System.Drawing.Point(489, 132);
+            this.btnSpell4Edit.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSpell4Edit.Name = "btnSpell4Edit";
-            this.btnSpell4Edit.Size = new System.Drawing.Size(38, 23);
+            this.btnSpell4Edit.Size = new System.Drawing.Size(51, 27);
             this.btnSpell4Edit.TabIndex = 44;
             this.btnSpell4Edit.Text = "Edit";
             this.btnSpell4Edit.UseVisualStyleBackColor = true;
@@ -565,9 +655,11 @@
             // 
             // btnSpell4Id
             // 
-            this.btnSpell4Id.Location = new System.Drawing.Point(66, 114);
+            this.btnSpell4Id.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpell4Id.Location = new System.Drawing.Point(88, 132);
+            this.btnSpell4Id.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSpell4Id.Name = "btnSpell4Id";
-            this.btnSpell4Id.Size = new System.Drawing.Size(300, 23);
+            this.btnSpell4Id.Size = new System.Drawing.Size(400, 27);
             this.btnSpell4Id.TabIndex = 43;
             this.btnSpell4Id.Text = "Creature - Dragon Tail Sweep (Onyxia) (Tail Sweep)";
             this.btnSpell4Id.UseVisualStyleBackColor = true;
@@ -575,65 +667,78 @@
             // 
             // txtSpell4Probability
             // 
-            this.txtSpell4Probability.Location = new System.Drawing.Point(2, 114);
+            this.txtSpell4Probability.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell4Probability.Location = new System.Drawing.Point(3, 132);
+            this.txtSpell4Probability.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell4Probability.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell4Probability.Name = "txtSpell4Probability";
-            this.txtSpell4Probability.Size = new System.Drawing.Size(58, 20);
+            this.txtSpell4Probability.Size = new System.Drawing.Size(76, 26);
             this.txtSpell4Probability.TabIndex = 42;
             this.txtSpell4Probability.Leave += new System.EventHandler(this.txtSpell4Probability_Leave);
             // 
             // cmbSpell5Target
             // 
             this.cmbSpell5Target.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbSpell5Target.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbSpell5Target.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbSpell5Target.FormattingEnabled = true;
-            this.cmbSpell5Target.Location = new System.Drawing.Point(411, 150);
+            this.cmbSpell5Target.Location = new System.Drawing.Point(548, 173);
+            this.cmbSpell5Target.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbSpell5Target.Name = "cmbSpell5Target";
-            this.cmbSpell5Target.Size = new System.Drawing.Size(121, 23);
+            this.cmbSpell5Target.Size = new System.Drawing.Size(160, 26);
             this.cmbSpell5Target.TabIndex = 57;
             this.cmbSpell5Target.SelectedIndexChanged += new System.EventHandler(this.cmbSpell5Target_SelectedIndexChanged);
             // 
             // txtSpell5DelayRepeatMax
             // 
-            this.txtSpell5DelayRepeatMax.Location = new System.Drawing.Point(685, 150);
+            this.txtSpell5DelayRepeatMax.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell5DelayRepeatMax.Location = new System.Drawing.Point(913, 173);
+            this.txtSpell5DelayRepeatMax.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell5DelayRepeatMax.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell5DelayRepeatMax.Name = "txtSpell5DelayRepeatMax";
-            this.txtSpell5DelayRepeatMax.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell5DelayRepeatMax.Size = new System.Drawing.Size(56, 26);
             this.txtSpell5DelayRepeatMax.TabIndex = 56;
             this.txtSpell5DelayRepeatMax.Leave += new System.EventHandler(this.txtSpell5DelayRepeatMax_Leave);
             // 
             // txtSpell5DelayRepeatMin
             // 
-            this.txtSpell5DelayRepeatMin.Location = new System.Drawing.Point(636, 150);
+            this.txtSpell5DelayRepeatMin.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell5DelayRepeatMin.Location = new System.Drawing.Point(848, 173);
+            this.txtSpell5DelayRepeatMin.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell5DelayRepeatMin.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell5DelayRepeatMin.Name = "txtSpell5DelayRepeatMin";
-            this.txtSpell5DelayRepeatMin.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell5DelayRepeatMin.Size = new System.Drawing.Size(56, 26);
             this.txtSpell5DelayRepeatMin.TabIndex = 55;
             this.txtSpell5DelayRepeatMin.Leave += new System.EventHandler(this.txtSpell5DelayRepeatMin_Leave);
             // 
             // txtSpell5DelayInitialMax
             // 
-            this.txtSpell5DelayInitialMax.Location = new System.Drawing.Point(587, 150);
+            this.txtSpell5DelayInitialMax.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell5DelayInitialMax.Location = new System.Drawing.Point(783, 173);
+            this.txtSpell5DelayInitialMax.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell5DelayInitialMax.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell5DelayInitialMax.Name = "txtSpell5DelayInitialMax";
-            this.txtSpell5DelayInitialMax.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell5DelayInitialMax.Size = new System.Drawing.Size(56, 26);
             this.txtSpell5DelayInitialMax.TabIndex = 54;
             this.txtSpell5DelayInitialMax.Leave += new System.EventHandler(this.txtSpell5DelayInitialMax_Leave);
             // 
             // txtSpell5DelayInitialMin
             // 
-            this.txtSpell5DelayInitialMin.Location = new System.Drawing.Point(538, 150);
+            this.txtSpell5DelayInitialMin.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell5DelayInitialMin.Location = new System.Drawing.Point(717, 173);
+            this.txtSpell5DelayInitialMin.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell5DelayInitialMin.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell5DelayInitialMin.Name = "txtSpell5DelayInitialMin";
-            this.txtSpell5DelayInitialMin.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell5DelayInitialMin.Size = new System.Drawing.Size(56, 26);
             this.txtSpell5DelayInitialMin.TabIndex = 53;
             this.txtSpell5DelayInitialMin.Leave += new System.EventHandler(this.txtSpell5DelayInitialMin_Leave);
             // 
             // btnSpell5Edit
             // 
-            this.btnSpell5Edit.Location = new System.Drawing.Point(367, 150);
+            this.btnSpell5Edit.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpell5Edit.Location = new System.Drawing.Point(489, 173);
+            this.btnSpell5Edit.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSpell5Edit.Name = "btnSpell5Edit";
-            this.btnSpell5Edit.Size = new System.Drawing.Size(38, 23);
+            this.btnSpell5Edit.Size = new System.Drawing.Size(51, 27);
             this.btnSpell5Edit.TabIndex = 52;
             this.btnSpell5Edit.Text = "Edit";
             this.btnSpell5Edit.UseVisualStyleBackColor = true;
@@ -641,9 +746,11 @@
             // 
             // btnSpell5Id
             // 
-            this.btnSpell5Id.Location = new System.Drawing.Point(66, 150);
+            this.btnSpell5Id.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpell5Id.Location = new System.Drawing.Point(88, 173);
+            this.btnSpell5Id.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSpell5Id.Name = "btnSpell5Id";
-            this.btnSpell5Id.Size = new System.Drawing.Size(300, 23);
+            this.btnSpell5Id.Size = new System.Drawing.Size(400, 27);
             this.btnSpell5Id.TabIndex = 51;
             this.btnSpell5Id.Text = "Creature - Dragon Tail Sweep (Onyxia) (Tail Sweep)";
             this.btnSpell5Id.UseVisualStyleBackColor = true;
@@ -651,65 +758,78 @@
             // 
             // txtSpell5Probability
             // 
-            this.txtSpell5Probability.Location = new System.Drawing.Point(2, 150);
+            this.txtSpell5Probability.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell5Probability.Location = new System.Drawing.Point(3, 173);
+            this.txtSpell5Probability.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell5Probability.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell5Probability.Name = "txtSpell5Probability";
-            this.txtSpell5Probability.Size = new System.Drawing.Size(58, 20);
+            this.txtSpell5Probability.Size = new System.Drawing.Size(76, 26);
             this.txtSpell5Probability.TabIndex = 50;
             this.txtSpell5Probability.Leave += new System.EventHandler(this.txtSpell5Probability_Leave);
             // 
             // cmbSpell6Target
             // 
             this.cmbSpell6Target.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbSpell6Target.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbSpell6Target.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbSpell6Target.FormattingEnabled = true;
-            this.cmbSpell6Target.Location = new System.Drawing.Point(411, 186);
+            this.cmbSpell6Target.Location = new System.Drawing.Point(548, 215);
+            this.cmbSpell6Target.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbSpell6Target.Name = "cmbSpell6Target";
-            this.cmbSpell6Target.Size = new System.Drawing.Size(121, 23);
+            this.cmbSpell6Target.Size = new System.Drawing.Size(160, 26);
             this.cmbSpell6Target.TabIndex = 65;
             this.cmbSpell6Target.SelectedIndexChanged += new System.EventHandler(this.cmbSpell6Target_SelectedIndexChanged);
             // 
             // txtSpell6DelayRepeatMax
             // 
-            this.txtSpell6DelayRepeatMax.Location = new System.Drawing.Point(685, 186);
+            this.txtSpell6DelayRepeatMax.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell6DelayRepeatMax.Location = new System.Drawing.Point(913, 215);
+            this.txtSpell6DelayRepeatMax.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell6DelayRepeatMax.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell6DelayRepeatMax.Name = "txtSpell6DelayRepeatMax";
-            this.txtSpell6DelayRepeatMax.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell6DelayRepeatMax.Size = new System.Drawing.Size(56, 26);
             this.txtSpell6DelayRepeatMax.TabIndex = 64;
             this.txtSpell6DelayRepeatMax.Leave += new System.EventHandler(this.txtSpell6DelayRepeatMax_Leave);
             // 
             // txtSpell6DelayRepeatMin
             // 
-            this.txtSpell6DelayRepeatMin.Location = new System.Drawing.Point(636, 186);
+            this.txtSpell6DelayRepeatMin.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell6DelayRepeatMin.Location = new System.Drawing.Point(848, 215);
+            this.txtSpell6DelayRepeatMin.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell6DelayRepeatMin.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell6DelayRepeatMin.Name = "txtSpell6DelayRepeatMin";
-            this.txtSpell6DelayRepeatMin.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell6DelayRepeatMin.Size = new System.Drawing.Size(56, 26);
             this.txtSpell6DelayRepeatMin.TabIndex = 63;
             this.txtSpell6DelayRepeatMin.Leave += new System.EventHandler(this.txtSpell6DelayRepeatMin_Leave);
             // 
             // txtSpell6DelayInitialMax
             // 
-            this.txtSpell6DelayInitialMax.Location = new System.Drawing.Point(587, 186);
+            this.txtSpell6DelayInitialMax.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell6DelayInitialMax.Location = new System.Drawing.Point(783, 215);
+            this.txtSpell6DelayInitialMax.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell6DelayInitialMax.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell6DelayInitialMax.Name = "txtSpell6DelayInitialMax";
-            this.txtSpell6DelayInitialMax.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell6DelayInitialMax.Size = new System.Drawing.Size(56, 26);
             this.txtSpell6DelayInitialMax.TabIndex = 62;
             this.txtSpell6DelayInitialMax.Leave += new System.EventHandler(this.txtSpell6DelayInitialMax_Leave);
             // 
             // txtSpell6DelayInitialMin
             // 
-            this.txtSpell6DelayInitialMin.Location = new System.Drawing.Point(538, 186);
+            this.txtSpell6DelayInitialMin.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell6DelayInitialMin.Location = new System.Drawing.Point(717, 215);
+            this.txtSpell6DelayInitialMin.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell6DelayInitialMin.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell6DelayInitialMin.Name = "txtSpell6DelayInitialMin";
-            this.txtSpell6DelayInitialMin.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell6DelayInitialMin.Size = new System.Drawing.Size(56, 26);
             this.txtSpell6DelayInitialMin.TabIndex = 61;
             this.txtSpell6DelayInitialMin.Leave += new System.EventHandler(this.txtSpell6DelayInitialMin_Leave);
             // 
             // btnSpell6Edit
             // 
-            this.btnSpell6Edit.Location = new System.Drawing.Point(367, 186);
+            this.btnSpell6Edit.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpell6Edit.Location = new System.Drawing.Point(489, 215);
+            this.btnSpell6Edit.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSpell6Edit.Name = "btnSpell6Edit";
-            this.btnSpell6Edit.Size = new System.Drawing.Size(38, 23);
+            this.btnSpell6Edit.Size = new System.Drawing.Size(51, 27);
             this.btnSpell6Edit.TabIndex = 60;
             this.btnSpell6Edit.Text = "Edit";
             this.btnSpell6Edit.UseVisualStyleBackColor = true;
@@ -717,9 +837,11 @@
             // 
             // btnSpell6Id
             // 
-            this.btnSpell6Id.Location = new System.Drawing.Point(66, 186);
+            this.btnSpell6Id.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpell6Id.Location = new System.Drawing.Point(88, 215);
+            this.btnSpell6Id.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSpell6Id.Name = "btnSpell6Id";
-            this.btnSpell6Id.Size = new System.Drawing.Size(300, 23);
+            this.btnSpell6Id.Size = new System.Drawing.Size(400, 27);
             this.btnSpell6Id.TabIndex = 59;
             this.btnSpell6Id.Text = "Creature - Dragon Tail Sweep (Onyxia) (Tail Sweep)";
             this.btnSpell6Id.UseVisualStyleBackColor = true;
@@ -727,65 +849,78 @@
             // 
             // txtSpell6Probability
             // 
-            this.txtSpell6Probability.Location = new System.Drawing.Point(2, 186);
+            this.txtSpell6Probability.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell6Probability.Location = new System.Drawing.Point(3, 215);
+            this.txtSpell6Probability.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell6Probability.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell6Probability.Name = "txtSpell6Probability";
-            this.txtSpell6Probability.Size = new System.Drawing.Size(58, 20);
+            this.txtSpell6Probability.Size = new System.Drawing.Size(76, 26);
             this.txtSpell6Probability.TabIndex = 58;
             this.txtSpell6Probability.Leave += new System.EventHandler(this.txtSpell6Probability_Leave);
             // 
             // cmbSpell7Target
             // 
             this.cmbSpell7Target.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbSpell7Target.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbSpell7Target.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbSpell7Target.FormattingEnabled = true;
-            this.cmbSpell7Target.Location = new System.Drawing.Point(411, 222);
+            this.cmbSpell7Target.Location = new System.Drawing.Point(548, 256);
+            this.cmbSpell7Target.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbSpell7Target.Name = "cmbSpell7Target";
-            this.cmbSpell7Target.Size = new System.Drawing.Size(121, 23);
+            this.cmbSpell7Target.Size = new System.Drawing.Size(160, 26);
             this.cmbSpell7Target.TabIndex = 73;
             this.cmbSpell7Target.SelectedIndexChanged += new System.EventHandler(this.cmbSpell7Target_SelectedIndexChanged);
             // 
             // txtSpell7DelayRepeatMax
             // 
-            this.txtSpell7DelayRepeatMax.Location = new System.Drawing.Point(685, 222);
+            this.txtSpell7DelayRepeatMax.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell7DelayRepeatMax.Location = new System.Drawing.Point(913, 256);
+            this.txtSpell7DelayRepeatMax.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell7DelayRepeatMax.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell7DelayRepeatMax.Name = "txtSpell7DelayRepeatMax";
-            this.txtSpell7DelayRepeatMax.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell7DelayRepeatMax.Size = new System.Drawing.Size(56, 26);
             this.txtSpell7DelayRepeatMax.TabIndex = 72;
             this.txtSpell7DelayRepeatMax.Leave += new System.EventHandler(this.txtSpell7DelayRepeatMax_Leave);
             // 
             // txtSpell7DelayRepeatMin
             // 
-            this.txtSpell7DelayRepeatMin.Location = new System.Drawing.Point(636, 222);
+            this.txtSpell7DelayRepeatMin.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell7DelayRepeatMin.Location = new System.Drawing.Point(848, 256);
+            this.txtSpell7DelayRepeatMin.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell7DelayRepeatMin.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell7DelayRepeatMin.Name = "txtSpell7DelayRepeatMin";
-            this.txtSpell7DelayRepeatMin.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell7DelayRepeatMin.Size = new System.Drawing.Size(56, 26);
             this.txtSpell7DelayRepeatMin.TabIndex = 71;
             this.txtSpell7DelayRepeatMin.Leave += new System.EventHandler(this.txtSpell7DelayRepeatMin_Leave);
             // 
             // txtSpell7DelayInitialMax
             // 
-            this.txtSpell7DelayInitialMax.Location = new System.Drawing.Point(587, 222);
+            this.txtSpell7DelayInitialMax.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell7DelayInitialMax.Location = new System.Drawing.Point(783, 256);
+            this.txtSpell7DelayInitialMax.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell7DelayInitialMax.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell7DelayInitialMax.Name = "txtSpell7DelayInitialMax";
-            this.txtSpell7DelayInitialMax.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell7DelayInitialMax.Size = new System.Drawing.Size(56, 26);
             this.txtSpell7DelayInitialMax.TabIndex = 70;
             this.txtSpell7DelayInitialMax.Leave += new System.EventHandler(this.txtSpell7DelayInitialMax_Leave);
             // 
             // txtSpell7DelayInitialMin
             // 
-            this.txtSpell7DelayInitialMin.Location = new System.Drawing.Point(538, 222);
+            this.txtSpell7DelayInitialMin.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell7DelayInitialMin.Location = new System.Drawing.Point(717, 256);
+            this.txtSpell7DelayInitialMin.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell7DelayInitialMin.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell7DelayInitialMin.Name = "txtSpell7DelayInitialMin";
-            this.txtSpell7DelayInitialMin.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell7DelayInitialMin.Size = new System.Drawing.Size(56, 26);
             this.txtSpell7DelayInitialMin.TabIndex = 69;
             this.txtSpell7DelayInitialMin.Leave += new System.EventHandler(this.txtSpell7DelayInitialMin_Leave);
             // 
             // btnSpell7Edit
             // 
-            this.btnSpell7Edit.Location = new System.Drawing.Point(367, 222);
+            this.btnSpell7Edit.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpell7Edit.Location = new System.Drawing.Point(489, 256);
+            this.btnSpell7Edit.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSpell7Edit.Name = "btnSpell7Edit";
-            this.btnSpell7Edit.Size = new System.Drawing.Size(38, 23);
+            this.btnSpell7Edit.Size = new System.Drawing.Size(51, 27);
             this.btnSpell7Edit.TabIndex = 68;
             this.btnSpell7Edit.Text = "Edit";
             this.btnSpell7Edit.UseVisualStyleBackColor = true;
@@ -793,9 +928,11 @@
             // 
             // btnSpell7Id
             // 
-            this.btnSpell7Id.Location = new System.Drawing.Point(66, 222);
+            this.btnSpell7Id.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpell7Id.Location = new System.Drawing.Point(88, 256);
+            this.btnSpell7Id.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSpell7Id.Name = "btnSpell7Id";
-            this.btnSpell7Id.Size = new System.Drawing.Size(300, 23);
+            this.btnSpell7Id.Size = new System.Drawing.Size(400, 27);
             this.btnSpell7Id.TabIndex = 67;
             this.btnSpell7Id.Text = "Creature - Dragon Tail Sweep (Onyxia) (Tail Sweep)";
             this.btnSpell7Id.UseVisualStyleBackColor = true;
@@ -803,65 +940,78 @@
             // 
             // txtSpell7Probability
             // 
-            this.txtSpell7Probability.Location = new System.Drawing.Point(2, 222);
+            this.txtSpell7Probability.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell7Probability.Location = new System.Drawing.Point(3, 256);
+            this.txtSpell7Probability.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell7Probability.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell7Probability.Name = "txtSpell7Probability";
-            this.txtSpell7Probability.Size = new System.Drawing.Size(58, 20);
+            this.txtSpell7Probability.Size = new System.Drawing.Size(76, 26);
             this.txtSpell7Probability.TabIndex = 66;
             this.txtSpell7Probability.Leave += new System.EventHandler(this.txtSpell7Probability_Leave);
             // 
             // cmbSpell8Target
             // 
             this.cmbSpell8Target.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbSpell8Target.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbSpell8Target.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbSpell8Target.FormattingEnabled = true;
-            this.cmbSpell8Target.Location = new System.Drawing.Point(411, 258);
+            this.cmbSpell8Target.Location = new System.Drawing.Point(548, 298);
+            this.cmbSpell8Target.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbSpell8Target.Name = "cmbSpell8Target";
-            this.cmbSpell8Target.Size = new System.Drawing.Size(121, 23);
+            this.cmbSpell8Target.Size = new System.Drawing.Size(160, 26);
             this.cmbSpell8Target.TabIndex = 81;
             this.cmbSpell8Target.SelectedIndexChanged += new System.EventHandler(this.cmbSpell8Target_SelectedIndexChanged);
             // 
             // txtSpell8DelayRepeatMax
             // 
-            this.txtSpell8DelayRepeatMax.Location = new System.Drawing.Point(685, 258);
+            this.txtSpell8DelayRepeatMax.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell8DelayRepeatMax.Location = new System.Drawing.Point(913, 298);
+            this.txtSpell8DelayRepeatMax.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell8DelayRepeatMax.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell8DelayRepeatMax.Name = "txtSpell8DelayRepeatMax";
-            this.txtSpell8DelayRepeatMax.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell8DelayRepeatMax.Size = new System.Drawing.Size(56, 26);
             this.txtSpell8DelayRepeatMax.TabIndex = 80;
             this.txtSpell8DelayRepeatMax.Leave += new System.EventHandler(this.txtSpell8DelayRepeatMax_Leave);
             // 
             // txtSpell8DelayRepeatMin
             // 
-            this.txtSpell8DelayRepeatMin.Location = new System.Drawing.Point(636, 258);
+            this.txtSpell8DelayRepeatMin.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell8DelayRepeatMin.Location = new System.Drawing.Point(848, 298);
+            this.txtSpell8DelayRepeatMin.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell8DelayRepeatMin.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell8DelayRepeatMin.Name = "txtSpell8DelayRepeatMin";
-            this.txtSpell8DelayRepeatMin.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell8DelayRepeatMin.Size = new System.Drawing.Size(56, 26);
             this.txtSpell8DelayRepeatMin.TabIndex = 79;
             this.txtSpell8DelayRepeatMin.Leave += new System.EventHandler(this.txtSpell8DelayRepeatMin_Leave);
             // 
             // txtSpell8DelayInitialMax
             // 
-            this.txtSpell8DelayInitialMax.Location = new System.Drawing.Point(587, 258);
+            this.txtSpell8DelayInitialMax.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell8DelayInitialMax.Location = new System.Drawing.Point(783, 298);
+            this.txtSpell8DelayInitialMax.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell8DelayInitialMax.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell8DelayInitialMax.Name = "txtSpell8DelayInitialMax";
-            this.txtSpell8DelayInitialMax.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell8DelayInitialMax.Size = new System.Drawing.Size(56, 26);
             this.txtSpell8DelayInitialMax.TabIndex = 78;
             this.txtSpell8DelayInitialMax.Leave += new System.EventHandler(this.txtSpell8DelayInitialMax_Leave);
             // 
             // txtSpell8DelayInitialMin
             // 
-            this.txtSpell8DelayInitialMin.Location = new System.Drawing.Point(538, 258);
+            this.txtSpell8DelayInitialMin.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell8DelayInitialMin.Location = new System.Drawing.Point(717, 298);
+            this.txtSpell8DelayInitialMin.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell8DelayInitialMin.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell8DelayInitialMin.Name = "txtSpell8DelayInitialMin";
-            this.txtSpell8DelayInitialMin.Size = new System.Drawing.Size(43, 20);
+            this.txtSpell8DelayInitialMin.Size = new System.Drawing.Size(56, 26);
             this.txtSpell8DelayInitialMin.TabIndex = 77;
             this.txtSpell8DelayInitialMin.Leave += new System.EventHandler(this.txtSpell8DelayInitialMin_Leave);
             // 
             // btnSpell8Edit
             // 
-            this.btnSpell8Edit.Location = new System.Drawing.Point(367, 258);
+            this.btnSpell8Edit.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpell8Edit.Location = new System.Drawing.Point(489, 298);
+            this.btnSpell8Edit.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSpell8Edit.Name = "btnSpell8Edit";
-            this.btnSpell8Edit.Size = new System.Drawing.Size(38, 23);
+            this.btnSpell8Edit.Size = new System.Drawing.Size(51, 27);
             this.btnSpell8Edit.TabIndex = 76;
             this.btnSpell8Edit.Text = "Edit";
             this.btnSpell8Edit.UseVisualStyleBackColor = true;
@@ -869,9 +1019,11 @@
             // 
             // btnSpell8Id
             // 
-            this.btnSpell8Id.Location = new System.Drawing.Point(66, 258);
+            this.btnSpell8Id.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpell8Id.Location = new System.Drawing.Point(88, 298);
+            this.btnSpell8Id.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSpell8Id.Name = "btnSpell8Id";
-            this.btnSpell8Id.Size = new System.Drawing.Size(300, 23);
+            this.btnSpell8Id.Size = new System.Drawing.Size(400, 27);
             this.btnSpell8Id.TabIndex = 75;
             this.btnSpell8Id.Text = "Creature - Dragon Tail Sweep (Onyxia) (Tail Sweep)";
             this.btnSpell8Id.UseVisualStyleBackColor = true;
@@ -879,10 +1031,12 @@
             // 
             // txtSpell8Probability
             // 
-            this.txtSpell8Probability.Location = new System.Drawing.Point(2, 258);
+            this.txtSpell8Probability.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpell8Probability.Location = new System.Drawing.Point(3, 298);
+            this.txtSpell8Probability.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSpell8Probability.MinimumSize = new System.Drawing.Size(4, 23);
             this.txtSpell8Probability.Name = "txtSpell8Probability";
-            this.txtSpell8Probability.Size = new System.Drawing.Size(58, 20);
+            this.txtSpell8Probability.Size = new System.Drawing.Size(76, 26);
             this.txtSpell8Probability.TabIndex = 74;
             this.txtSpell8Probability.Leave += new System.EventHandler(this.txtSpell8Probability_Leave);
             // 
@@ -953,16 +1107,20 @@
             this.frmData.Controls.Add(this.cmbSpell4Target);
             this.frmData.Controls.Add(this.txtSpell5Probability);
             this.frmData.Enabled = false;
-            this.frmData.Location = new System.Drawing.Point(294, 114);
+            this.frmData.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmData.Location = new System.Drawing.Point(395, 200);
+            this.frmData.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmData.Name = "frmData";
-            this.frmData.Size = new System.Drawing.Size(734, 300);
+            this.frmData.Size = new System.Drawing.Size(979, 346);
             this.frmData.TabIndex = 82;
             // 
             // btnSaveThis
             // 
-            this.btnSaveThis.Location = new System.Drawing.Point(630, 18);
+            this.btnSaveThis.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveThis.Location = new System.Drawing.Point(843, 89);
+            this.btnSaveThis.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSaveThis.Name = "btnSaveThis";
-            this.btnSaveThis.Size = new System.Drawing.Size(110, 23);
+            this.btnSaveThis.Size = new System.Drawing.Size(147, 27);
             this.btnSaveThis.TabIndex = 83;
             this.btnSaveThis.Text = "Save";
             this.btnSaveThis.UseVisualStyleBackColor = true;
@@ -970,9 +1128,11 @@
             // 
             // btnSaveAll
             // 
-            this.btnSaveAll.Location = new System.Drawing.Point(630, 48);
+            this.btnSaveAll.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveAll.Location = new System.Drawing.Point(843, 123);
+            this.btnSaveAll.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSaveAll.Name = "btnSaveAll";
-            this.btnSaveAll.Size = new System.Drawing.Size(110, 23);
+            this.btnSaveAll.Size = new System.Drawing.Size(147, 27);
             this.btnSaveAll.TabIndex = 84;
             this.btnSaveAll.Text = "Save All";
             this.btnSaveAll.UseVisualStyleBackColor = true;
@@ -980,9 +1140,11 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(937, 424);
+            this.btnCancel.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.Location = new System.Drawing.Point(1252, 557);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(85, 23);
+            this.btnCancel.Size = new System.Drawing.Size(113, 27);
             this.btnCancel.TabIndex = 87;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -990,9 +1152,11 @@
             // 
             // btnSelect
             // 
-            this.btnSelect.Location = new System.Drawing.Point(843, 424);
+            this.btnSelect.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSelect.Location = new System.Drawing.Point(1127, 557);
+            this.btnSelect.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSelect.Name = "btnSelect";
-            this.btnSelect.Size = new System.Drawing.Size(85, 23);
+            this.btnSelect.Size = new System.Drawing.Size(113, 27);
             this.btnSelect.TabIndex = 86;
             this.btnSelect.Text = "Select";
             this.btnSelect.UseVisualStyleBackColor = true;
@@ -1000,9 +1164,11 @@
             // 
             // btnSelectNone
             // 
-            this.btnSelectNone.Location = new System.Drawing.Point(749, 424);
+            this.btnSelectNone.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSelectNone.Location = new System.Drawing.Point(1002, 557);
+            this.btnSelectNone.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSelectNone.Name = "btnSelectNone";
-            this.btnSelectNone.Size = new System.Drawing.Size(85, 23);
+            this.btnSelectNone.Size = new System.Drawing.Size(113, 27);
             this.btnSelectNone.TabIndex = 85;
             this.btnSelectNone.Text = "Select -NONE-";
             this.btnSelectNone.UseVisualStyleBackColor = true;
@@ -1010,9 +1176,8 @@
             // 
             // FormCastsEditor
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1035, 453);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(1392, 601);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSelect);
             this.Controls.Add(this.btnSelectNone);
@@ -1038,8 +1203,10 @@
             this.Controls.Add(this.txtFilter);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = global::ScriptEditor.Properties.Resources.mage;
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.Name = "FormCastsEditor";
+            this.Padding = new System.Windows.Forms.Padding(4, 74, 4, 3);
             this.Text = "Creature Spells";
             this.Load += new System.EventHandler(this.FormCastsEditor_Load);
             this.frmData.ResumeLayout(false);

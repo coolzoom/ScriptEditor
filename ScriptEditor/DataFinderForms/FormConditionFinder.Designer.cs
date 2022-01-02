@@ -238,13 +238,42 @@
             this.columnValue3,
             this.columnValue4,
             this.columnFlags});
-            this.lstData.Size = new System.Drawing.Size(650, 123);
+            this.lstData.Location = new System.Drawing.Point(8, 116);
+            this.lstData.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.lstData.Size = new System.Drawing.Size(865, 141);
             this.lstData.SelectedIndexChanged += new System.EventHandler(this.lstData_SelectedIndexChanged);
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.Location = new System.Drawing.Point(8, 86);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Location = new System.Drawing.Point(764, 83);
+            // 
+            // btnSelect
+            // 
+            this.btnSelect.Location = new System.Drawing.Point(667, 474);
             // 
             // label1
             // 
-            this.label1.Size = new System.Drawing.Size(109, 13);
+            this.label1.Location = new System.Drawing.Point(4, 61);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label1.Size = new System.Drawing.Size(140, 18);
             this.label1.Text = "Enter Id to search for:";
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.Location = new System.Drawing.Point(775, 474);
+            // 
+            // btnSelectNone
+            // 
+            this.btnSelectNone.Location = new System.Drawing.Point(541, 474);
+            // 
+            // btnSelectUnchanged
+            // 
+            this.btnSelectUnchanged.Location = new System.Drawing.Point(400, 474);
             // 
             // columnType
             // 
@@ -282,17 +311,20 @@
             this.frmConditionNot.Controls.Add(this.btnConditionNotCondition1);
             this.frmConditionNot.Controls.Add(this.lblConditionNotCondition);
             this.frmConditionNot.Controls.Add(this.lblConditionNotTooltip);
-            this.frmConditionNot.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionNot.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionNot.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionNot.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionNot.Name = "frmConditionNot";
-            this.frmConditionNot.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionNot.Size = new System.Drawing.Size(866, 173);
             this.frmConditionNot.TabIndex = 9;
             this.frmConditionNot.Visible = false;
             // 
             // btnConditionNotCondition1
             // 
-            this.btnConditionNotCondition1.Location = new System.Drawing.Point(100, 68);
+            this.btnConditionNotCondition1.Location = new System.Drawing.Point(133, 78);
+            this.btnConditionNotCondition1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnConditionNotCondition1.Name = "btnConditionNotCondition1";
-            this.btnConditionNotCondition1.Size = new System.Drawing.Size(536, 23);
+            this.btnConditionNotCondition1.Size = new System.Drawing.Size(715, 27);
             this.btnConditionNotCondition1.TabIndex = 3;
             this.btnConditionNotCondition1.Text = "-NONE-";
             this.btnConditionNotCondition1.UseVisualStyleBackColor = true;
@@ -301,18 +333,20 @@
             // lblConditionNotCondition
             // 
             this.lblConditionNotCondition.AutoSize = true;
-            this.lblConditionNotCondition.Location = new System.Drawing.Point(11, 73);
+            this.lblConditionNotCondition.Location = new System.Drawing.Point(15, 84);
+            this.lblConditionNotCondition.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionNotCondition.Name = "lblConditionNotCondition";
-            this.lblConditionNotCondition.Size = new System.Drawing.Size(75, 13);
+            this.lblConditionNotCondition.Size = new System.Drawing.Size(97, 18);
             this.lblConditionNotCondition.TabIndex = 1;
             this.lblConditionNotCondition.Text = "Condition Id 1:";
             // 
             // lblConditionNotTooltip
             // 
             this.lblConditionNotTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionNotTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionNotTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionNotTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionNotTooltip.Name = "lblConditionNotTooltip";
-            this.lblConditionNotTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionNotTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionNotTooltip.TabIndex = 0;
             this.lblConditionNotTooltip.Text = "Returns true if the specified condition is false.";
             // 
@@ -320,19 +354,23 @@
             // 
             this.cmbConditionType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbConditionType.Enabled = false;
+            this.cmbConditionType.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbConditionType.FormattingEnabled = true;
-            this.cmbConditionType.Location = new System.Drawing.Point(93, 184);
+            this.cmbConditionType.Location = new System.Drawing.Point(116, 263);
+            this.cmbConditionType.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbConditionType.Name = "cmbConditionType";
-            this.cmbConditionType.Size = new System.Drawing.Size(203, 21);
+            this.cmbConditionType.Size = new System.Drawing.Size(269, 26);
             this.cmbConditionType.TabIndex = 10;
             this.cmbConditionType.Visible = false;
             this.cmbConditionType.SelectedIndexChanged += new System.EventHandler(this.cmbConditionType_SelectedIndexChanged);
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(506, 184);
+            this.btnSave.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.Location = new System.Drawing.Point(667, 263);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.Size = new System.Drawing.Size(100, 27);
             this.btnSave.TabIndex = 11;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -341,9 +379,11 @@
             // 
             // btnEditAdd
             // 
-            this.btnEditAdd.Location = new System.Drawing.Point(12, 367);
+            this.btnEditAdd.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditAdd.Location = new System.Drawing.Point(8, 474);
+            this.btnEditAdd.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnEditAdd.Name = "btnEditAdd";
-            this.btnEditAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnEditAdd.Size = new System.Drawing.Size(100, 27);
             this.btnEditAdd.TabIndex = 12;
             this.btnEditAdd.Text = "Edit";
             this.btnEditAdd.UseVisualStyleBackColor = true;
@@ -351,9 +391,11 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(93, 367);
+            this.btnDelete.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.Location = new System.Drawing.Point(116, 474);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete.Size = new System.Drawing.Size(100, 27);
             this.btnDelete.TabIndex = 14;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -362,9 +404,11 @@
             // 
             // btnSaveAll
             // 
-            this.btnSaveAll.Location = new System.Drawing.Point(587, 184);
+            this.btnSaveAll.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveAll.Location = new System.Drawing.Point(775, 263);
+            this.btnSaveAll.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSaveAll.Name = "btnSaveAll";
-            this.btnSaveAll.Size = new System.Drawing.Size(75, 23);
+            this.btnSaveAll.Size = new System.Drawing.Size(100, 27);
             this.btnSaveAll.TabIndex = 15;
             this.btnSaveAll.Text = "Save All";
             this.btnSaveAll.UseVisualStyleBackColor = true;
@@ -374,9 +418,11 @@
             // txtConditionId
             // 
             this.txtConditionId.Enabled = false;
-            this.txtConditionId.Location = new System.Drawing.Point(12, 184);
+            this.txtConditionId.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtConditionId.Location = new System.Drawing.Point(8, 263);
+            this.txtConditionId.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtConditionId.Name = "txtConditionId";
-            this.txtConditionId.Size = new System.Drawing.Size(75, 20);
+            this.txtConditionId.Size = new System.Drawing.Size(99, 26);
             this.txtConditionId.TabIndex = 16;
             this.txtConditionId.Visible = false;
             this.txtConditionId.Leave += new System.EventHandler(this.txtConditionId_Leave);
@@ -385,9 +431,11 @@
             // 
             this.chkConditionFlag1.AutoSize = true;
             this.chkConditionFlag1.Enabled = false;
-            this.chkConditionFlag1.Location = new System.Drawing.Point(303, 187);
+            this.chkConditionFlag1.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkConditionFlag1.Location = new System.Drawing.Point(396, 267);
+            this.chkConditionFlag1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkConditionFlag1.Name = "chkConditionFlag1";
-            this.chkConditionFlag1.Size = new System.Drawing.Size(99, 17);
+            this.chkConditionFlag1.Size = new System.Drawing.Size(122, 22);
             this.chkConditionFlag1.TabIndex = 17;
             this.chkConditionFlag1.Text = "Reverse Result";
             this.chkConditionFlag1.UseVisualStyleBackColor = true;
@@ -398,9 +446,11 @@
             // 
             this.chkConditionFlag2.AutoSize = true;
             this.chkConditionFlag2.Enabled = false;
-            this.chkConditionFlag2.Location = new System.Drawing.Point(408, 187);
+            this.chkConditionFlag2.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkConditionFlag2.Location = new System.Drawing.Point(536, 267);
+            this.chkConditionFlag2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkConditionFlag2.Name = "chkConditionFlag2";
-            this.chkConditionFlag2.Size = new System.Drawing.Size(92, 17);
+            this.chkConditionFlag2.Size = new System.Drawing.Size(110, 22);
             this.chkConditionFlag2.TabIndex = 18;
             this.chkConditionFlag2.Text = "Swap Targets";
             this.chkConditionFlag2.UseVisualStyleBackColor = true;
@@ -410,10 +460,11 @@
             // lblNoSelection
             // 
             this.lblNoSelection.AutoSize = true;
-            this.lblNoSelection.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNoSelection.Location = new System.Drawing.Point(246, 277);
+            this.lblNoSelection.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNoSelection.Location = new System.Drawing.Point(320, 371);
+            this.lblNoSelection.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNoSelection.Name = "lblNoSelection";
-            this.lblNoSelection.Size = new System.Drawing.Size(188, 20);
+            this.lblNoSelection.Size = new System.Drawing.Size(146, 18);
             this.lblNoSelection.TabIndex = 19;
             this.lblNoSelection.Text = "No Condition Selected";
             // 
@@ -425,25 +476,29 @@
             this.frmConditionAura.Controls.Add(this.lblAuraEffectIndex);
             this.frmConditionAura.Controls.Add(this.lblAuraSpellId);
             this.frmConditionAura.Controls.Add(this.lblConditionAuraTooltip);
-            this.frmConditionAura.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionAura.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionAura.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionAura.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionAura.Name = "frmConditionAura";
-            this.frmConditionAura.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionAura.Size = new System.Drawing.Size(866, 173);
             this.frmConditionAura.TabIndex = 20;
             this.frmConditionAura.Visible = false;
             // 
             // txtAuraEffectIndex
             // 
-            this.txtAuraEffectIndex.Location = new System.Drawing.Point(100, 101);
+            this.txtAuraEffectIndex.Location = new System.Drawing.Point(133, 117);
+            this.txtAuraEffectIndex.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtAuraEffectIndex.Name = "txtAuraEffectIndex";
-            this.txtAuraEffectIndex.Size = new System.Drawing.Size(536, 20);
+            this.txtAuraEffectIndex.Size = new System.Drawing.Size(713, 26);
             this.txtAuraEffectIndex.TabIndex = 5;
             this.txtAuraEffectIndex.Leave += new System.EventHandler(this.txtAuraEffectIndex_Leave);
             // 
             // btnAuraSpellId
             // 
-            this.btnAuraSpellId.Location = new System.Drawing.Point(100, 68);
+            this.btnAuraSpellId.Location = new System.Drawing.Point(133, 78);
+            this.btnAuraSpellId.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnAuraSpellId.Name = "btnAuraSpellId";
-            this.btnAuraSpellId.Size = new System.Drawing.Size(536, 23);
+            this.btnAuraSpellId.Size = new System.Drawing.Size(715, 27);
             this.btnAuraSpellId.TabIndex = 3;
             this.btnAuraSpellId.Text = "-NONE-";
             this.btnAuraSpellId.UseVisualStyleBackColor = true;
@@ -452,27 +507,30 @@
             // lblAuraEffectIndex
             // 
             this.lblAuraEffectIndex.AutoSize = true;
-            this.lblAuraEffectIndex.Location = new System.Drawing.Point(11, 106);
+            this.lblAuraEffectIndex.Location = new System.Drawing.Point(15, 122);
+            this.lblAuraEffectIndex.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAuraEffectIndex.Name = "lblAuraEffectIndex";
-            this.lblAuraEffectIndex.Size = new System.Drawing.Size(67, 13);
+            this.lblAuraEffectIndex.Size = new System.Drawing.Size(85, 18);
             this.lblAuraEffectIndex.TabIndex = 2;
             this.lblAuraEffectIndex.Text = "Effect Index:";
             // 
             // lblAuraSpellId
             // 
             this.lblAuraSpellId.AutoSize = true;
-            this.lblAuraSpellId.Location = new System.Drawing.Point(11, 73);
+            this.lblAuraSpellId.Location = new System.Drawing.Point(15, 84);
+            this.lblAuraSpellId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAuraSpellId.Name = "lblAuraSpellId";
-            this.lblAuraSpellId.Size = new System.Drawing.Size(45, 13);
+            this.lblAuraSpellId.Size = new System.Drawing.Size(58, 18);
             this.lblAuraSpellId.TabIndex = 1;
             this.lblAuraSpellId.Text = "Spell Id:";
             // 
             // lblConditionAuraTooltip
             // 
             this.lblConditionAuraTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionAuraTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionAuraTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionAuraTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionAuraTooltip.Name = "lblConditionAuraTooltip";
-            this.lblConditionAuraTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionAuraTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionAuraTooltip.TabIndex = 0;
             this.lblConditionAuraTooltip.Text = "Returns true if the target Unit has an aura from the specified spell Id.";
             // 
@@ -484,25 +542,29 @@
             this.frmConditionItem.Controls.Add(this.lblItemCount);
             this.frmConditionItem.Controls.Add(this.lblItemId);
             this.frmConditionItem.Controls.Add(this.lblConditionItemTooltip);
-            this.frmConditionItem.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionItem.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionItem.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionItem.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionItem.Name = "frmConditionItem";
-            this.frmConditionItem.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionItem.Size = new System.Drawing.Size(866, 173);
             this.frmConditionItem.TabIndex = 21;
             this.frmConditionItem.Visible = false;
             // 
             // txtItemCount
             // 
-            this.txtItemCount.Location = new System.Drawing.Point(100, 101);
+            this.txtItemCount.Location = new System.Drawing.Point(133, 117);
+            this.txtItemCount.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtItemCount.Name = "txtItemCount";
-            this.txtItemCount.Size = new System.Drawing.Size(536, 20);
+            this.txtItemCount.Size = new System.Drawing.Size(713, 26);
             this.txtItemCount.TabIndex = 5;
             this.txtItemCount.Leave += new System.EventHandler(this.txtItemCount_Leave);
             // 
             // btnItemId
             // 
-            this.btnItemId.Location = new System.Drawing.Point(100, 68);
+            this.btnItemId.Location = new System.Drawing.Point(133, 78);
+            this.btnItemId.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnItemId.Name = "btnItemId";
-            this.btnItemId.Size = new System.Drawing.Size(536, 23);
+            this.btnItemId.Size = new System.Drawing.Size(715, 27);
             this.btnItemId.TabIndex = 3;
             this.btnItemId.Text = "-NONE-";
             this.btnItemId.UseVisualStyleBackColor = true;
@@ -511,27 +573,30 @@
             // lblItemCount
             // 
             this.lblItemCount.AutoSize = true;
-            this.lblItemCount.Location = new System.Drawing.Point(11, 106);
+            this.lblItemCount.Location = new System.Drawing.Point(15, 122);
+            this.lblItemCount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblItemCount.Name = "lblItemCount";
-            this.lblItemCount.Size = new System.Drawing.Size(38, 13);
+            this.lblItemCount.Size = new System.Drawing.Size(49, 18);
             this.lblItemCount.TabIndex = 2;
             this.lblItemCount.Text = "Count:";
             // 
             // lblItemId
             // 
             this.lblItemId.AutoSize = true;
-            this.lblItemId.Location = new System.Drawing.Point(11, 73);
+            this.lblItemId.Location = new System.Drawing.Point(15, 84);
+            this.lblItemId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblItemId.Name = "lblItemId";
-            this.lblItemId.Size = new System.Drawing.Size(42, 13);
+            this.lblItemId.Size = new System.Drawing.Size(56, 18);
             this.lblItemId.TabIndex = 1;
             this.lblItemId.Text = "Item Id:";
             // 
             // lblConditionItemTooltip
             // 
             this.lblConditionItemTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionItemTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionItemTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionItemTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionItemTooltip.Name = "lblConditionItemTooltip";
-            this.lblConditionItemTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionItemTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionItemTooltip.TabIndex = 0;
             this.lblConditionItemTooltip.Text = "Returns true if the target Player has a minimum count of the specified item.";
             // 
@@ -541,17 +606,20 @@
             this.frmConditionArea.Controls.Add(this.btnAreaId);
             this.frmConditionArea.Controls.Add(this.lblAreaId);
             this.frmConditionArea.Controls.Add(this.lblConditionAreaTooltip);
-            this.frmConditionArea.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionArea.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionArea.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionArea.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionArea.Name = "frmConditionArea";
-            this.frmConditionArea.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionArea.Size = new System.Drawing.Size(866, 173);
             this.frmConditionArea.TabIndex = 22;
             this.frmConditionArea.Visible = false;
             // 
             // btnAreaId
             // 
-            this.btnAreaId.Location = new System.Drawing.Point(100, 68);
+            this.btnAreaId.Location = new System.Drawing.Point(133, 78);
+            this.btnAreaId.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnAreaId.Name = "btnAreaId";
-            this.btnAreaId.Size = new System.Drawing.Size(536, 23);
+            this.btnAreaId.Size = new System.Drawing.Size(715, 27);
             this.btnAreaId.TabIndex = 3;
             this.btnAreaId.Text = "-NONE-";
             this.btnAreaId.UseVisualStyleBackColor = true;
@@ -560,18 +628,20 @@
             // lblAreaId
             // 
             this.lblAreaId.AutoSize = true;
-            this.lblAreaId.Location = new System.Drawing.Point(11, 73);
+            this.lblAreaId.Location = new System.Drawing.Point(15, 84);
+            this.lblAreaId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAreaId.Name = "lblAreaId";
-            this.lblAreaId.Size = new System.Drawing.Size(44, 13);
+            this.lblAreaId.Size = new System.Drawing.Size(56, 18);
             this.lblAreaId.TabIndex = 1;
             this.lblAreaId.Text = "Area Id:";
             // 
             // lblConditionAreaTooltip
             // 
             this.lblConditionAreaTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionAreaTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionAreaTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionAreaTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionAreaTooltip.Name = "lblConditionAreaTooltip";
-            this.lblConditionAreaTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionAreaTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionAreaTooltip.TabIndex = 0;
             this.lblConditionAreaTooltip.Text = "Returns true if the source or target WorldObject is within the specified area or " +
     "zone.";
@@ -584,9 +654,11 @@
             this.frmConditionReputation.Controls.Add(this.lblReputationRank);
             this.frmConditionReputation.Controls.Add(this.lblReputationFactionId);
             this.frmConditionReputation.Controls.Add(this.lblConditionReputationTooltip);
-            this.frmConditionReputation.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionReputation.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionReputation.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionReputation.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionReputation.Name = "frmConditionReputation";
-            this.frmConditionReputation.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionReputation.Size = new System.Drawing.Size(866, 173);
             this.frmConditionReputation.TabIndex = 23;
             this.frmConditionReputation.Visible = false;
             // 
@@ -603,17 +675,19 @@
             "Honored",
             "Revered",
             "Exalted"});
-            this.cmbReputationRank.Location = new System.Drawing.Point(100, 101);
+            this.cmbReputationRank.Location = new System.Drawing.Point(133, 117);
+            this.cmbReputationRank.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbReputationRank.Name = "cmbReputationRank";
-            this.cmbReputationRank.Size = new System.Drawing.Size(536, 21);
+            this.cmbReputationRank.Size = new System.Drawing.Size(713, 26);
             this.cmbReputationRank.TabIndex = 6;
             this.cmbReputationRank.SelectedIndexChanged += new System.EventHandler(this.cmbReputationRank_SelectedIndexChanged);
             // 
             // btnReputationFactionId
             // 
-            this.btnReputationFactionId.Location = new System.Drawing.Point(100, 68);
+            this.btnReputationFactionId.Location = new System.Drawing.Point(133, 78);
+            this.btnReputationFactionId.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnReputationFactionId.Name = "btnReputationFactionId";
-            this.btnReputationFactionId.Size = new System.Drawing.Size(536, 23);
+            this.btnReputationFactionId.Size = new System.Drawing.Size(715, 27);
             this.btnReputationFactionId.TabIndex = 3;
             this.btnReputationFactionId.Text = "-NONE-";
             this.btnReputationFactionId.UseVisualStyleBackColor = true;
@@ -622,27 +696,30 @@
             // lblReputationRank
             // 
             this.lblReputationRank.AutoSize = true;
-            this.lblReputationRank.Location = new System.Drawing.Point(11, 106);
+            this.lblReputationRank.Location = new System.Drawing.Point(15, 122);
+            this.lblReputationRank.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblReputationRank.Name = "lblReputationRank";
-            this.lblReputationRank.Size = new System.Drawing.Size(36, 13);
+            this.lblReputationRank.Size = new System.Drawing.Size(42, 18);
             this.lblReputationRank.TabIndex = 2;
             this.lblReputationRank.Text = "Rank:";
             // 
             // lblReputationFactionId
             // 
             this.lblReputationFactionId.AutoSize = true;
-            this.lblReputationFactionId.Location = new System.Drawing.Point(11, 73);
+            this.lblReputationFactionId.Location = new System.Drawing.Point(15, 84);
+            this.lblReputationFactionId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblReputationFactionId.Name = "lblReputationFactionId";
-            this.lblReputationFactionId.Size = new System.Drawing.Size(57, 13);
+            this.lblReputationFactionId.Size = new System.Drawing.Size(71, 18);
             this.lblReputationFactionId.TabIndex = 1;
             this.lblReputationFactionId.Text = "Faction Id:";
             // 
             // lblConditionReputationTooltip
             // 
             this.lblConditionReputationTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionReputationTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionReputationTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionReputationTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionReputationTooltip.Name = "lblConditionReputationTooltip";
-            this.lblConditionReputationTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionReputationTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionReputationTooltip.TabIndex = 0;
             this.lblConditionReputationTooltip.Text = "Returns true if the target Player has reached a minimum reputation level with the" +
     " specified faction.";
@@ -653,9 +730,11 @@
             this.frmConditionTeam.Controls.Add(this.cmbTeamId);
             this.frmConditionTeam.Controls.Add(this.lblTeamId);
             this.frmConditionTeam.Controls.Add(this.lblConditionTeamTooltip);
-            this.frmConditionTeam.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionTeam.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionTeam.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionTeam.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionTeam.Name = "frmConditionTeam";
-            this.frmConditionTeam.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionTeam.Size = new System.Drawing.Size(866, 173);
             this.frmConditionTeam.TabIndex = 24;
             this.frmConditionTeam.Visible = false;
             // 
@@ -663,27 +742,30 @@
             // 
             this.cmbTeamId.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTeamId.FormattingEnabled = true;
-            this.cmbTeamId.Location = new System.Drawing.Point(100, 68);
+            this.cmbTeamId.Location = new System.Drawing.Point(133, 78);
+            this.cmbTeamId.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbTeamId.Name = "cmbTeamId";
-            this.cmbTeamId.Size = new System.Drawing.Size(536, 21);
+            this.cmbTeamId.Size = new System.Drawing.Size(713, 26);
             this.cmbTeamId.TabIndex = 6;
             this.cmbTeamId.SelectedIndexChanged += new System.EventHandler(this.cmbTeamId_SelectedIndexChanged);
             // 
             // lblTeamId
             // 
             this.lblTeamId.AutoSize = true;
-            this.lblTeamId.Location = new System.Drawing.Point(11, 73);
+            this.lblTeamId.Location = new System.Drawing.Point(15, 84);
+            this.lblTeamId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTeamId.Name = "lblTeamId";
-            this.lblTeamId.Size = new System.Drawing.Size(37, 13);
+            this.lblTeamId.Size = new System.Drawing.Size(45, 18);
             this.lblTeamId.TabIndex = 1;
             this.lblTeamId.Text = "Team:";
             // 
             // lblConditionTeamTooltip
             // 
             this.lblConditionTeamTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionTeamTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionTeamTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionTeamTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionTeamTooltip.Name = "lblConditionTeamTooltip";
-            this.lblConditionTeamTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionTeamTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionTeamTooltip.TabIndex = 0;
             this.lblConditionTeamTooltip.Text = "Returns true if the target Player is a member of the specified team.";
             // 
@@ -695,17 +777,20 @@
             this.frmConditionSkill.Controls.Add(this.lblSkillLevel);
             this.frmConditionSkill.Controls.Add(this.lblSkillId);
             this.frmConditionSkill.Controls.Add(this.lblConditionSkillTooltip);
-            this.frmConditionSkill.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionSkill.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionSkill.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionSkill.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionSkill.Name = "frmConditionSkill";
-            this.frmConditionSkill.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionSkill.Size = new System.Drawing.Size(866, 173);
             this.frmConditionSkill.TabIndex = 25;
             this.frmConditionSkill.Visible = false;
             // 
             // txtSkillLevel
             // 
-            this.txtSkillLevel.Location = new System.Drawing.Point(100, 101);
+            this.txtSkillLevel.Location = new System.Drawing.Point(133, 117);
+            this.txtSkillLevel.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSkillLevel.Name = "txtSkillLevel";
-            this.txtSkillLevel.Size = new System.Drawing.Size(536, 20);
+            this.txtSkillLevel.Size = new System.Drawing.Size(713, 26);
             this.txtSkillLevel.TabIndex = 7;
             this.txtSkillLevel.Leave += new System.EventHandler(this.txtSkillLevel_Leave);
             // 
@@ -713,36 +798,40 @@
             // 
             this.cmbSkillId.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbSkillId.FormattingEnabled = true;
-            this.cmbSkillId.Location = new System.Drawing.Point(100, 68);
+            this.cmbSkillId.Location = new System.Drawing.Point(133, 78);
+            this.cmbSkillId.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbSkillId.Name = "cmbSkillId";
-            this.cmbSkillId.Size = new System.Drawing.Size(536, 21);
+            this.cmbSkillId.Size = new System.Drawing.Size(713, 26);
             this.cmbSkillId.TabIndex = 6;
             this.cmbSkillId.SelectedIndexChanged += new System.EventHandler(this.cmbSkillId_SelectedIndexChanged);
             // 
             // lblSkillLevel
             // 
             this.lblSkillLevel.AutoSize = true;
-            this.lblSkillLevel.Location = new System.Drawing.Point(11, 106);
+            this.lblSkillLevel.Location = new System.Drawing.Point(15, 122);
+            this.lblSkillLevel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSkillLevel.Name = "lblSkillLevel";
-            this.lblSkillLevel.Size = new System.Drawing.Size(58, 13);
+            this.lblSkillLevel.Size = new System.Drawing.Size(74, 18);
             this.lblSkillLevel.TabIndex = 2;
             this.lblSkillLevel.Text = "Skill Level:";
             // 
             // lblSkillId
             // 
             this.lblSkillId.AutoSize = true;
-            this.lblSkillId.Location = new System.Drawing.Point(11, 73);
+            this.lblSkillId.Location = new System.Drawing.Point(15, 84);
+            this.lblSkillId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSkillId.Name = "lblSkillId";
-            this.lblSkillId.Size = new System.Drawing.Size(41, 13);
+            this.lblSkillId.Size = new System.Drawing.Size(53, 18);
             this.lblSkillId.TabIndex = 1;
             this.lblSkillId.Text = "Skill Id:";
             // 
             // lblConditionSkillTooltip
             // 
             this.lblConditionSkillTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionSkillTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionSkillTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionSkillTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionSkillTooltip.Name = "lblConditionSkillTooltip";
-            this.lblConditionSkillTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionSkillTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionSkillTooltip.TabIndex = 0;
             this.lblConditionSkillTooltip.Text = "Returns true if the target Player has reached a minimum skill level.";
             // 
@@ -754,17 +843,20 @@
             this.frmConditionQuest.Controls.Add(this.lblQuestState);
             this.frmConditionQuest.Controls.Add(this.lblQuestId);
             this.frmConditionQuest.Controls.Add(this.lblConditionQuestTooltip);
-            this.frmConditionQuest.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionQuest.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionQuest.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionQuest.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionQuest.Name = "frmConditionQuest";
-            this.frmConditionQuest.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionQuest.Size = new System.Drawing.Size(866, 173);
             this.frmConditionQuest.TabIndex = 26;
             this.frmConditionQuest.Visible = false;
             // 
             // btnQuestId
             // 
-            this.btnQuestId.Location = new System.Drawing.Point(100, 68);
+            this.btnQuestId.Location = new System.Drawing.Point(133, 78);
+            this.btnQuestId.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnQuestId.Name = "btnQuestId";
-            this.btnQuestId.Size = new System.Drawing.Size(536, 23);
+            this.btnQuestId.Size = new System.Drawing.Size(715, 27);
             this.btnQuestId.TabIndex = 7;
             this.btnQuestId.Text = "-NONE-";
             this.btnQuestId.UseVisualStyleBackColor = true;
@@ -778,36 +870,40 @@
             "Any",
             "Incomplete",
             "Complete"});
-            this.cmbQuestState.Location = new System.Drawing.Point(100, 101);
+            this.cmbQuestState.Location = new System.Drawing.Point(133, 117);
+            this.cmbQuestState.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbQuestState.Name = "cmbQuestState";
-            this.cmbQuestState.Size = new System.Drawing.Size(536, 21);
+            this.cmbQuestState.Size = new System.Drawing.Size(713, 26);
             this.cmbQuestState.TabIndex = 6;
             this.cmbQuestState.Leave += new System.EventHandler(this.cmbQuestState_Leave);
             // 
             // lblQuestState
             // 
             this.lblQuestState.AutoSize = true;
-            this.lblQuestState.Location = new System.Drawing.Point(11, 106);
+            this.lblQuestState.Location = new System.Drawing.Point(15, 122);
+            this.lblQuestState.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblQuestState.Name = "lblQuestState";
-            this.lblQuestState.Size = new System.Drawing.Size(35, 13);
+            this.lblQuestState.Size = new System.Drawing.Size(44, 18);
             this.lblQuestState.TabIndex = 2;
             this.lblQuestState.Text = "State:";
             // 
             // lblQuestId
             // 
             this.lblQuestId.AutoSize = true;
-            this.lblQuestId.Location = new System.Drawing.Point(11, 73);
+            this.lblQuestId.Location = new System.Drawing.Point(15, 84);
+            this.lblQuestId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblQuestId.Name = "lblQuestId";
-            this.lblQuestId.Size = new System.Drawing.Size(50, 13);
+            this.lblQuestId.Size = new System.Drawing.Size(64, 18);
             this.lblQuestId.TabIndex = 1;
             this.lblQuestId.Text = "Quest Id:";
             // 
             // lblConditionQuestTooltip
             // 
             this.lblConditionQuestTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionQuestTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionQuestTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionQuestTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionQuestTooltip.Name = "lblConditionQuestTooltip";
-            this.lblConditionQuestTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionQuestTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionQuestTooltip.TabIndex = 0;
             this.lblConditionQuestTooltip.Text = "Returns true if the target Player has previously completed the specified quest.";
             // 
@@ -819,17 +915,20 @@
             this.frmConditionWarEffort.Controls.Add(this.lblWarEffortComparison);
             this.frmConditionWarEffort.Controls.Add(this.lblWarEffortStage);
             this.frmConditionWarEffort.Controls.Add(this.lblConditionWarEffortTooltip);
-            this.frmConditionWarEffort.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionWarEffort.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionWarEffort.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionWarEffort.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionWarEffort.Name = "frmConditionWarEffort";
-            this.frmConditionWarEffort.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionWarEffort.Size = new System.Drawing.Size(866, 173);
             this.frmConditionWarEffort.TabIndex = 27;
             this.frmConditionWarEffort.Visible = false;
             // 
             // txtWarEffortStage
             // 
-            this.txtWarEffortStage.Location = new System.Drawing.Point(100, 68);
+            this.txtWarEffortStage.Location = new System.Drawing.Point(133, 78);
+            this.txtWarEffortStage.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtWarEffortStage.Name = "txtWarEffortStage";
-            this.txtWarEffortStage.Size = new System.Drawing.Size(536, 20);
+            this.txtWarEffortStage.Size = new System.Drawing.Size(713, 26);
             this.txtWarEffortStage.TabIndex = 8;
             this.txtWarEffortStage.Leave += new System.EventHandler(this.txtWarEffortStage_Leave);
             // 
@@ -841,36 +940,40 @@
             "==",
             ">=",
             "<="});
-            this.cmbWarEffortComparison.Location = new System.Drawing.Point(100, 101);
+            this.cmbWarEffortComparison.Location = new System.Drawing.Point(133, 117);
+            this.cmbWarEffortComparison.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbWarEffortComparison.Name = "cmbWarEffortComparison";
-            this.cmbWarEffortComparison.Size = new System.Drawing.Size(536, 21);
+            this.cmbWarEffortComparison.Size = new System.Drawing.Size(713, 26);
             this.cmbWarEffortComparison.TabIndex = 6;
             this.cmbWarEffortComparison.SelectedIndexChanged += new System.EventHandler(this.cmbWarEffortComparison_SelectedIndexChanged);
             // 
             // lblWarEffortComparison
             // 
             this.lblWarEffortComparison.AutoSize = true;
-            this.lblWarEffortComparison.Location = new System.Drawing.Point(11, 106);
+            this.lblWarEffortComparison.Location = new System.Drawing.Point(15, 122);
+            this.lblWarEffortComparison.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblWarEffortComparison.Name = "lblWarEffortComparison";
-            this.lblWarEffortComparison.Size = new System.Drawing.Size(65, 13);
+            this.lblWarEffortComparison.Size = new System.Drawing.Size(86, 18);
             this.lblWarEffortComparison.TabIndex = 2;
             this.lblWarEffortComparison.Text = "Comparison:";
             // 
             // lblWarEffortStage
             // 
             this.lblWarEffortStage.AutoSize = true;
-            this.lblWarEffortStage.Location = new System.Drawing.Point(11, 73);
+            this.lblWarEffortStage.Location = new System.Drawing.Point(15, 84);
+            this.lblWarEffortStage.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblWarEffortStage.Name = "lblWarEffortStage";
-            this.lblWarEffortStage.Size = new System.Drawing.Size(38, 13);
+            this.lblWarEffortStage.Size = new System.Drawing.Size(46, 18);
             this.lblWarEffortStage.TabIndex = 1;
             this.lblWarEffortStage.Text = "Stage:";
             // 
             // lblConditionWarEffortTooltip
             // 
             this.lblConditionWarEffortTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionWarEffortTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionWarEffortTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionWarEffortTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionWarEffortTooltip.Name = "lblConditionWarEffortTooltip";
-            this.lblConditionWarEffortTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionWarEffortTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionWarEffortTooltip.TabIndex = 0;
             this.lblConditionWarEffortTooltip.Text = "Returns true if the War Effort event is at the specified stage.";
             // 
@@ -880,17 +983,20 @@
             this.frmConditionGameEvent.Controls.Add(this.btnGameEventId);
             this.frmConditionGameEvent.Controls.Add(this.lvlGameEventId);
             this.frmConditionGameEvent.Controls.Add(this.lblConditionGameEventTooltip);
-            this.frmConditionGameEvent.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionGameEvent.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionGameEvent.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionGameEvent.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionGameEvent.Name = "frmConditionGameEvent";
-            this.frmConditionGameEvent.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionGameEvent.Size = new System.Drawing.Size(866, 173);
             this.frmConditionGameEvent.TabIndex = 28;
             this.frmConditionGameEvent.Visible = false;
             // 
             // btnGameEventId
             // 
-            this.btnGameEventId.Location = new System.Drawing.Point(100, 68);
+            this.btnGameEventId.Location = new System.Drawing.Point(133, 78);
+            this.btnGameEventId.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnGameEventId.Name = "btnGameEventId";
-            this.btnGameEventId.Size = new System.Drawing.Size(536, 23);
+            this.btnGameEventId.Size = new System.Drawing.Size(715, 27);
             this.btnGameEventId.TabIndex = 9;
             this.btnGameEventId.Text = "-NONE-";
             this.btnGameEventId.UseVisualStyleBackColor = true;
@@ -899,18 +1005,20 @@
             // lvlGameEventId
             // 
             this.lvlGameEventId.AutoSize = true;
-            this.lvlGameEventId.Location = new System.Drawing.Point(11, 73);
+            this.lvlGameEventId.Location = new System.Drawing.Point(15, 84);
+            this.lvlGameEventId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lvlGameEventId.Name = "lvlGameEventId";
-            this.lvlGameEventId.Size = new System.Drawing.Size(50, 13);
+            this.lvlGameEventId.Size = new System.Drawing.Size(62, 18);
             this.lvlGameEventId.TabIndex = 1;
             this.lvlGameEventId.Text = "Event Id:";
             // 
             // lblConditionGameEventTooltip
             // 
             this.lblConditionGameEventTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionGameEventTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionGameEventTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionGameEventTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionGameEventTooltip.Name = "lblConditionGameEventTooltip";
-            this.lblConditionGameEventTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionGameEventTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionGameEventTooltip.TabIndex = 0;
             this.lblConditionGameEventTooltip.Text = "Returns true if the specified game event is currently active.";
             // 
@@ -922,17 +1030,20 @@
             this.frmConditionRaceClass.Controls.Add(this.lblClassMask);
             this.frmConditionRaceClass.Controls.Add(this.lblRaceMask);
             this.frmConditionRaceClass.Controls.Add(this.lblConditionRaceClassTooltip);
-            this.frmConditionRaceClass.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionRaceClass.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionRaceClass.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionRaceClass.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionRaceClass.Name = "frmConditionRaceClass";
-            this.frmConditionRaceClass.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionRaceClass.Size = new System.Drawing.Size(866, 173);
             this.frmConditionRaceClass.TabIndex = 29;
             this.frmConditionRaceClass.Visible = false;
             // 
             // btnClassMask
             // 
-            this.btnClassMask.Location = new System.Drawing.Point(100, 101);
+            this.btnClassMask.Location = new System.Drawing.Point(133, 117);
+            this.btnClassMask.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnClassMask.Name = "btnClassMask";
-            this.btnClassMask.Size = new System.Drawing.Size(536, 23);
+            this.btnClassMask.Size = new System.Drawing.Size(715, 27);
             this.btnClassMask.TabIndex = 10;
             this.btnClassMask.Text = "-NONE-";
             this.btnClassMask.UseVisualStyleBackColor = true;
@@ -940,9 +1051,10 @@
             // 
             // btnRaceMask
             // 
-            this.btnRaceMask.Location = new System.Drawing.Point(100, 68);
+            this.btnRaceMask.Location = new System.Drawing.Point(133, 78);
+            this.btnRaceMask.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnRaceMask.Name = "btnRaceMask";
-            this.btnRaceMask.Size = new System.Drawing.Size(536, 23);
+            this.btnRaceMask.Size = new System.Drawing.Size(715, 27);
             this.btnRaceMask.TabIndex = 9;
             this.btnRaceMask.Text = "-NONE-";
             this.btnRaceMask.UseVisualStyleBackColor = true;
@@ -951,27 +1063,30 @@
             // lblClassMask
             // 
             this.lblClassMask.AutoSize = true;
-            this.lblClassMask.Location = new System.Drawing.Point(11, 106);
+            this.lblClassMask.Location = new System.Drawing.Point(15, 122);
+            this.lblClassMask.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblClassMask.Name = "lblClassMask";
-            this.lblClassMask.Size = new System.Drawing.Size(46, 13);
+            this.lblClassMask.Size = new System.Drawing.Size(57, 18);
             this.lblClassMask.TabIndex = 2;
             this.lblClassMask.Text = "Classes:";
             // 
             // lblRaceMask
             // 
             this.lblRaceMask.AutoSize = true;
-            this.lblRaceMask.Location = new System.Drawing.Point(11, 73);
+            this.lblRaceMask.Location = new System.Drawing.Point(15, 84);
+            this.lblRaceMask.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRaceMask.Name = "lblRaceMask";
-            this.lblRaceMask.Size = new System.Drawing.Size(41, 13);
+            this.lblRaceMask.Size = new System.Drawing.Size(47, 18);
             this.lblRaceMask.TabIndex = 1;
             this.lblRaceMask.Text = "Races:";
             // 
             // lblConditionRaceClassTooltip
             // 
             this.lblConditionRaceClassTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionRaceClassTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionRaceClassTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionRaceClassTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionRaceClassTooltip.Name = "lblConditionRaceClassTooltip";
-            this.lblConditionRaceClassTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionRaceClassTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionRaceClassTooltip.TabIndex = 0;
             this.lblConditionRaceClassTooltip.Text = "Returns true if the target Player fits the specified race and class masks.";
             // 
@@ -983,52 +1098,59 @@
             this.frmConditionInstanceScript.Controls.Add(this.lblInstanceScriptValue2);
             this.frmConditionInstanceScript.Controls.Add(this.lblInstanceScriptValue1);
             this.frmConditionInstanceScript.Controls.Add(this.lblConditionInstanceScriptTooltip);
-            this.frmConditionInstanceScript.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionInstanceScript.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionInstanceScript.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionInstanceScript.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionInstanceScript.Name = "frmConditionInstanceScript";
-            this.frmConditionInstanceScript.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionInstanceScript.Size = new System.Drawing.Size(866, 173);
             this.frmConditionInstanceScript.TabIndex = 30;
             this.frmConditionInstanceScript.Visible = false;
             // 
             // txtInstanceScriptValue2
             // 
-            this.txtInstanceScriptValue2.Location = new System.Drawing.Point(100, 101);
+            this.txtInstanceScriptValue2.Location = new System.Drawing.Point(133, 117);
+            this.txtInstanceScriptValue2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtInstanceScriptValue2.Name = "txtInstanceScriptValue2";
-            this.txtInstanceScriptValue2.Size = new System.Drawing.Size(536, 20);
+            this.txtInstanceScriptValue2.Size = new System.Drawing.Size(713, 26);
             this.txtInstanceScriptValue2.TabIndex = 12;
             this.txtInstanceScriptValue2.Leave += new System.EventHandler(this.txtInstanceScriptValue2_Leave);
             // 
             // txtInstanceScriptValue1
             // 
-            this.txtInstanceScriptValue1.Location = new System.Drawing.Point(100, 68);
+            this.txtInstanceScriptValue1.Location = new System.Drawing.Point(133, 78);
+            this.txtInstanceScriptValue1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtInstanceScriptValue1.Name = "txtInstanceScriptValue1";
-            this.txtInstanceScriptValue1.Size = new System.Drawing.Size(536, 20);
+            this.txtInstanceScriptValue1.Size = new System.Drawing.Size(713, 26);
             this.txtInstanceScriptValue1.TabIndex = 11;
             this.txtInstanceScriptValue1.Leave += new System.EventHandler(this.txtInstanceScriptValue1_Leave);
             // 
             // lblInstanceScriptValue2
             // 
             this.lblInstanceScriptValue2.AutoSize = true;
-            this.lblInstanceScriptValue2.Location = new System.Drawing.Point(11, 106);
+            this.lblInstanceScriptValue2.Location = new System.Drawing.Point(15, 122);
+            this.lblInstanceScriptValue2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInstanceScriptValue2.Name = "lblInstanceScriptValue2";
-            this.lblInstanceScriptValue2.Size = new System.Drawing.Size(46, 13);
+            this.lblInstanceScriptValue2.Size = new System.Drawing.Size(57, 18);
             this.lblInstanceScriptValue2.TabIndex = 2;
             this.lblInstanceScriptValue2.Text = "Value 2:";
             // 
             // lblInstanceScriptValue1
             // 
             this.lblInstanceScriptValue1.AutoSize = true;
-            this.lblInstanceScriptValue1.Location = new System.Drawing.Point(11, 73);
+            this.lblInstanceScriptValue1.Location = new System.Drawing.Point(15, 84);
+            this.lblInstanceScriptValue1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInstanceScriptValue1.Name = "lblInstanceScriptValue1";
-            this.lblInstanceScriptValue1.Size = new System.Drawing.Size(46, 13);
+            this.lblInstanceScriptValue1.Size = new System.Drawing.Size(57, 18);
             this.lblInstanceScriptValue1.TabIndex = 1;
             this.lblInstanceScriptValue1.Text = "Value 1:";
             // 
             // lblConditionInstanceScriptTooltip
             // 
             this.lblConditionInstanceScriptTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionInstanceScriptTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionInstanceScriptTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionInstanceScriptTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionInstanceScriptTooltip.Name = "lblConditionInstanceScriptTooltip";
-            this.lblConditionInstanceScriptTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionInstanceScriptTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionInstanceScriptTooltip.TabIndex = 0;
             this.lblConditionInstanceScriptTooltip.Text = "Return value determined by the hardcoded instance script.";
             // 
@@ -1044,9 +1166,11 @@
             this.frmConditionNearbyCreature.Controls.Add(this.lblNearbyCreatureDistance);
             this.frmConditionNearbyCreature.Controls.Add(this.lblNearbyCreatureId);
             this.frmConditionNearbyCreature.Controls.Add(this.lblConditionNearbyCreatureTooltip);
-            this.frmConditionNearbyCreature.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionNearbyCreature.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionNearbyCreature.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionNearbyCreature.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionNearbyCreature.Name = "frmConditionNearbyCreature";
-            this.frmConditionNearbyCreature.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionNearbyCreature.Size = new System.Drawing.Size(866, 173);
             this.frmConditionNearbyCreature.TabIndex = 31;
             this.frmConditionNearbyCreature.Visible = false;
             // 
@@ -1057,18 +1181,20 @@
             this.cmbNearbyCreatureNotSelf.Items.AddRange(new object[] {
             "False",
             "True"});
-            this.cmbNearbyCreatureNotSelf.Location = new System.Drawing.Point(316, 101);
+            this.cmbNearbyCreatureNotSelf.Location = new System.Drawing.Point(421, 117);
+            this.cmbNearbyCreatureNotSelf.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbNearbyCreatureNotSelf.Name = "cmbNearbyCreatureNotSelf";
-            this.cmbNearbyCreatureNotSelf.Size = new System.Drawing.Size(130, 21);
+            this.cmbNearbyCreatureNotSelf.Size = new System.Drawing.Size(172, 26);
             this.cmbNearbyCreatureNotSelf.TabIndex = 19;
             this.cmbNearbyCreatureNotSelf.SelectedIndexChanged += new System.EventHandler(this.cmbNearbyCreatureNotSelf_SelectedIndexChanged);
             // 
             // lblNearbyCreatureNotSelf
             // 
             this.lblNearbyCreatureNotSelf.AutoSize = true;
-            this.lblNearbyCreatureNotSelf.Location = new System.Drawing.Point(243, 106);
+            this.lblNearbyCreatureNotSelf.Location = new System.Drawing.Point(324, 122);
+            this.lblNearbyCreatureNotSelf.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNearbyCreatureNotSelf.Name = "lblNearbyCreatureNotSelf";
-            this.lblNearbyCreatureNotSelf.Size = new System.Drawing.Size(67, 13);
+            this.lblNearbyCreatureNotSelf.Size = new System.Drawing.Size(86, 18);
             this.lblNearbyCreatureNotSelf.TabIndex = 18;
             this.lblNearbyCreatureNotSelf.Text = "Exclude self:";
             // 
@@ -1079,26 +1205,29 @@
             this.cmbNearbyCreatureDead.Items.AddRange(new object[] {
             "Alive",
             "Dead"});
-            this.cmbNearbyCreatureDead.Location = new System.Drawing.Point(506, 101);
+            this.cmbNearbyCreatureDead.Location = new System.Drawing.Point(675, 117);
+            this.cmbNearbyCreatureDead.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbNearbyCreatureDead.Name = "cmbNearbyCreatureDead";
-            this.cmbNearbyCreatureDead.Size = new System.Drawing.Size(130, 21);
+            this.cmbNearbyCreatureDead.Size = new System.Drawing.Size(172, 26);
             this.cmbNearbyCreatureDead.TabIndex = 15;
             this.cmbNearbyCreatureDead.SelectedIndexChanged += new System.EventHandler(this.cmbNearbyCreatureDead_SelectedIndexChanged);
             // 
             // lblNearbyCreatureDead
             // 
             this.lblNearbyCreatureDead.AutoSize = true;
-            this.lblNearbyCreatureDead.Location = new System.Drawing.Point(465, 106);
+            this.lblNearbyCreatureDead.Location = new System.Drawing.Point(620, 122);
+            this.lblNearbyCreatureDead.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNearbyCreatureDead.Name = "lblNearbyCreatureDead";
-            this.lblNearbyCreatureDead.Size = new System.Drawing.Size(35, 13);
+            this.lblNearbyCreatureDead.Size = new System.Drawing.Size(44, 18);
             this.lblNearbyCreatureDead.TabIndex = 14;
             this.lblNearbyCreatureDead.Text = "State:";
             // 
             // btnNearbyCreatureId
             // 
-            this.btnNearbyCreatureId.Location = new System.Drawing.Point(100, 68);
+            this.btnNearbyCreatureId.Location = new System.Drawing.Point(133, 78);
+            this.btnNearbyCreatureId.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnNearbyCreatureId.Name = "btnNearbyCreatureId";
-            this.btnNearbyCreatureId.Size = new System.Drawing.Size(536, 23);
+            this.btnNearbyCreatureId.Size = new System.Drawing.Size(715, 27);
             this.btnNearbyCreatureId.TabIndex = 13;
             this.btnNearbyCreatureId.Text = "-NONE-";
             this.btnNearbyCreatureId.UseVisualStyleBackColor = true;
@@ -1106,36 +1235,40 @@
             // 
             // txtNearbyCreatureDistance
             // 
-            this.txtNearbyCreatureDistance.Location = new System.Drawing.Point(100, 101);
+            this.txtNearbyCreatureDistance.Location = new System.Drawing.Point(133, 117);
+            this.txtNearbyCreatureDistance.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtNearbyCreatureDistance.Name = "txtNearbyCreatureDistance";
-            this.txtNearbyCreatureDistance.Size = new System.Drawing.Size(130, 20);
+            this.txtNearbyCreatureDistance.Size = new System.Drawing.Size(172, 26);
             this.txtNearbyCreatureDistance.TabIndex = 12;
             this.txtNearbyCreatureDistance.Leave += new System.EventHandler(this.txtNearbyCreatureDistance_Leave);
             // 
             // lblNearbyCreatureDistance
             // 
             this.lblNearbyCreatureDistance.AutoSize = true;
-            this.lblNearbyCreatureDistance.Location = new System.Drawing.Point(11, 106);
+            this.lblNearbyCreatureDistance.Location = new System.Drawing.Point(15, 122);
+            this.lblNearbyCreatureDistance.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNearbyCreatureDistance.Name = "lblNearbyCreatureDistance";
-            this.lblNearbyCreatureDistance.Size = new System.Drawing.Size(52, 13);
+            this.lblNearbyCreatureDistance.Size = new System.Drawing.Size(65, 18);
             this.lblNearbyCreatureDistance.TabIndex = 2;
             this.lblNearbyCreatureDistance.Text = "Distance:";
             // 
             // lblNearbyCreatureId
             // 
             this.lblNearbyCreatureId.AutoSize = true;
-            this.lblNearbyCreatureId.Location = new System.Drawing.Point(11, 73);
+            this.lblNearbyCreatureId.Location = new System.Drawing.Point(15, 84);
+            this.lblNearbyCreatureId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNearbyCreatureId.Name = "lblNearbyCreatureId";
-            this.lblNearbyCreatureId.Size = new System.Drawing.Size(62, 13);
+            this.lblNearbyCreatureId.Size = new System.Drawing.Size(81, 18);
             this.lblNearbyCreatureId.TabIndex = 1;
             this.lblNearbyCreatureId.Text = "Creature Id:";
             // 
             // lblConditionNearbyCreatureTooltip
             // 
             this.lblConditionNearbyCreatureTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionNearbyCreatureTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionNearbyCreatureTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionNearbyCreatureTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionNearbyCreatureTooltip.Name = "lblConditionNearbyCreatureTooltip";
-            this.lblConditionNearbyCreatureTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionNearbyCreatureTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionNearbyCreatureTooltip.TabIndex = 0;
             this.lblConditionNearbyCreatureTooltip.Text = "Returns true if a Creature of the specified entry is found within a given distanc" +
     "e.";
@@ -1148,17 +1281,20 @@
             this.frmConditionNearbyObject.Controls.Add(this.lblNearbyObjectDistance);
             this.frmConditionNearbyObject.Controls.Add(this.lblNearbyObjectId);
             this.frmConditionNearbyObject.Controls.Add(this.lblConditionNearbyObjectTooltip);
-            this.frmConditionNearbyObject.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionNearbyObject.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionNearbyObject.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionNearbyObject.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionNearbyObject.Name = "frmConditionNearbyObject";
-            this.frmConditionNearbyObject.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionNearbyObject.Size = new System.Drawing.Size(866, 173);
             this.frmConditionNearbyObject.TabIndex = 32;
             this.frmConditionNearbyObject.Visible = false;
             // 
             // btnNearbyObjectId
             // 
-            this.btnNearbyObjectId.Location = new System.Drawing.Point(100, 68);
+            this.btnNearbyObjectId.Location = new System.Drawing.Point(133, 78);
+            this.btnNearbyObjectId.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnNearbyObjectId.Name = "btnNearbyObjectId";
-            this.btnNearbyObjectId.Size = new System.Drawing.Size(536, 23);
+            this.btnNearbyObjectId.Size = new System.Drawing.Size(715, 27);
             this.btnNearbyObjectId.TabIndex = 13;
             this.btnNearbyObjectId.Text = "-NONE-";
             this.btnNearbyObjectId.UseVisualStyleBackColor = true;
@@ -1166,36 +1302,40 @@
             // 
             // txtNearbyObjectDistance
             // 
-            this.txtNearbyObjectDistance.Location = new System.Drawing.Point(100, 101);
+            this.txtNearbyObjectDistance.Location = new System.Drawing.Point(133, 117);
+            this.txtNearbyObjectDistance.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtNearbyObjectDistance.Name = "txtNearbyObjectDistance";
-            this.txtNearbyObjectDistance.Size = new System.Drawing.Size(536, 20);
+            this.txtNearbyObjectDistance.Size = new System.Drawing.Size(713, 26);
             this.txtNearbyObjectDistance.TabIndex = 12;
             this.txtNearbyObjectDistance.Leave += new System.EventHandler(this.txtNearbyObjectDistance_Leave);
             // 
             // lblNearbyObjectDistance
             // 
             this.lblNearbyObjectDistance.AutoSize = true;
-            this.lblNearbyObjectDistance.Location = new System.Drawing.Point(11, 106);
+            this.lblNearbyObjectDistance.Location = new System.Drawing.Point(15, 122);
+            this.lblNearbyObjectDistance.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNearbyObjectDistance.Name = "lblNearbyObjectDistance";
-            this.lblNearbyObjectDistance.Size = new System.Drawing.Size(52, 13);
+            this.lblNearbyObjectDistance.Size = new System.Drawing.Size(65, 18);
             this.lblNearbyObjectDistance.TabIndex = 2;
             this.lblNearbyObjectDistance.Text = "Distance:";
             // 
             // lblNearbyObjectId
             // 
             this.lblNearbyObjectId.AutoSize = true;
-            this.lblNearbyObjectId.Location = new System.Drawing.Point(11, 73);
+            this.lblNearbyObjectId.Location = new System.Drawing.Point(15, 84);
+            this.lblNearbyObjectId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNearbyObjectId.Name = "lblNearbyObjectId";
-            this.lblNearbyObjectId.Size = new System.Drawing.Size(81, 13);
+            this.lblNearbyObjectId.Size = new System.Drawing.Size(104, 18);
             this.lblNearbyObjectId.TabIndex = 1;
             this.lblNearbyObjectId.Text = "GameObject Id:";
             // 
             // lblConditionNearbyObjectTooltip
             // 
             this.lblConditionNearbyObjectTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionNearbyObjectTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionNearbyObjectTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionNearbyObjectTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionNearbyObjectTooltip.Name = "lblConditionNearbyObjectTooltip";
-            this.lblConditionNearbyObjectTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionNearbyObjectTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionNearbyObjectTooltip.TabIndex = 0;
             this.lblConditionNearbyObjectTooltip.Text = "Returns true if a GameObject of the specified entry is found within a given dista" +
     "nce.";
@@ -1208,9 +1348,11 @@
             this.frmConditionContentPatch.Controls.Add(this.lblContentPatchComparison);
             this.frmConditionContentPatch.Controls.Add(this.lblContentPatch);
             this.frmConditionContentPatch.Controls.Add(this.lblConditionContentPatchTooltip);
-            this.frmConditionContentPatch.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionContentPatch.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionContentPatch.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionContentPatch.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionContentPatch.Name = "frmConditionContentPatch";
-            this.frmConditionContentPatch.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionContentPatch.Size = new System.Drawing.Size(866, 173);
             this.frmConditionContentPatch.TabIndex = 33;
             this.frmConditionContentPatch.Visible = false;
             // 
@@ -1222,9 +1364,10 @@
             "==",
             ">=",
             "<="});
-            this.cmbContentPatchComparison.Location = new System.Drawing.Point(100, 101);
+            this.cmbContentPatchComparison.Location = new System.Drawing.Point(133, 117);
+            this.cmbContentPatchComparison.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbContentPatchComparison.Name = "cmbContentPatchComparison";
-            this.cmbContentPatchComparison.Size = new System.Drawing.Size(536, 21);
+            this.cmbContentPatchComparison.Size = new System.Drawing.Size(713, 26);
             this.cmbContentPatchComparison.TabIndex = 15;
             this.cmbContentPatchComparison.SelectedIndexChanged += new System.EventHandler(this.cmbContentPatchComparison_SelectedIndexChanged);
             // 
@@ -1244,36 +1387,40 @@
             "1.10 - Storms of Azeroth",
             "1.11 - Shadow of the Necropolis",
             "1.12 - Drums of War"});
-            this.cmbContentPatch.Location = new System.Drawing.Point(100, 68);
+            this.cmbContentPatch.Location = new System.Drawing.Point(133, 78);
+            this.cmbContentPatch.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbContentPatch.Name = "cmbContentPatch";
-            this.cmbContentPatch.Size = new System.Drawing.Size(536, 21);
+            this.cmbContentPatch.Size = new System.Drawing.Size(713, 26);
             this.cmbContentPatch.TabIndex = 14;
             this.cmbContentPatch.SelectedIndexChanged += new System.EventHandler(this.cmbContentPatch_SelectedIndexChanged);
             // 
             // lblContentPatchComparison
             // 
             this.lblContentPatchComparison.AutoSize = true;
-            this.lblContentPatchComparison.Location = new System.Drawing.Point(11, 106);
+            this.lblContentPatchComparison.Location = new System.Drawing.Point(15, 122);
+            this.lblContentPatchComparison.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblContentPatchComparison.Name = "lblContentPatchComparison";
-            this.lblContentPatchComparison.Size = new System.Drawing.Size(65, 13);
+            this.lblContentPatchComparison.Size = new System.Drawing.Size(86, 18);
             this.lblContentPatchComparison.TabIndex = 2;
             this.lblContentPatchComparison.Text = "Comparison:";
             // 
             // lblContentPatch
             // 
             this.lblContentPatch.AutoSize = true;
-            this.lblContentPatch.Location = new System.Drawing.Point(11, 73);
+            this.lblContentPatch.Location = new System.Drawing.Point(15, 84);
+            this.lblContentPatch.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblContentPatch.Name = "lblContentPatch";
-            this.lblContentPatch.Size = new System.Drawing.Size(38, 13);
+            this.lblContentPatch.Size = new System.Drawing.Size(46, 18);
             this.lblContentPatch.TabIndex = 1;
             this.lblContentPatch.Text = "Patch:";
             // 
             // lblConditionContentPatchTooltip
             // 
             this.lblConditionContentPatchTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionContentPatchTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionContentPatchTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionContentPatchTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionContentPatchTooltip.Name = "lblConditionContentPatchTooltip";
-            this.lblConditionContentPatchTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionContentPatchTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionContentPatchTooltip.TabIndex = 0;
             this.lblConditionContentPatchTooltip.Text = "Returns true if the current content patch matches the one specified.";
             // 
@@ -1286,18 +1433,21 @@
             this.frmConditionEscort.Controls.Add(this.lblEscortDistance);
             this.frmConditionEscort.Controls.Add(this.lblEscortFlags);
             this.frmConditionEscort.Controls.Add(this.lblConditionEscortTooltip);
-            this.frmConditionEscort.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionEscort.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionEscort.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionEscort.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionEscort.Name = "frmConditionEscort";
-            this.frmConditionEscort.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionEscort.Size = new System.Drawing.Size(866, 173);
             this.frmConditionEscort.TabIndex = 34;
             this.frmConditionEscort.Visible = false;
             // 
             // chkEscortTargetDead
             // 
             this.chkEscortTargetDead.AutoSize = true;
-            this.chkEscortTargetDead.Location = new System.Drawing.Point(228, 72);
+            this.chkEscortTargetDead.Location = new System.Drawing.Point(304, 83);
+            this.chkEscortTargetDead.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkEscortTargetDead.Name = "chkEscortTargetDead";
-            this.chkEscortTargetDead.Size = new System.Drawing.Size(119, 17);
+            this.chkEscortTargetDead.Size = new System.Drawing.Size(150, 22);
             this.chkEscortTargetDead.TabIndex = 18;
             this.chkEscortTargetDead.Text = "Target must survive";
             this.chkEscortTargetDead.UseVisualStyleBackColor = true;
@@ -1306,9 +1456,10 @@
             // chkEscortSourceDead
             // 
             this.chkEscortSourceDead.AutoSize = true;
-            this.chkEscortSourceDead.Location = new System.Drawing.Point(100, 72);
+            this.chkEscortSourceDead.Location = new System.Drawing.Point(133, 83);
+            this.chkEscortSourceDead.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkEscortSourceDead.Name = "chkEscortSourceDead";
-            this.chkEscortSourceDead.Size = new System.Drawing.Size(122, 17);
+            this.chkEscortSourceDead.Size = new System.Drawing.Size(154, 22);
             this.chkEscortSourceDead.TabIndex = 17;
             this.chkEscortSourceDead.Text = "Source must survive";
             this.chkEscortSourceDead.UseVisualStyleBackColor = true;
@@ -1316,36 +1467,40 @@
             // 
             // txtEscortDistance
             // 
-            this.txtEscortDistance.Location = new System.Drawing.Point(100, 101);
+            this.txtEscortDistance.Location = new System.Drawing.Point(133, 117);
+            this.txtEscortDistance.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtEscortDistance.Name = "txtEscortDistance";
-            this.txtEscortDistance.Size = new System.Drawing.Size(536, 20);
+            this.txtEscortDistance.Size = new System.Drawing.Size(713, 26);
             this.txtEscortDistance.TabIndex = 16;
             this.txtEscortDistance.Leave += new System.EventHandler(this.txtEscortDistance_Leave);
             // 
             // lblEscortDistance
             // 
             this.lblEscortDistance.AutoSize = true;
-            this.lblEscortDistance.Location = new System.Drawing.Point(11, 106);
+            this.lblEscortDistance.Location = new System.Drawing.Point(15, 122);
+            this.lblEscortDistance.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEscortDistance.Name = "lblEscortDistance";
-            this.lblEscortDistance.Size = new System.Drawing.Size(75, 13);
+            this.lblEscortDistance.Size = new System.Drawing.Size(94, 18);
             this.lblEscortDistance.TabIndex = 2;
             this.lblEscortDistance.Text = "Max Distance:";
             // 
             // lblEscortFlags
             // 
             this.lblEscortFlags.AutoSize = true;
-            this.lblEscortFlags.Location = new System.Drawing.Point(11, 73);
+            this.lblEscortFlags.Location = new System.Drawing.Point(15, 84);
+            this.lblEscortFlags.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEscortFlags.Name = "lblEscortFlags";
-            this.lblEscortFlags.Size = new System.Drawing.Size(75, 13);
+            this.lblEscortFlags.Size = new System.Drawing.Size(100, 18);
             this.lblEscortFlags.TabIndex = 1;
             this.lblEscortFlags.Text = "Requirements:";
             // 
             // lblConditionEscortTooltip
             // 
             this.lblConditionEscortTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionEscortTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionEscortTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionEscortTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionEscortTooltip.Name = "lblConditionEscortTooltip";
-            this.lblConditionEscortTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionEscortTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionEscortTooltip.TabIndex = 0;
             this.lblConditionEscortTooltip.Text = "Returns true when one of the requirements is not satisfied. This condition is use" +
     "d for escort quests.";
@@ -1360,34 +1515,39 @@
             this.frmConditionInstanceData.Controls.Add(this.lblInstanceDataComparison);
             this.frmConditionInstanceData.Controls.Add(this.lblInstanceDataIndex);
             this.frmConditionInstanceData.Controls.Add(this.lblConditionInstanceDataTooltip);
-            this.frmConditionInstanceData.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionInstanceData.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionInstanceData.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionInstanceData.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionInstanceData.Name = "frmConditionInstanceData";
-            this.frmConditionInstanceData.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionInstanceData.Size = new System.Drawing.Size(866, 173);
             this.frmConditionInstanceData.TabIndex = 35;
             this.frmConditionInstanceData.Visible = false;
             // 
             // txtInstanceDataValue
             // 
-            this.txtInstanceDataValue.Location = new System.Drawing.Point(100, 91);
+            this.txtInstanceDataValue.Location = new System.Drawing.Point(133, 105);
+            this.txtInstanceDataValue.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtInstanceDataValue.Name = "txtInstanceDataValue";
-            this.txtInstanceDataValue.Size = new System.Drawing.Size(536, 20);
+            this.txtInstanceDataValue.Size = new System.Drawing.Size(713, 26);
             this.txtInstanceDataValue.TabIndex = 18;
             this.txtInstanceDataValue.Leave += new System.EventHandler(this.txtInstanceDataValue_Leave);
             // 
             // lblInstanceDataValue
             // 
             this.lblInstanceDataValue.AutoSize = true;
-            this.lblInstanceDataValue.Location = new System.Drawing.Point(11, 96);
+            this.lblInstanceDataValue.Location = new System.Drawing.Point(15, 111);
+            this.lblInstanceDataValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInstanceDataValue.Name = "lblInstanceDataValue";
-            this.lblInstanceDataValue.Size = new System.Drawing.Size(37, 13);
+            this.lblInstanceDataValue.Size = new System.Drawing.Size(47, 18);
             this.lblInstanceDataValue.TabIndex = 17;
             this.lblInstanceDataValue.Text = "Value:";
             // 
             // txtInstanceDataIndex
             // 
-            this.txtInstanceDataIndex.Location = new System.Drawing.Point(100, 65);
+            this.txtInstanceDataIndex.Location = new System.Drawing.Point(133, 75);
+            this.txtInstanceDataIndex.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtInstanceDataIndex.Name = "txtInstanceDataIndex";
-            this.txtInstanceDataIndex.Size = new System.Drawing.Size(536, 20);
+            this.txtInstanceDataIndex.Size = new System.Drawing.Size(713, 26);
             this.txtInstanceDataIndex.TabIndex = 16;
             this.txtInstanceDataIndex.Leave += new System.EventHandler(this.txtInstanceDataIndex_Leave);
             // 
@@ -1399,36 +1559,40 @@
             "==",
             ">=",
             "<="});
-            this.cmbInstanceDataComparison.Location = new System.Drawing.Point(100, 117);
+            this.cmbInstanceDataComparison.Location = new System.Drawing.Point(133, 135);
+            this.cmbInstanceDataComparison.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbInstanceDataComparison.Name = "cmbInstanceDataComparison";
-            this.cmbInstanceDataComparison.Size = new System.Drawing.Size(536, 21);
+            this.cmbInstanceDataComparison.Size = new System.Drawing.Size(713, 26);
             this.cmbInstanceDataComparison.TabIndex = 15;
             this.cmbInstanceDataComparison.SelectedIndexChanged += new System.EventHandler(this.cmbInstanceDataComparison_SelectedIndexChanged);
             // 
             // lblInstanceDataComparison
             // 
             this.lblInstanceDataComparison.AutoSize = true;
-            this.lblInstanceDataComparison.Location = new System.Drawing.Point(11, 122);
+            this.lblInstanceDataComparison.Location = new System.Drawing.Point(15, 141);
+            this.lblInstanceDataComparison.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInstanceDataComparison.Name = "lblInstanceDataComparison";
-            this.lblInstanceDataComparison.Size = new System.Drawing.Size(65, 13);
+            this.lblInstanceDataComparison.Size = new System.Drawing.Size(86, 18);
             this.lblInstanceDataComparison.TabIndex = 2;
             this.lblInstanceDataComparison.Text = "Comparison:";
             // 
             // lblInstanceDataIndex
             // 
             this.lblInstanceDataIndex.AutoSize = true;
-            this.lblInstanceDataIndex.Location = new System.Drawing.Point(11, 70);
+            this.lblInstanceDataIndex.Location = new System.Drawing.Point(15, 81);
+            this.lblInstanceDataIndex.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInstanceDataIndex.Name = "lblInstanceDataIndex";
-            this.lblInstanceDataIndex.Size = new System.Drawing.Size(36, 13);
+            this.lblInstanceDataIndex.Size = new System.Drawing.Size(47, 18);
             this.lblInstanceDataIndex.TabIndex = 1;
             this.lblInstanceDataIndex.Text = "Index:";
             // 
             // lblConditionInstanceDataTooltip
             // 
             this.lblConditionInstanceDataTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionInstanceDataTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionInstanceDataTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionInstanceDataTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionInstanceDataTooltip.Name = "lblConditionInstanceDataTooltip";
-            this.lblConditionInstanceDataTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionInstanceDataTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionInstanceDataTooltip.TabIndex = 0;
             this.lblConditionInstanceDataTooltip.Text = "Returns true if the value in the specified instance data field fits the required " +
     "criteria.";
@@ -1445,51 +1609,58 @@
             this.frmConditionMapEventData.Controls.Add(this.lblMapEventDataComparison);
             this.frmConditionMapEventData.Controls.Add(this.lblMapEventDataValue);
             this.frmConditionMapEventData.Controls.Add(this.lblConditionMapEventDataTooltip);
-            this.frmConditionMapEventData.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionMapEventData.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionMapEventData.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionMapEventData.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionMapEventData.Name = "frmConditionMapEventData";
-            this.frmConditionMapEventData.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionMapEventData.Size = new System.Drawing.Size(866, 173);
             this.frmConditionMapEventData.TabIndex = 36;
             this.frmConditionMapEventData.Visible = false;
             // 
             // txtMapEventDataIndex
             // 
-            this.txtMapEventDataIndex.Location = new System.Drawing.Point(421, 75);
+            this.txtMapEventDataIndex.Location = new System.Drawing.Point(561, 87);
+            this.txtMapEventDataIndex.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtMapEventDataIndex.Name = "txtMapEventDataIndex";
-            this.txtMapEventDataIndex.Size = new System.Drawing.Size(215, 20);
+            this.txtMapEventDataIndex.Size = new System.Drawing.Size(285, 26);
             this.txtMapEventDataIndex.TabIndex = 20;
             this.txtMapEventDataIndex.Leave += new System.EventHandler(this.txtMapEventDataIndex_Leave);
             // 
             // lblMapEventDataIndex
             // 
             this.lblMapEventDataIndex.AutoSize = true;
-            this.lblMapEventDataIndex.Location = new System.Drawing.Point(332, 80);
+            this.lblMapEventDataIndex.Location = new System.Drawing.Point(443, 92);
+            this.lblMapEventDataIndex.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMapEventDataIndex.Name = "lblMapEventDataIndex";
-            this.lblMapEventDataIndex.Size = new System.Drawing.Size(36, 13);
+            this.lblMapEventDataIndex.Size = new System.Drawing.Size(47, 18);
             this.lblMapEventDataIndex.TabIndex = 19;
             this.lblMapEventDataIndex.Text = "Index:";
             // 
             // txtMapEventDataEventId
             // 
-            this.txtMapEventDataEventId.Location = new System.Drawing.Point(100, 75);
+            this.txtMapEventDataEventId.Location = new System.Drawing.Point(133, 87);
+            this.txtMapEventDataEventId.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtMapEventDataEventId.Name = "txtMapEventDataEventId";
-            this.txtMapEventDataEventId.Size = new System.Drawing.Size(215, 20);
+            this.txtMapEventDataEventId.Size = new System.Drawing.Size(285, 26);
             this.txtMapEventDataEventId.TabIndex = 18;
             this.txtMapEventDataEventId.Leave += new System.EventHandler(this.txtMapEventDataEventId_Leave);
             // 
             // lvlMapEventDataEventId
             // 
             this.lvlMapEventDataEventId.AutoSize = true;
-            this.lvlMapEventDataEventId.Location = new System.Drawing.Point(11, 80);
+            this.lvlMapEventDataEventId.Location = new System.Drawing.Point(15, 92);
+            this.lvlMapEventDataEventId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lvlMapEventDataEventId.Name = "lvlMapEventDataEventId";
-            this.lvlMapEventDataEventId.Size = new System.Drawing.Size(50, 13);
+            this.lvlMapEventDataEventId.Size = new System.Drawing.Size(62, 18);
             this.lvlMapEventDataEventId.TabIndex = 17;
             this.lvlMapEventDataEventId.Text = "Event Id:";
             // 
             // txtMapEventDataValue
             // 
-            this.txtMapEventDataValue.Location = new System.Drawing.Point(100, 106);
+            this.txtMapEventDataValue.Location = new System.Drawing.Point(133, 122);
+            this.txtMapEventDataValue.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtMapEventDataValue.Name = "txtMapEventDataValue";
-            this.txtMapEventDataValue.Size = new System.Drawing.Size(215, 20);
+            this.txtMapEventDataValue.Size = new System.Drawing.Size(285, 26);
             this.txtMapEventDataValue.TabIndex = 16;
             this.txtMapEventDataValue.Leave += new System.EventHandler(this.txtMapEventDataValue_Leave);
             // 
@@ -1501,36 +1672,40 @@
             "==",
             ">=",
             "<="});
-            this.cmbMapEventDataComparison.Location = new System.Drawing.Point(421, 106);
+            this.cmbMapEventDataComparison.Location = new System.Drawing.Point(561, 122);
+            this.cmbMapEventDataComparison.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbMapEventDataComparison.Name = "cmbMapEventDataComparison";
-            this.cmbMapEventDataComparison.Size = new System.Drawing.Size(215, 21);
+            this.cmbMapEventDataComparison.Size = new System.Drawing.Size(285, 26);
             this.cmbMapEventDataComparison.TabIndex = 15;
             this.cmbMapEventDataComparison.SelectedIndexChanged += new System.EventHandler(this.cmbMapEventDataComparison_SelectedIndexChanged);
             // 
             // lblMapEventDataComparison
             // 
             this.lblMapEventDataComparison.AutoSize = true;
-            this.lblMapEventDataComparison.Location = new System.Drawing.Point(332, 111);
+            this.lblMapEventDataComparison.Location = new System.Drawing.Point(443, 128);
+            this.lblMapEventDataComparison.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMapEventDataComparison.Name = "lblMapEventDataComparison";
-            this.lblMapEventDataComparison.Size = new System.Drawing.Size(65, 13);
+            this.lblMapEventDataComparison.Size = new System.Drawing.Size(86, 18);
             this.lblMapEventDataComparison.TabIndex = 2;
             this.lblMapEventDataComparison.Text = "Comparison:";
             // 
             // lblMapEventDataValue
             // 
             this.lblMapEventDataValue.AutoSize = true;
-            this.lblMapEventDataValue.Location = new System.Drawing.Point(11, 111);
+            this.lblMapEventDataValue.Location = new System.Drawing.Point(15, 128);
+            this.lblMapEventDataValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMapEventDataValue.Name = "lblMapEventDataValue";
-            this.lblMapEventDataValue.Size = new System.Drawing.Size(37, 13);
+            this.lblMapEventDataValue.Size = new System.Drawing.Size(47, 18);
             this.lblMapEventDataValue.TabIndex = 1;
             this.lblMapEventDataValue.Text = "Value:";
             // 
             // lblConditionMapEventDataTooltip
             // 
             this.lblConditionMapEventDataTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionMapEventDataTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionMapEventDataTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionMapEventDataTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionMapEventDataTooltip.Name = "lblConditionMapEventDataTooltip";
-            this.lblConditionMapEventDataTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionMapEventDataTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionMapEventDataTooltip.TabIndex = 0;
             this.lblConditionMapEventDataTooltip.Text = "Returns true if the value in the specified map event data field fits the required" +
     " criteria.";
@@ -1547,86 +1722,97 @@
             this.frmConditionUnknown.Controls.Add(this.lblUnknownValue4);
             this.frmConditionUnknown.Controls.Add(this.lblUnknownValue3);
             this.frmConditionUnknown.Controls.Add(this.lblConditionUnknownTooltip);
-            this.frmConditionUnknown.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionUnknown.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionUnknown.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionUnknown.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionUnknown.Name = "frmConditionUnknown";
-            this.frmConditionUnknown.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionUnknown.Size = new System.Drawing.Size(866, 173);
             this.frmConditionUnknown.TabIndex = 37;
             this.frmConditionUnknown.Visible = false;
             // 
             // txtUnknownValue4
             // 
-            this.txtUnknownValue4.Location = new System.Drawing.Point(421, 106);
+            this.txtUnknownValue4.Location = new System.Drawing.Point(561, 122);
+            this.txtUnknownValue4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtUnknownValue4.Name = "txtUnknownValue4";
-            this.txtUnknownValue4.Size = new System.Drawing.Size(215, 20);
+            this.txtUnknownValue4.Size = new System.Drawing.Size(285, 26);
             this.txtUnknownValue4.TabIndex = 21;
             this.txtUnknownValue4.Leave += new System.EventHandler(this.txtUnknownValue4_Leave);
             // 
             // txtUnknownValue2
             // 
-            this.txtUnknownValue2.Location = new System.Drawing.Point(421, 75);
+            this.txtUnknownValue2.Location = new System.Drawing.Point(561, 87);
+            this.txtUnknownValue2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtUnknownValue2.Name = "txtUnknownValue2";
-            this.txtUnknownValue2.Size = new System.Drawing.Size(215, 20);
+            this.txtUnknownValue2.Size = new System.Drawing.Size(285, 26);
             this.txtUnknownValue2.TabIndex = 20;
             this.txtUnknownValue2.Leave += new System.EventHandler(this.txtUnknownValue2_Leave);
             // 
             // lblUnknownValue2
             // 
             this.lblUnknownValue2.AutoSize = true;
-            this.lblUnknownValue2.Location = new System.Drawing.Point(332, 80);
+            this.lblUnknownValue2.Location = new System.Drawing.Point(443, 92);
+            this.lblUnknownValue2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblUnknownValue2.Name = "lblUnknownValue2";
-            this.lblUnknownValue2.Size = new System.Drawing.Size(46, 13);
+            this.lblUnknownValue2.Size = new System.Drawing.Size(57, 18);
             this.lblUnknownValue2.TabIndex = 19;
             this.lblUnknownValue2.Text = "Value 2:";
             // 
             // txtUnknownValue1
             // 
-            this.txtUnknownValue1.Location = new System.Drawing.Point(100, 75);
+            this.txtUnknownValue1.Location = new System.Drawing.Point(133, 87);
+            this.txtUnknownValue1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtUnknownValue1.Name = "txtUnknownValue1";
-            this.txtUnknownValue1.Size = new System.Drawing.Size(215, 20);
+            this.txtUnknownValue1.Size = new System.Drawing.Size(285, 26);
             this.txtUnknownValue1.TabIndex = 18;
             this.txtUnknownValue1.Leave += new System.EventHandler(this.txtUnknownValue1_Leave);
             // 
             // lblUnknownValue1
             // 
             this.lblUnknownValue1.AutoSize = true;
-            this.lblUnknownValue1.Location = new System.Drawing.Point(11, 80);
+            this.lblUnknownValue1.Location = new System.Drawing.Point(15, 92);
+            this.lblUnknownValue1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblUnknownValue1.Name = "lblUnknownValue1";
-            this.lblUnknownValue1.Size = new System.Drawing.Size(46, 13);
+            this.lblUnknownValue1.Size = new System.Drawing.Size(57, 18);
             this.lblUnknownValue1.TabIndex = 17;
             this.lblUnknownValue1.Text = "Value 1:";
             // 
             // txtUnknownValue3
             // 
-            this.txtUnknownValue3.Location = new System.Drawing.Point(100, 106);
+            this.txtUnknownValue3.Location = new System.Drawing.Point(133, 122);
+            this.txtUnknownValue3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtUnknownValue3.Name = "txtUnknownValue3";
-            this.txtUnknownValue3.Size = new System.Drawing.Size(215, 20);
+            this.txtUnknownValue3.Size = new System.Drawing.Size(285, 26);
             this.txtUnknownValue3.TabIndex = 16;
             this.txtUnknownValue3.Leave += new System.EventHandler(this.txtUnknownValue3_Leave);
             // 
             // lblUnknownValue4
             // 
             this.lblUnknownValue4.AutoSize = true;
-            this.lblUnknownValue4.Location = new System.Drawing.Point(332, 111);
+            this.lblUnknownValue4.Location = new System.Drawing.Point(443, 128);
+            this.lblUnknownValue4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblUnknownValue4.Name = "lblUnknownValue4";
-            this.lblUnknownValue4.Size = new System.Drawing.Size(46, 13);
+            this.lblUnknownValue4.Size = new System.Drawing.Size(57, 18);
             this.lblUnknownValue4.TabIndex = 2;
             this.lblUnknownValue4.Text = "Value 4:";
             // 
             // lblUnknownValue3
             // 
             this.lblUnknownValue3.AutoSize = true;
-            this.lblUnknownValue3.Location = new System.Drawing.Point(11, 111);
+            this.lblUnknownValue3.Location = new System.Drawing.Point(15, 128);
+            this.lblUnknownValue3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblUnknownValue3.Name = "lblUnknownValue3";
-            this.lblUnknownValue3.Size = new System.Drawing.Size(46, 13);
+            this.lblUnknownValue3.Size = new System.Drawing.Size(57, 18);
             this.lblUnknownValue3.TabIndex = 1;
             this.lblUnknownValue3.Text = "Value 3:";
             // 
             // lblConditionUnknownTooltip
             // 
             this.lblConditionUnknownTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionUnknownTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionUnknownTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionUnknownTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionUnknownTooltip.Name = "lblConditionUnknownTooltip";
-            this.lblConditionUnknownTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionUnknownTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionUnknownTooltip.TabIndex = 0;
             this.lblConditionUnknownTooltip.Text = "This condition is not currently supported by the editor.";
             // 
@@ -1638,25 +1824,29 @@
             this.frmConditionMapEventTargets.Controls.Add(this.lblMapEventTargetsConditionId);
             this.frmConditionMapEventTargets.Controls.Add(this.lblMapEventTargetsEventId);
             this.frmConditionMapEventTargets.Controls.Add(this.lblConditionMapEventTargetsTooltip);
-            this.frmConditionMapEventTargets.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionMapEventTargets.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionMapEventTargets.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionMapEventTargets.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionMapEventTargets.Name = "frmConditionMapEventTargets";
-            this.frmConditionMapEventTargets.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionMapEventTargets.Size = new System.Drawing.Size(866, 173);
             this.frmConditionMapEventTargets.TabIndex = 38;
             this.frmConditionMapEventTargets.Visible = false;
             // 
             // txtMapEventTargetsEventId
             // 
-            this.txtMapEventTargetsEventId.Location = new System.Drawing.Point(100, 68);
+            this.txtMapEventTargetsEventId.Location = new System.Drawing.Point(133, 78);
+            this.txtMapEventTargetsEventId.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtMapEventTargetsEventId.Name = "txtMapEventTargetsEventId";
-            this.txtMapEventTargetsEventId.Size = new System.Drawing.Size(536, 20);
+            this.txtMapEventTargetsEventId.Size = new System.Drawing.Size(713, 26);
             this.txtMapEventTargetsEventId.TabIndex = 17;
             this.txtMapEventTargetsEventId.Leave += new System.EventHandler(this.txtMapEventTargetsEventId_Leave);
             // 
             // btnMapEventTargetsConditionId
             // 
-            this.btnMapEventTargetsConditionId.Location = new System.Drawing.Point(100, 101);
+            this.btnMapEventTargetsConditionId.Location = new System.Drawing.Point(133, 117);
+            this.btnMapEventTargetsConditionId.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnMapEventTargetsConditionId.Name = "btnMapEventTargetsConditionId";
-            this.btnMapEventTargetsConditionId.Size = new System.Drawing.Size(536, 23);
+            this.btnMapEventTargetsConditionId.Size = new System.Drawing.Size(715, 27);
             this.btnMapEventTargetsConditionId.TabIndex = 16;
             this.btnMapEventTargetsConditionId.Text = "-NONE-";
             this.btnMapEventTargetsConditionId.UseVisualStyleBackColor = true;
@@ -1665,27 +1855,30 @@
             // lblMapEventTargetsConditionId
             // 
             this.lblMapEventTargetsConditionId.AutoSize = true;
-            this.lblMapEventTargetsConditionId.Location = new System.Drawing.Point(11, 106);
+            this.lblMapEventTargetsConditionId.Location = new System.Drawing.Point(15, 122);
+            this.lblMapEventTargetsConditionId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMapEventTargetsConditionId.Name = "lblMapEventTargetsConditionId";
-            this.lblMapEventTargetsConditionId.Size = new System.Drawing.Size(66, 13);
+            this.lblMapEventTargetsConditionId.Size = new System.Drawing.Size(87, 18);
             this.lblMapEventTargetsConditionId.TabIndex = 2;
             this.lblMapEventTargetsConditionId.Text = "Condition Id:";
             // 
             // lblMapEventTargetsEventId
             // 
             this.lblMapEventTargetsEventId.AutoSize = true;
-            this.lblMapEventTargetsEventId.Location = new System.Drawing.Point(11, 73);
+            this.lblMapEventTargetsEventId.Location = new System.Drawing.Point(15, 84);
+            this.lblMapEventTargetsEventId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMapEventTargetsEventId.Name = "lblMapEventTargetsEventId";
-            this.lblMapEventTargetsEventId.Size = new System.Drawing.Size(50, 13);
+            this.lblMapEventTargetsEventId.Size = new System.Drawing.Size(62, 18);
             this.lblMapEventTargetsEventId.TabIndex = 1;
             this.lblMapEventTargetsEventId.Text = "Event Id:";
             // 
             // lblConditionMapEventTargetsTooltip
             // 
             this.lblConditionMapEventTargetsTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionMapEventTargetsTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionMapEventTargetsTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionMapEventTargetsTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionMapEventTargetsTooltip.Name = "lblConditionMapEventTargetsTooltip";
-            this.lblConditionMapEventTargetsTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionMapEventTargetsTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionMapEventTargetsTooltip.TabIndex = 0;
             this.lblConditionMapEventTargetsTooltip.Text = "Returns true if all of the extra targets part of the scripted map event satisfy t" +
     "he specified condition.";
@@ -1702,17 +1895,20 @@
             this.frmConditionAnd.Controls.Add(this.lblConditionAndCondition3);
             this.frmConditionAnd.Controls.Add(this.lblConditionAndCondition1);
             this.frmConditionAnd.Controls.Add(this.lblConditionAndTooltip);
-            this.frmConditionAnd.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionAnd.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionAnd.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionAnd.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionAnd.Name = "frmConditionAnd";
-            this.frmConditionAnd.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionAnd.Size = new System.Drawing.Size(866, 173);
             this.frmConditionAnd.TabIndex = 39;
             this.frmConditionAnd.Visible = false;
             // 
             // btnConditionAndCondition4
             // 
-            this.btnConditionAndCondition4.Location = new System.Drawing.Point(412, 101);
+            this.btnConditionAndCondition4.Location = new System.Drawing.Point(549, 117);
+            this.btnConditionAndCondition4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnConditionAndCondition4.Name = "btnConditionAndCondition4";
-            this.btnConditionAndCondition4.Size = new System.Drawing.Size(218, 23);
+            this.btnConditionAndCondition4.Size = new System.Drawing.Size(291, 27);
             this.btnConditionAndCondition4.TabIndex = 8;
             this.btnConditionAndCondition4.Text = "-NONE-";
             this.btnConditionAndCondition4.UseVisualStyleBackColor = true;
@@ -1720,9 +1916,10 @@
             // 
             // btnConditionAndCondition2
             // 
-            this.btnConditionAndCondition2.Location = new System.Drawing.Point(412, 68);
+            this.btnConditionAndCondition2.Location = new System.Drawing.Point(549, 78);
+            this.btnConditionAndCondition2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnConditionAndCondition2.Name = "btnConditionAndCondition2";
-            this.btnConditionAndCondition2.Size = new System.Drawing.Size(218, 23);
+            this.btnConditionAndCondition2.Size = new System.Drawing.Size(291, 27);
             this.btnConditionAndCondition2.TabIndex = 7;
             this.btnConditionAndCondition2.Text = "-NONE-";
             this.btnConditionAndCondition2.UseVisualStyleBackColor = true;
@@ -1731,26 +1928,29 @@
             // lblConditionAndCondition4
             // 
             this.lblConditionAndCondition4.AutoSize = true;
-            this.lblConditionAndCondition4.Location = new System.Drawing.Point(323, 106);
+            this.lblConditionAndCondition4.Location = new System.Drawing.Point(431, 122);
+            this.lblConditionAndCondition4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionAndCondition4.Name = "lblConditionAndCondition4";
-            this.lblConditionAndCondition4.Size = new System.Drawing.Size(75, 13);
+            this.lblConditionAndCondition4.Size = new System.Drawing.Size(97, 18);
             this.lblConditionAndCondition4.TabIndex = 6;
             this.lblConditionAndCondition4.Text = "Condition Id 4:";
             // 
             // lblConditionAndCondition2
             // 
             this.lblConditionAndCondition2.AutoSize = true;
-            this.lblConditionAndCondition2.Location = new System.Drawing.Point(323, 73);
+            this.lblConditionAndCondition2.Location = new System.Drawing.Point(431, 84);
+            this.lblConditionAndCondition2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionAndCondition2.Name = "lblConditionAndCondition2";
-            this.lblConditionAndCondition2.Size = new System.Drawing.Size(75, 13);
+            this.lblConditionAndCondition2.Size = new System.Drawing.Size(97, 18);
             this.lblConditionAndCondition2.TabIndex = 5;
             this.lblConditionAndCondition2.Text = "Condition Id 2:";
             // 
             // btnConditionAndCondition3
             // 
-            this.btnConditionAndCondition3.Location = new System.Drawing.Point(100, 101);
+            this.btnConditionAndCondition3.Location = new System.Drawing.Point(133, 117);
+            this.btnConditionAndCondition3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnConditionAndCondition3.Name = "btnConditionAndCondition3";
-            this.btnConditionAndCondition3.Size = new System.Drawing.Size(218, 23);
+            this.btnConditionAndCondition3.Size = new System.Drawing.Size(291, 27);
             this.btnConditionAndCondition3.TabIndex = 4;
             this.btnConditionAndCondition3.Text = "-NONE-";
             this.btnConditionAndCondition3.UseVisualStyleBackColor = true;
@@ -1758,9 +1958,10 @@
             // 
             // btnConditionAndCondition1
             // 
-            this.btnConditionAndCondition1.Location = new System.Drawing.Point(100, 68);
+            this.btnConditionAndCondition1.Location = new System.Drawing.Point(133, 78);
+            this.btnConditionAndCondition1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnConditionAndCondition1.Name = "btnConditionAndCondition1";
-            this.btnConditionAndCondition1.Size = new System.Drawing.Size(218, 23);
+            this.btnConditionAndCondition1.Size = new System.Drawing.Size(291, 27);
             this.btnConditionAndCondition1.TabIndex = 3;
             this.btnConditionAndCondition1.Text = "-NONE-";
             this.btnConditionAndCondition1.UseVisualStyleBackColor = true;
@@ -1769,27 +1970,30 @@
             // lblConditionAndCondition3
             // 
             this.lblConditionAndCondition3.AutoSize = true;
-            this.lblConditionAndCondition3.Location = new System.Drawing.Point(11, 106);
+            this.lblConditionAndCondition3.Location = new System.Drawing.Point(15, 122);
+            this.lblConditionAndCondition3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionAndCondition3.Name = "lblConditionAndCondition3";
-            this.lblConditionAndCondition3.Size = new System.Drawing.Size(75, 13);
+            this.lblConditionAndCondition3.Size = new System.Drawing.Size(97, 18);
             this.lblConditionAndCondition3.TabIndex = 2;
             this.lblConditionAndCondition3.Text = "Condition Id 3:";
             // 
             // lblConditionAndCondition1
             // 
             this.lblConditionAndCondition1.AutoSize = true;
-            this.lblConditionAndCondition1.Location = new System.Drawing.Point(11, 73);
+            this.lblConditionAndCondition1.Location = new System.Drawing.Point(15, 84);
+            this.lblConditionAndCondition1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionAndCondition1.Name = "lblConditionAndCondition1";
-            this.lblConditionAndCondition1.Size = new System.Drawing.Size(75, 13);
+            this.lblConditionAndCondition1.Size = new System.Drawing.Size(97, 18);
             this.lblConditionAndCondition1.TabIndex = 1;
             this.lblConditionAndCondition1.Text = "Condition Id 1:";
             // 
             // lblConditionAndTooltip
             // 
             this.lblConditionAndTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionAndTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionAndTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionAndTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionAndTooltip.Name = "lblConditionAndTooltip";
-            this.lblConditionAndTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionAndTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionAndTooltip.TabIndex = 0;
             this.lblConditionAndTooltip.Text = "Returns true only if all of the specified conditions return true. The referenced " +
     "conditions need to have an entry Id that is lower than that of the current condi" +
@@ -1807,86 +2011,97 @@
             this.frmConditionDbGuid.Controls.Add(this.lblConditionDbGuid3);
             this.frmConditionDbGuid.Controls.Add(this.lblConditionDbGuid1);
             this.frmConditionDbGuid.Controls.Add(this.lblConditionDbGuidTooltip);
-            this.frmConditionDbGuid.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionDbGuid.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionDbGuid.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionDbGuid.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionDbGuid.Name = "frmConditionDbGuid";
-            this.frmConditionDbGuid.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionDbGuid.Size = new System.Drawing.Size(866, 173);
             this.frmConditionDbGuid.TabIndex = 40;
             this.frmConditionDbGuid.Visible = false;
             // 
             // txtConditionDbGuid4
             // 
-            this.txtConditionDbGuid4.Location = new System.Drawing.Point(412, 101);
+            this.txtConditionDbGuid4.Location = new System.Drawing.Point(549, 117);
+            this.txtConditionDbGuid4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtConditionDbGuid4.Name = "txtConditionDbGuid4";
-            this.txtConditionDbGuid4.Size = new System.Drawing.Size(218, 20);
+            this.txtConditionDbGuid4.Size = new System.Drawing.Size(289, 26);
             this.txtConditionDbGuid4.TabIndex = 12;
             this.txtConditionDbGuid4.Leave += new System.EventHandler(this.txtConditionDbGuid4_Leave);
             // 
             // txtConditionDbGuid3
             // 
-            this.txtConditionDbGuid3.Location = new System.Drawing.Point(100, 101);
+            this.txtConditionDbGuid3.Location = new System.Drawing.Point(133, 117);
+            this.txtConditionDbGuid3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtConditionDbGuid3.Name = "txtConditionDbGuid3";
-            this.txtConditionDbGuid3.Size = new System.Drawing.Size(218, 20);
+            this.txtConditionDbGuid3.Size = new System.Drawing.Size(289, 26);
             this.txtConditionDbGuid3.TabIndex = 11;
             this.txtConditionDbGuid3.Leave += new System.EventHandler(this.txtConditionDbGuid3_Leave);
             // 
             // txtConditionDbGuid2
             // 
-            this.txtConditionDbGuid2.Location = new System.Drawing.Point(412, 68);
+            this.txtConditionDbGuid2.Location = new System.Drawing.Point(549, 78);
+            this.txtConditionDbGuid2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtConditionDbGuid2.Name = "txtConditionDbGuid2";
-            this.txtConditionDbGuid2.Size = new System.Drawing.Size(218, 20);
+            this.txtConditionDbGuid2.Size = new System.Drawing.Size(289, 26);
             this.txtConditionDbGuid2.TabIndex = 10;
             this.txtConditionDbGuid2.Leave += new System.EventHandler(this.txtConditionDbGuid2_Leave);
             // 
             // txtConditionDbGuid1
             // 
-            this.txtConditionDbGuid1.Location = new System.Drawing.Point(100, 68);
+            this.txtConditionDbGuid1.Location = new System.Drawing.Point(133, 78);
+            this.txtConditionDbGuid1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtConditionDbGuid1.Name = "txtConditionDbGuid1";
-            this.txtConditionDbGuid1.Size = new System.Drawing.Size(218, 20);
+            this.txtConditionDbGuid1.Size = new System.Drawing.Size(289, 26);
             this.txtConditionDbGuid1.TabIndex = 9;
             this.txtConditionDbGuid1.Leave += new System.EventHandler(this.txtConditionDbGuid1_Leave);
             // 
             // lblConditionDbGuid4
             // 
             this.lblConditionDbGuid4.AutoSize = true;
-            this.lblConditionDbGuid4.Location = new System.Drawing.Point(352, 106);
+            this.lblConditionDbGuid4.Location = new System.Drawing.Point(469, 122);
+            this.lblConditionDbGuid4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionDbGuid4.Name = "lblConditionDbGuid4";
-            this.lblConditionDbGuid4.Size = new System.Drawing.Size(46, 13);
+            this.lblConditionDbGuid4.Size = new System.Drawing.Size(53, 18);
             this.lblConditionDbGuid4.TabIndex = 6;
             this.lblConditionDbGuid4.Text = "GUID 4:";
             // 
             // lblConditionDbGuid2
             // 
             this.lblConditionDbGuid2.AutoSize = true;
-            this.lblConditionDbGuid2.Location = new System.Drawing.Point(352, 73);
+            this.lblConditionDbGuid2.Location = new System.Drawing.Point(469, 84);
+            this.lblConditionDbGuid2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionDbGuid2.Name = "lblConditionDbGuid2";
-            this.lblConditionDbGuid2.Size = new System.Drawing.Size(46, 13);
+            this.lblConditionDbGuid2.Size = new System.Drawing.Size(53, 18);
             this.lblConditionDbGuid2.TabIndex = 5;
             this.lblConditionDbGuid2.Text = "GUID 2:";
             // 
             // lblConditionDbGuid3
             // 
             this.lblConditionDbGuid3.AutoSize = true;
-            this.lblConditionDbGuid3.Location = new System.Drawing.Point(40, 106);
+            this.lblConditionDbGuid3.Location = new System.Drawing.Point(53, 122);
+            this.lblConditionDbGuid3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionDbGuid3.Name = "lblConditionDbGuid3";
-            this.lblConditionDbGuid3.Size = new System.Drawing.Size(46, 13);
+            this.lblConditionDbGuid3.Size = new System.Drawing.Size(53, 18);
             this.lblConditionDbGuid3.TabIndex = 2;
             this.lblConditionDbGuid3.Text = "GUID 3:";
             // 
             // lblConditionDbGuid1
             // 
             this.lblConditionDbGuid1.AutoSize = true;
-            this.lblConditionDbGuid1.Location = new System.Drawing.Point(40, 73);
+            this.lblConditionDbGuid1.Location = new System.Drawing.Point(53, 84);
+            this.lblConditionDbGuid1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionDbGuid1.Name = "lblConditionDbGuid1";
-            this.lblConditionDbGuid1.Size = new System.Drawing.Size(46, 13);
+            this.lblConditionDbGuid1.Size = new System.Drawing.Size(53, 18);
             this.lblConditionDbGuid1.TabIndex = 1;
             this.lblConditionDbGuid1.Text = "GUID 1:";
             // 
             // lblConditionDbGuidTooltip
             // 
             this.lblConditionDbGuidTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionDbGuidTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionDbGuidTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionDbGuidTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionDbGuidTooltip.Name = "lblConditionDbGuidTooltip";
-            this.lblConditionDbGuidTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionDbGuidTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionDbGuidTooltip.TabIndex = 0;
             this.lblConditionDbGuidTooltip.Text = "Returns true if the source object\'s database guid matches any of the ones specifi" +
     "ed.";
@@ -1905,113 +2120,128 @@
             this.frmConditionLocalTime.Controls.Add(this.lblLocalTimeEndTime);
             this.frmConditionLocalTime.Controls.Add(this.lblLocalTimeStartTime);
             this.frmConditionLocalTime.Controls.Add(this.lblConditionLocalTimeTooltip);
-            this.frmConditionLocalTime.Location = new System.Drawing.Point(12, 212);
+            this.frmConditionLocalTime.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmConditionLocalTime.Location = new System.Drawing.Point(8, 296);
+            this.frmConditionLocalTime.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.frmConditionLocalTime.Name = "frmConditionLocalTime";
-            this.frmConditionLocalTime.Size = new System.Drawing.Size(650, 150);
+            this.frmConditionLocalTime.Size = new System.Drawing.Size(866, 173);
             this.frmConditionLocalTime.TabIndex = 41;
             this.frmConditionLocalTime.Visible = false;
             // 
             // lblLocalTimeMinutes
             // 
             this.lblLocalTimeMinutes.AutoSize = true;
-            this.lblLocalTimeMinutes.Location = new System.Drawing.Point(377, 65);
+            this.lblLocalTimeMinutes.Location = new System.Drawing.Point(503, 75);
+            this.lblLocalTimeMinutes.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLocalTimeMinutes.Name = "lblLocalTimeMinutes";
-            this.lblLocalTimeMinutes.Size = new System.Drawing.Size(44, 13);
+            this.lblLocalTimeMinutes.Size = new System.Drawing.Size(59, 18);
             this.lblLocalTimeMinutes.TabIndex = 14;
             this.lblLocalTimeMinutes.Text = "Minutes";
             // 
             // lblLocalTimeHour
             // 
             this.lblLocalTimeHour.AutoSize = true;
-            this.lblLocalTimeHour.Location = new System.Drawing.Point(103, 65);
+            this.lblLocalTimeHour.Location = new System.Drawing.Point(137, 75);
+            this.lblLocalTimeHour.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLocalTimeHour.Name = "lblLocalTimeHour";
-            this.lblLocalTimeHour.Size = new System.Drawing.Size(30, 13);
+            this.lblLocalTimeHour.Size = new System.Drawing.Size(38, 18);
             this.lblLocalTimeHour.TabIndex = 13;
             this.lblLocalTimeHour.Text = "Hour";
             // 
             // txtLocalTimeEndMinutes
             // 
-            this.txtLocalTimeEndMinutes.Location = new System.Drawing.Point(374, 117);
+            this.txtLocalTimeEndMinutes.Location = new System.Drawing.Point(499, 135);
+            this.txtLocalTimeEndMinutes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtLocalTimeEndMinutes.Name = "txtLocalTimeEndMinutes";
-            this.txtLocalTimeEndMinutes.Size = new System.Drawing.Size(255, 20);
+            this.txtLocalTimeEndMinutes.Size = new System.Drawing.Size(339, 26);
             this.txtLocalTimeEndMinutes.TabIndex = 12;
             this.txtLocalTimeEndMinutes.Leave += new System.EventHandler(this.txtLocalTimeEndMinutes_Leave);
             // 
             // txtLocalTimeEndHour
             // 
-            this.txtLocalTimeEndHour.Location = new System.Drawing.Point(100, 117);
+            this.txtLocalTimeEndHour.Location = new System.Drawing.Point(133, 135);
+            this.txtLocalTimeEndHour.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtLocalTimeEndHour.Name = "txtLocalTimeEndHour";
-            this.txtLocalTimeEndHour.Size = new System.Drawing.Size(255, 20);
+            this.txtLocalTimeEndHour.Size = new System.Drawing.Size(339, 26);
             this.txtLocalTimeEndHour.TabIndex = 11;
             this.txtLocalTimeEndHour.Leave += new System.EventHandler(this.txtLocalTimeEndHour_Leave);
             // 
             // txtLocalTimeStartMinutes
             // 
-            this.txtLocalTimeStartMinutes.Location = new System.Drawing.Point(374, 84);
+            this.txtLocalTimeStartMinutes.Location = new System.Drawing.Point(499, 97);
+            this.txtLocalTimeStartMinutes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtLocalTimeStartMinutes.Name = "txtLocalTimeStartMinutes";
-            this.txtLocalTimeStartMinutes.Size = new System.Drawing.Size(255, 20);
+            this.txtLocalTimeStartMinutes.Size = new System.Drawing.Size(339, 26);
             this.txtLocalTimeStartMinutes.TabIndex = 10;
             this.txtLocalTimeStartMinutes.Leave += new System.EventHandler(this.txtLocalTimeStartMinutes_Leave);
             // 
             // txtLocalTimeStartHour
             // 
-            this.txtLocalTimeStartHour.Location = new System.Drawing.Point(100, 84);
+            this.txtLocalTimeStartHour.Location = new System.Drawing.Point(133, 97);
+            this.txtLocalTimeStartHour.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtLocalTimeStartHour.Name = "txtLocalTimeStartHour";
-            this.txtLocalTimeStartHour.Size = new System.Drawing.Size(255, 20);
+            this.txtLocalTimeStartHour.Size = new System.Drawing.Size(339, 26);
             this.txtLocalTimeStartHour.TabIndex = 9;
             this.txtLocalTimeStartHour.Leave += new System.EventHandler(this.txtLocalTimeStartHour_Leave);
             // 
             // lblLocalTimeTwoDots2
             // 
             this.lblLocalTimeTwoDots2.AutoSize = true;
-            this.lblLocalTimeTwoDots2.Location = new System.Drawing.Point(361, 122);
+            this.lblLocalTimeTwoDots2.Location = new System.Drawing.Point(481, 141);
+            this.lblLocalTimeTwoDots2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLocalTimeTwoDots2.Name = "lblLocalTimeTwoDots2";
-            this.lblLocalTimeTwoDots2.Size = new System.Drawing.Size(10, 13);
+            this.lblLocalTimeTwoDots2.Size = new System.Drawing.Size(12, 18);
             this.lblLocalTimeTwoDots2.TabIndex = 6;
             this.lblLocalTimeTwoDots2.Text = ":";
             // 
             // lblLocalTimeTwoDots1
             // 
             this.lblLocalTimeTwoDots1.AutoSize = true;
-            this.lblLocalTimeTwoDots1.Location = new System.Drawing.Point(361, 89);
+            this.lblLocalTimeTwoDots1.Location = new System.Drawing.Point(481, 103);
+            this.lblLocalTimeTwoDots1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLocalTimeTwoDots1.Name = "lblLocalTimeTwoDots1";
-            this.lblLocalTimeTwoDots1.Size = new System.Drawing.Size(10, 13);
+            this.lblLocalTimeTwoDots1.Size = new System.Drawing.Size(12, 18);
             this.lblLocalTimeTwoDots1.TabIndex = 5;
             this.lblLocalTimeTwoDots1.Text = ":";
             // 
             // lblLocalTimeEndTime
             // 
             this.lblLocalTimeEndTime.AutoSize = true;
-            this.lblLocalTimeEndTime.Location = new System.Drawing.Point(31, 122);
+            this.lblLocalTimeEndTime.Location = new System.Drawing.Point(41, 141);
+            this.lblLocalTimeEndTime.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLocalTimeEndTime.Name = "lblLocalTimeEndTime";
-            this.lblLocalTimeEndTime.Size = new System.Drawing.Size(55, 13);
+            this.lblLocalTimeEndTime.Size = new System.Drawing.Size(69, 18);
             this.lblLocalTimeEndTime.TabIndex = 2;
             this.lblLocalTimeEndTime.Text = "End Time:";
             // 
             // lblLocalTimeStartTime
             // 
             this.lblLocalTimeStartTime.AutoSize = true;
-            this.lblLocalTimeStartTime.Location = new System.Drawing.Point(28, 89);
+            this.lblLocalTimeStartTime.Location = new System.Drawing.Point(37, 103);
+            this.lblLocalTimeStartTime.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLocalTimeStartTime.Name = "lblLocalTimeStartTime";
-            this.lblLocalTimeStartTime.Size = new System.Drawing.Size(58, 13);
+            this.lblLocalTimeStartTime.Size = new System.Drawing.Size(75, 18);
             this.lblLocalTimeStartTime.TabIndex = 1;
             this.lblLocalTimeStartTime.Text = "Start Time:";
             // 
             // lblConditionLocalTimeTooltip
             // 
             this.lblConditionLocalTimeTooltip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblConditionLocalTimeTooltip.Location = new System.Drawing.Point(12, 8);
+            this.lblConditionLocalTimeTooltip.Location = new System.Drawing.Point(16, 9);
+            this.lblConditionLocalTimeTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConditionLocalTimeTooltip.Name = "lblConditionLocalTimeTooltip";
-            this.lblConditionLocalTimeTooltip.Size = new System.Drawing.Size(624, 42);
+            this.lblConditionLocalTimeTooltip.Size = new System.Drawing.Size(832, 48);
             this.lblConditionLocalTimeTooltip.TabIndex = 0;
             this.lblConditionLocalTimeTooltip.Text = "Returns true if the current time is in the specified range. The range is inclusiv" +
     "e.";
             // 
             // btnDescribe
             // 
-            this.btnDescribe.Location = new System.Drawing.Point(174, 367);
+            this.btnDescribe.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDescribe.Location = new System.Drawing.Point(224, 474);
+            this.btnDescribe.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnDescribe.Name = "btnDescribe";
-            this.btnDescribe.Size = new System.Drawing.Size(75, 23);
+            this.btnDescribe.Size = new System.Drawing.Size(100, 27);
             this.btnDescribe.TabIndex = 42;
             this.btnDescribe.Text = "Describe";
             this.btnDescribe.UseVisualStyleBackColor = true;
@@ -2020,8 +2250,8 @@
             // 
             // FormConditionFinder
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(674, 395);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(1213, 570);
             this.Controls.Add(this.btnDescribe);
             this.Controls.Add(this.frmConditionLocalTime);
             this.Controls.Add(this.frmConditionDbGuid);
@@ -2056,6 +2286,8 @@
             this.Controls.Add(this.frmConditionNot);
             this.Controls.Add(this.lblNoSelection);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.MinimumSize = new System.Drawing.Size(1213, 570);
             this.Name = "FormConditionFinder";
             this.Text = "Condition Finder";
             this.ResizeEnd += new System.EventHandler(this.FormConditionFinder_ResizeEnd);

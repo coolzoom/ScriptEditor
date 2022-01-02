@@ -43,11 +43,39 @@
             this.columnName,
             this.columnPatchMin,
             this.columnPatchMax});
+            this.lstData.Location = new System.Drawing.Point(7, 106);
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.Location = new System.Drawing.Point(7, 76);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Location = new System.Drawing.Point(763, 73);
+            // 
+            // btnSelect
+            // 
+            this.btnSelect.Location = new System.Drawing.Point(666, 464);
             // 
             // label1
             // 
-            this.label1.Size = new System.Drawing.Size(150, 13);
+            this.label1.Location = new System.Drawing.Point(3, 51);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label1.Size = new System.Drawing.Size(194, 18);
             this.label1.Text = "Enter name or Id to search for:";
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.Location = new System.Drawing.Point(774, 464);
+            // 
+            // btnSelectNone
+            // 
+            this.btnSelectNone.Location = new System.Drawing.Point(540, 464);
+            // 
+            // btnSelectUnchanged
+            // 
+            this.btnSelectUnchanged.Location = new System.Drawing.Point(399, 464);
             // 
             // columnOccurrence
             // 
@@ -76,8 +104,10 @@
             // 
             // FormEventFinder
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(672, 393);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(1213, 570);
+            this.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.MinimumSize = new System.Drawing.Size(1213, 570);
             this.Name = "FormEventFinder";
             this.Text = "Event Finder";
             this.ResizeEnd += new System.EventHandler(this.FormEventFinder_ResizeEnd);
