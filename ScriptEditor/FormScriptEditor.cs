@@ -18,7 +18,7 @@ namespace ScriptEditor
     // Used to get the name of quests, creatures, etc.
     public delegate string NameFinder(uint id);
 
-    public partial class FormScriptEditor : Form
+    public partial class FormScriptEditor : MaterialSkin.Controls.MaterialForm
     {
         // Save what we are currently working on.
         public uint currentScriptId = 0;

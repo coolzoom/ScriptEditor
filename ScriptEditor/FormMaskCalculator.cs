@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace ScriptEditor
 {
-    public partial class FormMaskCalculator : Form
+    public partial class FormMaskCalculator : MaterialSkin.Controls.MaterialForm
     {
         public uint ReturnValue { get; set; } // we return the mask in this
         public FormMaskCalculator(uint phasemask)

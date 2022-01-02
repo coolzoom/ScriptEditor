@@ -11,7 +11,7 @@ using System.Reflection;
 
 namespace ScriptEditor
 {
-    public partial class FormEventEditor : Form
+    public partial class FormEventEditor : MaterialSkin.Controls.MaterialForm
     {
         // Save what we are currently working on.
         public uint currentCreatureId = 0;

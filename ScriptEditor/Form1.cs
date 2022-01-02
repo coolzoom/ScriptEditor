@@ -10,7 +10,7 @@ using System.Media;
 
 namespace ScriptEditor
 {
-    public partial class Form1 : Form
+    public partial class Form1 : MaterialSkin.Controls.MaterialForm
     {
         SoundPlayer player = new SoundPlayer(ScriptEditor.Properties.Resources.MouseOver);
 

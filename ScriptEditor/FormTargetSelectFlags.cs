@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace ScriptEditor
 {
-    public partial class FormTargetSelectFlags : Form
+    public partial class FormTargetSelectFlags : MaterialSkin.Controls.MaterialForm
     {
         public uint ReturnValue { get; set; } // we return the mask in this
         private bool initializing = true;

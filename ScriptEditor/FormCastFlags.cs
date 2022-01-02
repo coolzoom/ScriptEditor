@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace ScriptEditor
 {
-    public partial class FormCastFlags : Form
+    public partial class FormCastFlags : MaterialSkin.Controls.MaterialForm
     {
         uint selectFlags = 0;
         public FormCastFlags()

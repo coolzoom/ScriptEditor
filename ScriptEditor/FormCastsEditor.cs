@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace ScriptEditor
 {
-    public partial class FormCastsEditor : Form
+    public partial class FormCastsEditor : MaterialSkin.Controls.MaterialForm
     {
         public uint ReturnValue { get; set; }
         public HashSet<uint> NewTemplates = new HashSet<uint>();
